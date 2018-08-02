@@ -316,7 +316,8 @@ exports.default = (0, _reactStatic.withRouteData)((0, _reactStatic.withSiteData)
       title: props.title + ' | ' + props.tagline,
       description: props.description,
       tagline: props.tagline,
-      tags: props.tags }),
+      tags: props.tags,
+      image: 'https://bit-ml.github.io/tile.png' }),
     _react2.default.createElement(_Hero2.default, { props: props }),
     _react2.default.createElement(
       SpecialtyContainer,
@@ -1392,6 +1393,7 @@ exports.default = function (_ref) {
       title = _ref.title,
       description = _ref.description,
       tagline = _ref.tagline,
+      image = _ref.image,
       path = _ref.path,
       tags = _ref.tags;
   return _react2.default.createElement(
@@ -1410,10 +1412,12 @@ exports.default = function (_ref) {
     tags && tags.slice(0, 6).map(function (tag) {
       return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });
     }),
+    image && _react2.default.createElement('meta', { key: image, itemProp: 'image', content: image }),
     _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary' }),
     siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),
     title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),
     description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),
+    image && _react2.default.createElement('meta', { name: 'twitter:image', content: image }),
     description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),
     tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') })
   );
@@ -1930,4 +1934,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.746387d9.js.map
+//# sourceMappingURL=static.2f090449.js.map
