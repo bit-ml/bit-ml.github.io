@@ -1412,14 +1412,15 @@ exports.default = function (_ref) {
     tags && tags.slice(0, 6).map(function (tag) {
       return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });
     }),
-    image && _react2.default.createElement('meta', { key: image, itemProp: 'image', content: image }),
+    image && _react2.default.createElement('meta', { property: 'og:image', content: image }),
     _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary' }),
     siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),
     title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),
     description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),
     image && _react2.default.createElement('meta', { name: 'twitter:image', content: image }),
     description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),
-    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') })
+    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),
+    image && _react2.default.createElement('meta', { itemProp: 'image', content: image })
   );
 };
 
@@ -1934,4 +1935,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.2f090449.js.map
+//# sourceMappingURL=static.afe57151.js.map
