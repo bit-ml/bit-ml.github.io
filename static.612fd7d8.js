@@ -263,32 +263,6 @@ exports.default = function (_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (_ref) {
-  var children = _ref.children;
-  return _react2.default.createElement(
-    'main',
-    null,
-    children
-  );
-};
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
 Object.defineProperty(exports, "__esModule", {
@@ -402,13 +376,13 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -436,7 +410,7 @@ var _Navigation = __webpack_require__(6);
 
 var _Navigation2 = _interopRequireDefault(_Navigation);
 
-var _Page = __webpack_require__(7);
+var _Page = __webpack_require__(10);
 
 var _Page2 = _interopRequireDefault(_Page);
 
@@ -507,6 +481,32 @@ exports.default = (0, _reactStatic.withRouteData)((0, _reactStatic.withSiteData)
 }));
 
 /***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (_ref) {
+  var children = _ref.children;
+  return _react2.default.createElement(
+    'main',
+    null,
+    children
+  );
+};
+
+/***/ }),
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -541,7 +541,7 @@ var _Navigation = __webpack_require__(6);
 
 var _Navigation2 = _interopRequireDefault(_Navigation);
 
-var _Page = __webpack_require__(7);
+var _Page = __webpack_require__(10);
 
 var _Page2 = _interopRequireDefault(_Page);
 
@@ -617,7 +617,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n    padding-left: 0 0 0 100px;\n  '], ['\n    padding-left: 0 0 0 100px;\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  '], ['\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  ']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    display: flex;\n    justify-content: space-between;\n  '], ['\n    display: flex;\n    justify-content: space-between;\n  ']),
+    _templateObject3 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 2rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 2rem;\n  ']),
+    _templateObject4 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 5rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 5rem;\n  ']),
+    _templateObject5 = _taggedTemplateLiteral(['\n    padding-left: 0 0 0 100px;\n  '], ['\n    padding-left: 0 0 0 100px;\n  ']),
+    _templateObject6 = _taggedTemplateLiteral(['\n    background: #fff url("/galleries/tmlss2018_pictures/salina_1.jpg") no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  '], ['\n    background: #fff url("/galleries/tmlss2018_pictures/salina_1.jpg") no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  ']);
 
 var _react = __webpack_require__(0);
 
@@ -649,10 +654,6 @@ var _Navigation = __webpack_require__(6);
 
 var _Navigation2 = _interopRequireDefault(_Navigation);
 
-var _Page = __webpack_require__(7);
-
-var _Page2 = _interopRequireDefault(_Page);
-
 var _LightboxGallery = __webpack_require__(34);
 
 var _LightboxGallery2 = _interopRequireDefault(_LightboxGallery);
@@ -664,9 +665,13 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 //
 
 
+var PageWithCoverImg = _styledComponents2.default.div.withConfig({
+  displayName: 'Post__PageWithCoverImg'
+})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject), (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2));
+
 var Post = _styledComponents2.default.div.withConfig({
   displayName: 'Post'
-})(['margin:0 auto;']);
+})(['margin:0 auto;padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));
 
 var Heading = _styledComponents2.default.h1.withConfig({
   displayName: 'Post__Heading'
@@ -674,7 +679,7 @@ var Heading = _styledComponents2.default.h1.withConfig({
 
 var PostContent = _styledComponents2.default.section.withConfig({
   displayName: 'Post__PostContent'
-})(['margin:0 auto;max-width:720px;padding:0 1rem;', ' >p{font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}'], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));
+})(['margin:0 auto;max-width:720px;>p{font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}']);
 
 var PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({
   displayName: 'Post__PostWithGalleryWrapper'
@@ -702,7 +707,11 @@ var PostFooter = _styledComponents2.default.div.withConfig({
 
 var PostFooterWraper = _styledComponents2.default.div.withConfig({
   displayName: 'Post__PostFooterWraper'
-})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;&>p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));
+})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;&>p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));
+
+var CoverImg = _styledComponents2.default.div.withConfig({
+  displayName: 'Post__CoverImg'
+})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6));
 
 function SimplePost(_ref) {
   var post = _ref.post;
@@ -798,13 +807,14 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref4) {
       description: synopsis + '...',
       tags: keywords,
       image: 'https://bit-ml.github.io/tile.png' }),
-    _react2.default.createElement(_Navigation2.default, { pageName: 'post' }),
     _react2.default.createElement(
-      _Page2.default,
+      PageWithCoverImg,
       null,
+      _react2.default.createElement(CoverImg, null),
       _react2.default.createElement(
         Post,
         null,
+        _react2.default.createElement(_Navigation2.default, { pageName: 'post' }),
         hasGallery ? _react2.default.createElement(PostWithGallery, { post: post, galleries: galleries, test: test }) : _react2.default.createElement(SimplePost, { post: post })
       )
     )
@@ -1070,7 +1080,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/pages/Home',
   file: '/mnt/631aa7ec-a0b2-4ce1-81d5-9ab94fe5705f/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/pages/Home', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/pages/Home', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -1080,7 +1090,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/pages/Home');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(10);
+    return /*require.resolve*/(9);
   },
   chunkName: function chunkName() {
     return 'src/pages/Home';
@@ -1294,7 +1304,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(9);
+var _propTypes = __webpack_require__(8);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -1304,7 +1314,7 @@ var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(8);
+var _utils = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1610,7 +1620,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.clearChunks = exports.flushModuleIds = exports.flushChunkNames = exports.MODULE_IDS = exports.CHUNK_NAMES = undefined;
 exports.default = requireUniversalModule;
 
-var _utils = __webpack_require__(8);
+var _utils = __webpack_require__(7);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -1796,7 +1806,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(9);
+var _propTypes = __webpack_require__(8);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -1902,7 +1912,8 @@ exports.default = function (_ref) {
       null,
       props.tagline,
       ' '
-    )
+    ),
+    _react2.default.createElement(_Featured2.default, { props: props })
   );
 };
 
@@ -1998,7 +2009,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.SpecialtyPanel = exports.SpecialtyWrapper = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n    max-width: 100%;\n    display: flex;\n    justify-content: space-between;\n  '], ['\n    max-width: 100%;\n    display: flex;\n    justify-content: space-between;\n  ']),
-    _templateObject2 = _taggedTemplateLiteral(['\n    position: sticky;\n    top: 0;\n\n    display: flex;\n    flex-direction: column;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n    left: 0;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  '], ['\n    position: sticky;\n    top: 0;\n\n    display: flex;\n    flex-direction: column;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n    left: 0;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  ']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    position: sticky;\n    top: 0;\n    left: 0;\n\n    display: flex;\n    flex-direction: column;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  '], ['\n    position: sticky;\n    top: 0;\n    left: 0;\n\n    display: flex;\n    flex-direction: column;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  ']),
     _templateObject3 = _taggedTemplateLiteral(['\n    position: sticky;\n    top: 0;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  '], ['\n    position: sticky;\n    top: 0;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  ']),
     _templateObject4 = _taggedTemplateLiteral(['\n    font-size: 6vw;\n    line-height: 5vw;\n    margin-top: -2px;\n\n    @media screen and (orientation:portrait) {\n      margin-top: -7px;\n    }\n  '], ['\n    font-size: 6vw;\n    line-height: 5vw;\n    margin-top: -2px;\n\n    @media screen and (orientation:portrait) {\n      margin-top: -7px;\n    }\n  ']),
     _templateObject5 = _taggedTemplateLiteral(['\n    position: initial;\n    top: initial;\n\n    //font-size: 96px;\n    //line-height: 78px;\n    font-size: 6vw;\n    line-height: 5vw;\n    margin-top: -3px;\n  '], ['\n    position: initial;\n    top: initial;\n\n    //font-size: 96px;\n    //line-height: 78px;\n    font-size: 6vw;\n    line-height: 5vw;\n    margin-top: -3px;\n  ']),
@@ -2630,4 +2641,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.37f465ca.js.map
+//# sourceMappingURL=static.612fd7d8.js.map
