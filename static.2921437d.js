@@ -2413,8 +2413,6 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['\n    padding: 1rem 6rem;\n  '], ['\n    padding: 1rem 6rem;\n  ']);
-
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
@@ -2443,11 +2441,9 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
 var LightboxGalleryWrapper = _styledComponents2.default.div.withConfig({
   displayName: 'LightboxGallery__LightboxGalleryWrapper'
-})(['background-color:#F5F2F2;padding:1rem;margin:1rem 0;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));
+})(['background-color:#F5F2F2;padding:1rem;margin:1rem 0;']);
 
 var LightboxGallery = function (_React$Component) {
   _inherits(LightboxGallery, _React$Component);
@@ -2641,4 +2637,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.cf084fb3.js.map
+//# sourceMappingURL=static.2921437d.js.map
