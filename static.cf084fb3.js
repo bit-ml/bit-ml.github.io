@@ -679,7 +679,7 @@ var Heading = _styledComponents2.default.h1.withConfig({
 
 var PostContent = _styledComponents2.default.section.withConfig({
   displayName: 'Post__PostContent'
-})(['margin:0 auto;max-width:720px;>p{font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}']);
+})(['margin:0 auto;max-width:720px;>p{font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}>p a{text-decoration:underline;color:#333;&:hover{color:#E6212B}}']);
 
 var PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({
   displayName: 'Post__PostWithGalleryWrapper'
@@ -2641,4 +2641,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.612fd7d8.js.map
+//# sourceMappingURL=static.cf084fb3.js.map
