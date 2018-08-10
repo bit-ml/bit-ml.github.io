@@ -884,7 +884,7 @@ if (typeof window !== 'undefined') {
 
   WebFont.load({
     google: {
-      families: ['Bitter:400', 'Roboto:300,400,500', 'Exo+2:400,600']
+      families: ['Roboto:300,400,500', 'Exo+2:400,600']
     }
   });
 }
@@ -2011,12 +2011,12 @@ exports.SpecialtyPanel = exports.SpecialtyWrapper = undefined;
 var _templateObject = _taggedTemplateLiteral(['\n    max-width: 100%;\n    display: flex;\n    justify-content: space-between;\n  '], ['\n    max-width: 100%;\n    display: flex;\n    justify-content: space-between;\n  ']),
     _templateObject2 = _taggedTemplateLiteral(['\n    position: sticky;\n    top: 0;\n    left: 0;\n\n    display: flex;\n    flex-direction: column;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  '], ['\n    position: sticky;\n    top: 0;\n    left: 0;\n\n    display: flex;\n    flex-direction: column;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  ']),
     _templateObject3 = _taggedTemplateLiteral(['\n    position: sticky;\n    top: 0;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  '], ['\n    position: sticky;\n    top: 0;\n\n    height: 100vh;\n    width: 38%;\n    overflow: hidden;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n\n    .specItem {\n      flex-grow: 1;\n      flex-shrink: 1;\n      flex-basis: auto;\n      justify-content: center;\n\n      &.grows {\n        display: flex;\n        flex-grow: 20;\n        align-items: center;\n      }\n    }\n  ']),
-    _templateObject4 = _taggedTemplateLiteral(['\n    font-size: 6vw;\n    line-height: 5vw;\n    margin-top: -2px;\n\n    @media screen and (orientation:portrait) {\n      margin-top: -7px;\n    }\n  '], ['\n    font-size: 6vw;\n    line-height: 5vw;\n    margin-top: -2px;\n\n    @media screen and (orientation:portrait) {\n      margin-top: -7px;\n    }\n  ']),
-    _templateObject5 = _taggedTemplateLiteral(['\n    position: initial;\n    top: initial;\n\n    //font-size: 96px;\n    //line-height: 78px;\n    font-size: 6vw;\n    line-height: 5vw;\n    margin-top: -3px;\n  '], ['\n    position: initial;\n    top: initial;\n\n    //font-size: 96px;\n    //line-height: 78px;\n    font-size: 6vw;\n    line-height: 5vw;\n    margin-top: -3px;\n  ']),
-    _templateObject6 = _taggedTemplateLiteral(['\n    font-size: 3vmin;\n    line-height: 5vmin;\n    padding: 0 2rem;\n\n    @media screen and (orientation:landscape) {\n      //background: palevioletred;\n    }\n  '], ['\n    font-size: 3vmin;\n    line-height: 5vmin;\n    padding: 0 2rem;\n\n    @media screen and (orientation:landscape) {\n      //background: palevioletred;\n    }\n  ']),
-    _templateObject7 = _taggedTemplateLiteral(['\n    font-size: 2.4vmin;\n    line-height: 4vmin;\n    padding: 0 8.5vmin;\n\n    //line-height: 2.25rem;\n    //padding: 0 5rem;\n  '], ['\n    font-size: 2.4vmin;\n    line-height: 4vmin;\n    padding: 0 8.5vmin;\n\n    //line-height: 2.25rem;\n    //padding: 0 5rem;\n  ']),
-    _templateObject8 = _taggedTemplateLiteral(['\n    font-size: 2vmin;\n    line-height: 3.8vmin;\n    padding: 0 2rem;\n  '], ['\n    font-size: 2vmin;\n    line-height: 3.8vmin;\n    padding: 0 2rem;\n  ']),
-    _templateObject9 = _taggedTemplateLiteral(['\n    //padding: 0 5rem;\n    font-size: 1.8vmin;\n    line-height: 3vmin;\n    padding: 0 8.5vmin;\n  '], ['\n    //padding: 0 5rem;\n    font-size: 1.8vmin;\n    line-height: 3vmin;\n    padding: 0 8.5vmin;\n  ']),
+    _templateObject4 = _taggedTemplateLiteral(['\n    font-size: 7.2vw;\n    margin-top: -3px;\n\n    @media screen and (orientation:landscape) {\n      margin-top: -5px;\n    }\n  '], ['\n    font-size: 7.2vw;\n    margin-top: -3px;\n\n    @media screen and (orientation:landscape) {\n      margin-top: -5px;\n    }\n  ']),
+    _templateObject5 = _taggedTemplateLiteral(['\n    position: initial;\n    top: initial;\n\n    //font-size: 96px;\n    //line-height: 78px;\n    font-size: 7.3vw;\n    margin-top: -8px;\n  '], ['\n    position: initial;\n    top: initial;\n\n    //font-size: 96px;\n    //line-height: 78px;\n    font-size: 7.3vw;\n    margin-top: -8px;\n  ']),
+    _templateObject6 = _taggedTemplateLiteral(['\n    font-size: 2vh;\n    padding: 0 2rem;\n\n    @media screen and (orientation:landscape) {\n      font-size: 2.4vh;\n    }\n  '], ['\n    font-size: 2vh;\n    padding: 0 2rem;\n\n    @media screen and (orientation:landscape) {\n      font-size: 2.4vh;\n    }\n  ']),
+    _templateObject7 = _taggedTemplateLiteral(['\n    font-size: 2.8vh;\n    padding: 0 8vh;\n    line-height: 4vh;\n  '], ['\n    font-size: 2.8vh;\n    padding: 0 8vh;\n    line-height: 4vh;\n  ']),
+    _templateObject8 = _taggedTemplateLiteral(['\n    padding: 0 2rem;\n  '], ['\n    padding: 0 2rem;\n  ']),
+    _templateObject9 = _taggedTemplateLiteral(['\n    padding: 0 8vh;\n  '], ['\n    padding: 0 8vh;\n  ']),
     _templateObject10 = _taggedTemplateLiteral(['\n    max-width: 62%;\n  '], ['\n    max-width: 62%;\n  ']);
 
 var _react = __webpack_require__(0);
@@ -2047,15 +2047,15 @@ var SpecialtyPanel = exports.SpecialtyPanel = _styledComponents2.default.div.wit
 
 var Heading = _styledComponents2.default.h2.withConfig({
   displayName: 'Specialty__Heading'
-})(['margin:0;font-family:\'Bitter\',serif;font-style:normal;font-weight:400;font-size:62px;line-height:50px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.2);', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject4), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));
+})(['margin:0;font-family:\'Exo 2\',sans-serif;font-style:normal;font-weight:700;font-size:19.4vw;line-height:0.75;text-transform:uppercase;color:rgba(255,255,255,0.2);margin-top:-5px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject4), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));
 
 var Description = _styledComponents2.default.p.withConfig({
   displayName: 'Specialty__Description'
-})(['font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:1.6rem;font-size:1.2rem;color:rgba(255,255,255,0.8);padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7));
+})(['font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:1.6rem;font-size:1.2rem;color:rgba(255,255,255,0.8);padding:3rem 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7));
 
 var Team = _styledComponents2.default.p.withConfig({
   displayName: 'Specialty__Team'
-})(['font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:23px;font-size:14px;color:rgba(255,255,255,0.5);padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject8), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject9));
+})(['font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:1.4;font-size:1rem;color:rgba(255,255,255,0.5);padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject8), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject9));
 
 var ProjectsWrapper = _styledComponents2.default.div.withConfig({
   displayName: 'Specialty__ProjectsWrapper'
@@ -2637,4 +2637,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.2921437d.js.map
+//# sourceMappingURL=static.dbc053cd.js.map
