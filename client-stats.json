@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "274bb0763f2ea0fc2f49",
-  "time": 7294,
+  "hash": "d0912efed64e4b0c0c79",
+  "time": 7284,
   "publicPath": "https://bit-ml.github.io/",
   "assetsByChunkName": {
     "src/pages/Post": [
@@ -23,8 +23,8 @@
       "templates/src/pages/404.82f0b7fe.js.map"
     ],
     "main": [
-      "main.f783d6c3.js",
-      "main.f783d6c3.js.map"
+      "main.38d65847.js",
+      "main.38d65847.js.map"
     ],
     "bootstrap": [
       "bootstrap.8c35995e.js",
@@ -77,8 +77,8 @@
       "emitted": true
     },
     {
-      "name": "main.f783d6c3.js",
-      "size": 348864,
+      "name": "main.38d65847.js",
+      "size": 348942,
       "chunks": [
         4
       ],
@@ -144,8 +144,8 @@
       "emitted": true
     },
     {
-      "name": "main.f783d6c3.js.map",
-      "size": 2001217,
+      "name": "main.38d65847.js.map",
+      "size": 2001512,
       "chunks": [
         4
       ],
@@ -176,8 +176,8 @@
       "assets": [
         "bootstrap.8c35995e.js",
         "bootstrap.8c35995e.js.map",
-        "main.f783d6c3.js",
-        "main.f783d6c3.js.map"
+        "main.38d65847.js",
+        "main.38d65847.js.map"
       ],
       "isOverSizeLimit": true
     }
@@ -533,9 +533,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -591,9 +591,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -647,9 +647,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
-          "issuerId": 189,
-          "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "issuerId": 190,
+          "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3340,9 +3340,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3398,9 +3398,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3455,9 +3455,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3812,9 +3812,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3870,9 +3870,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3927,9 +3927,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4059,15 +4059,15 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 710553,
+      "size": 710660,
       "names": [
         "main"
       ],
       "files": [
-        "main.f783d6c3.js",
-        "main.f783d6c3.js.map"
+        "main.38d65847.js",
+        "main.38d65847.js.map"
       ],
-      "hash": "f783d6c3bba5f9a9b7e9",
+      "hash": "38d658472b4f35e3226f",
       "parents": [
         5
       ],
@@ -4782,9 +4782,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-ga/dist/react-ga.js",
-          "issuerId": 145,
-          "issuerName": "./node_modules/react-ga/dist/react-ga.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": 17,
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5436,9 +5436,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/HashRouter.js",
-          "issuerId": 70,
-          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuerId": 64,
+          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -6041,9 +6041,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/HashRouter.js",
-          "issuerId": 70,
-          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuerId": 64,
+          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7747,9 +7747,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
-          "issuerId": 22,
-          "issuerName": "./node_modules/react-router/es/matchPath.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
+          "issuerId": 36,
+          "issuerName": "./node_modules/react-router/es/generatePath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -8929,7 +8929,7 @@
           "name": "./src/App.js",
           "index": 8,
           "index2": 221,
-          "size": 4787,
+          "size": 4894,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8959,7 +8959,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 1,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n'], ['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactGa = require('react-ga');\n\nvar _reactGa2 = _interopRequireDefault(_reactGa);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _Normalize = require('components/Normalize');\n\nvar _Normalize2 = _interopRequireDefault(_Normalize);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n// Initialize the Google Analytics script.\n_reactGa2.default.initialize('UA-11226891-6');\n\n(0, _styledComponents.injectGlobal)(_templateObject, _Normalize2.default);\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, App);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _this.componentDidUpdate = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n          'div',\n          { className: 'content' },\n          _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n'], ['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactGa = require('react-ga');\n\nvar _reactGa2 = _interopRequireDefault(_reactGa);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _Normalize = require('components/Normalize');\n\nvar _Normalize2 = _interopRequireDefault(_Normalize);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n// Initialize the Google Analytics script.\nif (typeof window !== 'undefined') {\n  _reactGa2.default.initialize('UA-11226891-6');\n  _reactGa2.default.set({ anonymizeIp: true, cookieExpires: 0 });\n}\n\n(0, _styledComponents.injectGlobal)(_templateObject, _Normalize2.default);\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, App);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _this.componentDidUpdate = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n          'div',\n          { className: 'content' },\n          _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
         },
         {
           "id": 64,
@@ -13001,9 +13001,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-ga/dist/react-ga.js",
-      "issuerId": 145,
-      "issuerName": "./node_modules/react-ga/dist/react-ga.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": 17,
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13655,9 +13655,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/HashRouter.js",
-      "issuerId": 70,
-      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuerId": 64,
+      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14260,9 +14260,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/HashRouter.js",
-      "issuerId": 70,
-      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuerId": 64,
+      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15966,9 +15966,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
-      "issuerId": 22,
-      "issuerName": "./node_modules/react-router/es/matchPath.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
+      "issuerId": 36,
+      "issuerName": "./node_modules/react-router/es/generatePath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17336,7 +17336,7 @@
       "name": "./src/App.js",
       "index": 8,
       "index2": 221,
-      "size": 4787,
+      "size": 4894,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -17366,7 +17366,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 1,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n'], ['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactGa = require('react-ga');\n\nvar _reactGa2 = _interopRequireDefault(_reactGa);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _Normalize = require('components/Normalize');\n\nvar _Normalize2 = _interopRequireDefault(_Normalize);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n// Initialize the Google Analytics script.\n_reactGa2.default.initialize('UA-11226891-6');\n\n(0, _styledComponents.injectGlobal)(_templateObject, _Normalize2.default);\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, App);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _this.componentDidUpdate = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n          'div',\n          { className: 'content' },\n          _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n'], ['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactGa = require('react-ga');\n\nvar _reactGa2 = _interopRequireDefault(_reactGa);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _Normalize = require('components/Normalize');\n\nvar _Normalize2 = _interopRequireDefault(_Normalize);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n// Initialize the Google Analytics script.\nif (typeof window !== 'undefined') {\n  _reactGa2.default.initialize('UA-11226891-6');\n  _reactGa2.default.set({ anonymizeIp: true, cookieExpires: 0 });\n}\n\n(0, _styledComponents.injectGlobal)(_templateObject, _Normalize2.default);\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, App);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _this.componentDidUpdate = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n          'div',\n          { className: 'content' },\n          _react2.default.createElement(_reactStaticRoutes2.default, null)\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
     },
     {
       "id": 64,
@@ -20946,9 +20946,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-      "issuerId": 55,
-      "issuerName": "./src/pages/Blog.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+      "issuerId": 54,
+      "issuerName": "./src/pages/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21004,9 +21004,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-      "issuerId": 55,
-      "issuerName": "./src/pages/Blog.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+      "issuerId": 54,
+      "issuerName": "./src/pages/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21060,9 +21060,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
-      "issuerId": 189,
-      "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+      "issuerId": 190,
+      "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21126,9 +21126,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Blog.js",
-      "issuerId": 55,
-      "issuerName": "./src/pages/Blog.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/Lore/Code/web/bit-ml/src/pages/Home.js",
+      "issuerId": 54,
+      "issuerName": "./src/pages/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
