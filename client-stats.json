@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "42504fc33176dfcd6579",
-  "time": 7777,
+  "hash": "557a2c93007d25da9581",
+  "time": 7783,
   "publicPath": "https://bit-ml.github.io/",
   "assetsByChunkName": {
     "src/pages/Post": [
@@ -23,8 +23,8 @@
       "templates/src/pages/404.82f0b7fe.js.map"
     ],
     "main": [
-      "main.befbbd5e.js",
-      "main.befbbd5e.js.map"
+      "main.774a44b1.js",
+      "main.774a44b1.js.map"
     ],
     "bootstrap": [
       "bootstrap.c505fd7e.js",
@@ -77,7 +77,7 @@
       "emitted": true
     },
     {
-      "name": "main.befbbd5e.js",
+      "name": "main.774a44b1.js",
       "size": 374872,
       "chunks": [
         4
@@ -144,7 +144,7 @@
       "emitted": true
     },
     {
-      "name": "main.befbbd5e.js.map",
+      "name": "main.774a44b1.js.map",
       "size": 2176547,
       "chunks": [
         4
@@ -176,8 +176,8 @@
       "assets": [
         "bootstrap.c505fd7e.js",
         "bootstrap.c505fd7e.js.map",
-        "main.befbbd5e.js",
-        "main.befbbd5e.js.map"
+        "main.774a44b1.js",
+        "main.774a44b1.js.map"
       ],
       "isOverSizeLimit": true
     }
@@ -647,9 +647,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
-          "issuerId": 191,
-          "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
+          "issuerId": 190,
+          "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4064,10 +4064,10 @@
         "main"
       ],
       "files": [
-        "main.befbbd5e.js",
-        "main.befbbd5e.js.map"
+        "main.774a44b1.js",
+        "main.774a44b1.js.map"
       ],
-      "hash": "befbbd5e719099c83a57",
+      "hash": "774a44b1a977a481bcb2",
       "parents": [
         5
       ],
@@ -5445,9 +5445,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/HashRouter.js",
-          "issuerId": 70,
-          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuerId": 64,
+          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -6050,9 +6050,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/HashRouter.js",
-          "issuerId": 70,
-          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuerId": 64,
+          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7756,9 +7756,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
-          "issuerId": 36,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
+          "issuerId": 22,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -8968,7 +8968,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 1,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n'], ['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactCookieConsent = require('react-cookie-consent');\n\nvar _reactCookieConsent2 = _interopRequireDefault(_reactCookieConsent);\n\nvar _reactGa = require('react-ga');\n\nvar _reactGa2 = _interopRequireDefault(_reactGa);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _Normalize = require('components/Normalize');\n\nvar _Normalize2 = _interopRequireDefault(_Normalize);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n// Initialize the Google Analytics script.\nfunction initGA() {\n  if (typeof window !== 'undefined') {\n    _reactGa2.default.initialize('UA-11226891-6');\n    _reactGa2.default.set({ anonymizeIp: true, cookieExpires: 0 });\n  }\n}\n\n(0, _styledComponents.injectGlobal)(_templateObject, _Normalize2.default);\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, App);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _this.componentDidUpdate = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n          'div',\n          { className: 'content' },\n          _react2.default.createElement(_reactStaticRoutes2.default, null),\n          _react2.default.createElement(\n            _reactCookieConsent2.default,\n            {\n              location: 'top',\n              cookieName: 'gdpr_consent',\n              expires: 150,\n              buttonText: 'Accept',\n              onAccept: function onAccept() {\n                initGA();\n              },\n              style: { background: \"rgba(24,27,42, 1)\" },\n              buttonStyle: {\n                background: \"transparent\", color: \"rgba(255,255,255,0.8)\",\n                fontSize: \"16px\", border: \"1px solid #fff\"\n              },\n              enableDeclineButton: true,\n              declineButtonText: 'Decline',\n              onDecline: function onDecline() {\n                window['ga-disable-UA-11226891-6'] = true;\n              },\n              declineButtonStyle: {\n                background: \"transparent\", color: \"rgba(255,255,255,0.8)\",\n                fontSize: \"16px\", border: \"1px solid #fff\"\n              }\n            },\n            'This website uses cookies for traffic analyses.'\n          )\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n'], ['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactCookieConsent = require('react-cookie-consent');\n\nvar _reactCookieConsent2 = _interopRequireDefault(_reactCookieConsent);\n\nvar _reactGa = require('react-ga');\n\nvar _reactGa2 = _interopRequireDefault(_reactGa);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _Normalize = require('components/Normalize');\n\nvar _Normalize2 = _interopRequireDefault(_Normalize);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n// Initialize the Google Analytics script.\nfunction initGA() {\n  if (typeof window !== 'undefined') {\n    _reactGa2.default.initialize('UA-11226891-6');\n    _reactGa2.default.set({ anonymizeIp: true, cookieExpires: 0 });\n  }\n}\n\n(0, _styledComponents.injectGlobal)(_templateObject, _Normalize2.default);\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, App);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _this.componentDidUpdate = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n          'div',\n          { className: 'content' },\n          _react2.default.createElement(_reactStaticRoutes2.default, null),\n          _react2.default.createElement(\n            _reactCookieConsent2.default,\n            {\n              location: 'top',\n              cookieName: 'gdpr_consent',\n              expires: 150,\n              buttonText: 'Accept',\n              onAccept: function onAccept() {\n                initGA();\n              },\n              style: { background: \"rgba(24,27,42, 1)\" },\n              buttonStyle: {\n                background: \"transparent\", color: \"rgba(255,255,255,0.8)\",\n                fontSize: \"16px\", border: \"1px solid #fff\"\n              },\n              enableDeclineButton: true,\n              declineButtonText: 'Decline',\n              onDecline: function onDecline() {\n                window['ga-disable-UA-11226891-6'] = true;\n              },\n              declineButtonStyle: {\n                background: \"transparent\", color: \"rgba(255,255,255,0.8)\",\n                fontSize: \"16px\", border: \"1px solid #fff\"\n              }\n            },\n            'This website uses cookies for traffic analysis.'\n          )\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
         },
         {
           "id": 64,
@@ -13711,9 +13711,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/HashRouter.js",
-      "issuerId": 70,
-      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuerId": 64,
+      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14316,9 +14316,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/HashRouter.js",
-      "issuerId": 70,
-      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuerId": 64,
+      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16022,9 +16022,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
-      "issuerId": 36,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
+      "issuerId": 22,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17422,7 +17422,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 1,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n'], ['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactCookieConsent = require('react-cookie-consent');\n\nvar _reactCookieConsent2 = _interopRequireDefault(_reactCookieConsent);\n\nvar _reactGa = require('react-ga');\n\nvar _reactGa2 = _interopRequireDefault(_reactGa);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _Normalize = require('components/Normalize');\n\nvar _Normalize2 = _interopRequireDefault(_Normalize);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n// Initialize the Google Analytics script.\nfunction initGA() {\n  if (typeof window !== 'undefined') {\n    _reactGa2.default.initialize('UA-11226891-6');\n    _reactGa2.default.set({ anonymizeIp: true, cookieExpires: 0 });\n  }\n}\n\n(0, _styledComponents.injectGlobal)(_templateObject, _Normalize2.default);\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, App);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _this.componentDidUpdate = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n          'div',\n          { className: 'content' },\n          _react2.default.createElement(_reactStaticRoutes2.default, null),\n          _react2.default.createElement(\n            _reactCookieConsent2.default,\n            {\n              location: 'top',\n              cookieName: 'gdpr_consent',\n              expires: 150,\n              buttonText: 'Accept',\n              onAccept: function onAccept() {\n                initGA();\n              },\n              style: { background: \"rgba(24,27,42, 1)\" },\n              buttonStyle: {\n                background: \"transparent\", color: \"rgba(255,255,255,0.8)\",\n                fontSize: \"16px\", border: \"1px solid #fff\"\n              },\n              enableDeclineButton: true,\n              declineButtonText: 'Decline',\n              onDecline: function onDecline() {\n                window['ga-disable-UA-11226891-6'] = true;\n              },\n              declineButtonStyle: {\n                background: \"transparent\", color: \"rgba(255,255,255,0.8)\",\n                fontSize: \"16px\", border: \"1px solid #fff\"\n              }\n            },\n            'This website uses cookies for traffic analyses.'\n          )\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _templateObject = _taggedTemplateLiteral(['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n'], ['\\n\\t', '\\n\\n  html {\\n      box-sizing: border-box;\\n      font-size: 16px;\\n  }\\n  *,*::before,*::after {\\n      box-sizing:inherit;\\n  }\\n\\n  body {\\n    font-family: \"Roboto\", Helvetica, Arial, sans-serif;\\n    font-weight: 400;\\n    font-size: 16px;\\n    padding: 0;\\n    background: #FFF;\\n  }\\n\\n  h1 {\\n    display: block;\\n    margin: 0.67em 0;\\n  }\\n']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _reactCookieConsent = require('react-cookie-consent');\n\nvar _reactCookieConsent2 = _interopRequireDefault(_reactCookieConsent);\n\nvar _reactGa = require('react-ga');\n\nvar _reactGa2 = _interopRequireDefault(_reactGa);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _Normalize = require('components/Normalize');\n\nvar _Normalize2 = _interopRequireDefault(_Normalize);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n// Initialize the Google Analytics script.\nfunction initGA() {\n  if (typeof window !== 'undefined') {\n    _reactGa2.default.initialize('UA-11226891-6');\n    _reactGa2.default.set({ anonymizeIp: true, cookieExpires: 0 });\n  }\n}\n\n(0, _styledComponents.injectGlobal)(_templateObject, _Normalize2.default);\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, App);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = App.__proto__ || Object.getPrototypeOf(App)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _this.componentDidUpdate = function () {\n      return _reactGa2.default.pageview(window.location.pathname + window.location.search);\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        _reactStatic.Router,\n        null,\n        _react2.default.createElement(\n          'div',\n          { className: 'content' },\n          _react2.default.createElement(_reactStaticRoutes2.default, null),\n          _react2.default.createElement(\n            _reactCookieConsent2.default,\n            {\n              location: 'top',\n              cookieName: 'gdpr_consent',\n              expires: 150,\n              buttonText: 'Accept',\n              onAccept: function onAccept() {\n                initGA();\n              },\n              style: { background: \"rgba(24,27,42, 1)\" },\n              buttonStyle: {\n                background: \"transparent\", color: \"rgba(255,255,255,0.8)\",\n                fontSize: \"16px\", border: \"1px solid #fff\"\n              },\n              enableDeclineButton: true,\n              declineButtonText: 'Decline',\n              onDecline: function onDecline() {\n                window['ga-disable-UA-11226891-6'] = true;\n              },\n              declineButtonStyle: {\n                background: \"transparent\", color: \"rgba(255,255,255,0.8)\",\n                fontSize: \"16px\", border: \"1px solid #fff\"\n              }\n            },\n            'This website uses cookies for traffic analysis.'\n          )\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
     },
     {
       "id": 64,
@@ -21154,9 +21154,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
-      "issuerId": 191,
-      "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+      "issuer": "/mnt/Lore/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
+      "issuerId": 190,
+      "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
