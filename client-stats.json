@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "334417e75bee6376c5d3",
-  "time": 7954,
+  "hash": "486beb5ba6df9392f0e5",
+  "time": 7976,
   "publicPath": "https://bit-ml.github.io/",
   "assetsByChunkName": {
     "src/pages/Post": [
@@ -11,8 +11,8 @@
       "templates/src/pages/Post.e44c87c0.js.map"
     ],
     "src/pages/Home": [
-      "templates/src/pages/Home.2a1f0caf.js",
-      "templates/src/pages/Home.2a1f0caf.js.map"
+      "templates/src/pages/Home.09cabfc6.js",
+      "templates/src/pages/Home.09cabfc6.js.map"
     ],
     "src/pages/Blog": [
       "templates/src/pages/Blog.b5b8f1a1.js",
@@ -27,8 +27,8 @@
       "main.b0acd7e8.js.map"
     ],
     "bootstrap": [
-      "bootstrap.b9d49088.js",
-      "bootstrap.b9d49088.js.map"
+      "bootstrap.5979de8c.js",
+      "bootstrap.5979de8c.js.map"
     ]
   },
   "assets": [
@@ -89,7 +89,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.b9d49088.js",
+      "name": "bootstrap.5979de8c.js",
       "size": 1583,
       "chunks": [
         5
@@ -100,8 +100,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.2a1f0caf.js",
-      "size": 21058,
+      "name": "templates/src/pages/Home.09cabfc6.js",
+      "size": 21145,
       "chunks": [
         1
       ],
@@ -111,8 +111,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.2a1f0caf.js.map",
-      "size": 68429,
+      "name": "templates/src/pages/Home.09cabfc6.js.map",
+      "size": 68628,
       "chunks": [
         1
       ],
@@ -155,7 +155,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.b9d49088.js.map",
+      "name": "bootstrap.5979de8c.js.map",
       "size": 14568,
       "chunks": [
         5
@@ -174,8 +174,8 @@
         4
       ],
       "assets": [
-        "bootstrap.b9d49088.js",
-        "bootstrap.b9d49088.js.map",
+        "bootstrap.5979de8c.js",
+        "bootstrap.5979de8c.js.map",
         "main.b0acd7e8.js",
         "main.b0acd7e8.js.map"
       ],
@@ -3263,15 +3263,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 33660,
+      "size": 33747,
       "names": [
         "src/pages/Home"
       ],
       "files": [
-        "templates/src/pages/Home.2a1f0caf.js",
-        "templates/src/pages/Home.2a1f0caf.js.map"
+        "templates/src/pages/Home.09cabfc6.js",
+        "templates/src/pages/Home.09cabfc6.js.map"
       ],
-      "hash": "2a1f0cafd3f7c00d1180",
+      "hash": "09cabfc67dcbfda20da8",
       "parents": [
         4
       ],
@@ -3531,7 +3531,7 @@
           "name": "./src/components/Featured.js",
           "index": 144,
           "index2": 139,
-          "size": 3893,
+          "size": 3980,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3561,7 +3561,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 5,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    bottom: -5px;\\n  '], ['\\n    bottom: -5px;\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  '], ['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:-5px;position:absolute;width:100%;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['display:flex;margin:0 auto;padding:0 1rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;']);\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_eeml2019/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at EEML 2019'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n        )\n      ),\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_tmlss2018/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at TMLSS 2018'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Bitdefender participated with eight of its members at the first edition of the Transylvania Machine Learning Summer School that took place at the end of July 2018 in Cluj-Napoca.'\n        )\n      )\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    bottom: -5px;\\n  '], ['\\n    bottom: -5px;\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    display: inline;\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  '], ['\\n    display: inline;\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:-5px;position:absolute;width:100%;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['display:flex;margin:0 auto;padding:0 1rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['display:none;background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:first-child{display:inline;}&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;']);\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_eeml2019/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at EEML 2019'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n        )\n      ),\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_tmlss2018/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at TMLSS 2018'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Bitdefender participated with eight of its members at the first edition of the Transylvania Machine Learning Summer School that took place at the end of July 2018 in Cluj-Napoca.'\n        )\n      )\n    )\n  );\n};"
         },
         {
           "id": 172,
@@ -7171,9 +7171,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-static/lib/client/components/SiteData.js",
-          "issuerId": 115,
-          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 93,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7756,9 +7756,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
-          "issuerId": 36,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
+          "issuerId": 22,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -12327,10 +12327,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.b9d49088.js",
-        "bootstrap.b9d49088.js.map"
+        "bootstrap.5979de8c.js",
+        "bootstrap.5979de8c.js.map"
       ],
-      "hash": "b9d4908872b7d4a2c233",
+      "hash": "5979de8c091d51e68e13",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -15437,9 +15437,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-static/lib/client/components/SiteData.js",
-      "issuerId": 115,
-      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 93,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16022,9 +16022,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
-      "issuerId": 36,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
+      "issuerId": 22,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21974,7 +21974,7 @@
       "name": "./src/components/Featured.js",
       "index": 144,
       "index2": 139,
-      "size": 3893,
+      "size": 3980,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -22004,7 +22004,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 5,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    bottom: -5px;\\n  '], ['\\n    bottom: -5px;\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  '], ['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:-5px;position:absolute;width:100%;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['display:flex;margin:0 auto;padding:0 1rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;']);\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_eeml2019/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at EEML 2019'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n        )\n      ),\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_tmlss2018/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at TMLSS 2018'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Bitdefender participated with eight of its members at the first edition of the Transylvania Machine Learning Summer School that took place at the end of July 2018 in Cluj-Napoca.'\n        )\n      )\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    bottom: -5px;\\n  '], ['\\n    bottom: -5px;\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    display: inline;\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  '], ['\\n    display: inline;\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:-5px;position:absolute;width:100%;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['display:flex;margin:0 auto;padding:0 1rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['display:none;background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:first-child{display:inline;}&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;']);\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_eeml2019/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at EEML 2019'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n        )\n      ),\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_tmlss2018/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at TMLSS 2018'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Bitdefender participated with eight of its members at the first edition of the Transylvania Machine Learning Summer School that took place at the end of July 2018 in Cluj-Napoca.'\n        )\n      )\n    )\n  );\n};"
     },
     {
       "id": 172,
