@@ -2,17 +2,17 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "04fc253f9f2669d3e3ff",
-  "time": 7673,
+  "hash": "6b5c14fe76b213635b8a",
+  "time": 8035,
   "publicPath": "https://bit-ml.github.io/",
   "assetsByChunkName": {
     "src/pages/Post": [
-      "templates/src/pages/Post.faef7d97.js",
-      "templates/src/pages/Post.faef7d97.js.map"
+      "templates/src/pages/Post.e44c87c0.js",
+      "templates/src/pages/Post.e44c87c0.js.map"
     ],
     "src/pages/Home": [
-      "templates/src/pages/Home.6e73cd60.js",
-      "templates/src/pages/Home.6e73cd60.js.map"
+      "templates/src/pages/Home.5de0f1f7.js",
+      "templates/src/pages/Home.5de0f1f7.js.map"
     ],
     "src/pages/Blog": [
       "templates/src/pages/Blog.b5b8f1a1.js",
@@ -27,14 +27,14 @@
       "main.b0acd7e8.js.map"
     ],
     "bootstrap": [
-      "bootstrap.3224dd39.js",
-      "bootstrap.3224dd39.js.map"
+      "bootstrap.f327d2dd.js",
+      "bootstrap.f327d2dd.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/pages/Post.faef7d97.js.map",
-      "size": 692543,
+      "name": "templates/src/pages/Post.e44c87c0.js.map",
+      "size": 692946,
       "chunks": [
         0
       ],
@@ -44,8 +44,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Post.faef7d97.js",
-      "size": 104705,
+      "name": "templates/src/pages/Post.e44c87c0.js",
+      "size": 104833,
       "chunks": [
         0
       ],
@@ -89,7 +89,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.3224dd39.js",
+      "name": "bootstrap.f327d2dd.js",
       "size": 1583,
       "chunks": [
         5
@@ -100,8 +100,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.6e73cd60.js",
-      "size": 20765,
+      "name": "templates/src/pages/Home.5de0f1f7.js",
+      "size": 21058,
       "chunks": [
         1
       ],
@@ -111,8 +111,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.6e73cd60.js.map",
-      "size": 67686,
+      "name": "templates/src/pages/Home.5de0f1f7.js.map",
+      "size": 68429,
       "chunks": [
         1
       ],
@@ -155,7 +155,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.3224dd39.js.map",
+      "name": "bootstrap.f327d2dd.js.map",
       "size": 14568,
       "chunks": [
         5
@@ -174,8 +174,8 @@
         4
       ],
       "assets": [
-        "bootstrap.3224dd39.js",
-        "bootstrap.3224dd39.js.map",
+        "bootstrap.f327d2dd.js",
+        "bootstrap.f327d2dd.js.map",
         "main.b0acd7e8.js",
         "main.b0acd7e8.js.map"
       ],
@@ -189,15 +189,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 261077,
+      "size": 261205,
       "names": [
         "src/pages/Post"
       ],
       "files": [
-        "templates/src/pages/Post.faef7d97.js",
-        "templates/src/pages/Post.faef7d97.js.map"
+        "templates/src/pages/Post.e44c87c0.js",
+        "templates/src/pages/Post.e44c87c0.js.map"
       ],
-      "hash": "faef7d97f0e6318650ad",
+      "hash": "e44c87c0945605f5974e",
       "parents": [
         4
       ],
@@ -208,7 +208,7 @@
           "name": "./src/pages/Post.js",
           "index": 150,
           "index2": 214,
-          "size": 8842,
+          "size": 8970,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -247,7 +247,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    display: flex;\\n    justify-content: space-between;\\n\\n    nav {\\n      padding: 0;\\n    }\\n  '], ['\\n    display: flex;\\n    justify-content: space-between;\\n\\n    nav {\\n      padding: 0;\\n    }\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    display: flex;\\n    justify-content: space-between;\\n  '], ['\\n    display: flex;\\n    justify-content: space-between;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    max-width: 62%;\\n    padding: 0 2rem;\\n  '], ['\\n    max-width: 62%;\\n    padding: 0 2rem;\\n  ']),\n    _templateObject4 = _taggedTemplateLiteral(['\\n    max-width: 62%;\\n    padding: 0 5rem;\\n  '], ['\\n    max-width: 62%;\\n    padding: 0 5rem;\\n  ']),\n    _templateObject5 = _taggedTemplateLiteral(['\\n    padding-left: 0 0 0 100px;\\n  '], ['\\n    padding-left: 0 0 0 100px;\\n  ']),\n    _templateObject6 = _taggedTemplateLiteral(['\\n    background: #fff url(', ') no-repeat bottom;\\n    background-size: cover;\\n    position: sticky;\\n    top: 0;\\n    left: 0;\\n    height: 100vh;\\n    width: 38%;\\n  '], ['\\n    background: #fff url(', ') no-repeat bottom;\\n    background-size: cover;\\n    position: sticky;\\n    top: 0;\\n    left: 0;\\n    height: 100vh;\\n    width: 38%;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _striptags = require('striptags');\n\nvar _striptags2 = _interopRequireDefault(_striptags);\n\nvar _Head = require('components/Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nvar _Navigation = require('components/Navigation');\n\nvar _Navigation2 = _interopRequireDefault(_Navigation);\n\nvar _LightboxGallery = require('components/LightboxGallery');\n\nvar _LightboxGallery2 = _interopRequireDefault(_LightboxGallery);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n//\n\n\nvar PageWithCoverImg = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PageWithCoverImg',\n  componentId: 'oyq0rs-0'\n})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject), (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2));\n\nvar Post = _styledComponents2.default.div.withConfig({\n  displayName: 'Post',\n  componentId: 'oyq0rs-1'\n})(['margin:0 auto;padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));\n\nvar Heading = _styledComponents2.default.h1.withConfig({\n  displayName: 'Post__Heading',\n  componentId: 'oyq0rs-2'\n})(['font-family:\\'Exo 2\\',sans-serif;margin:4rem 0;font-style:normal;font-weight:700;line-height:3rem;font-size:2.2rem;letter-spacing:0.03em;color:#333333;']);\n\nvar PostContent = _styledComponents2.default.section.withConfig({\n  displayName: 'Post__PostContent',\n  componentId: 'oyq0rs-3'\n})(['margin:0 auto;max-width:720px;>p{font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}>p a{text-decoration:underline;color:#333;&:hover{color:#E6212B}}>blockquote{font-size:1.1rem;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;background-color:#f2f2f2;padding:24px;>footer{margin-top:10px;font-style:normal;font-weight:400;}}']);\n\nvar PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostWithGalleryWrapper',\n  componentId: 'oyq0rs-4'\n})(['']);\n\nvar Author = _styledComponents2.default.p.withConfig({\n  displayName: 'Post__Author',\n  componentId: 'oyq0rs-5'\n})(['']);\n\nvar PostHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostHeader',\n  componentId: 'oyq0rs-6'\n})(['display:flex;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:1.8rem;letter-spacing:0.03em;']);\n\nvar BackLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Post__BackLink',\n  componentId: 'oyq0rs-7'\n})(['flex-grow:1;color:#828282;&:hover{color:#E6212B;}']);\n\nvar Date = _styledComponents2.default.small.withConfig({\n  displayName: 'Post__Date',\n  componentId: 'oyq0rs-8'\n})(['flex-grow:1;font-size:1rem;text-align:right;color:#828282;']);\n\nvar PostFooter = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostFooter',\n  componentId: 'oyq0rs-9'\n})(['display:inline-block;background:#EDEBEB;width:100%;']);\n\nvar PostFooterWraper = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostFooterWraper',\n  componentId: 'oyq0rs-10'\n})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;&>p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));\n\nvar CoverImg = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__CoverImg',\n  componentId: 'oyq0rs-11'\n})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6, function (props) {\n  return props.featured_img;\n}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {\n  return props.featured_img;\n}));\n\nfunction SimplePost(_ref) {\n  var post = _ref.post;\n\n  var date = post.date.replace('-', ' ').replace('-', ', ');\n  return _react2.default.createElement(\n    PostContent,\n    null,\n    _react2.default.createElement(\n      PostHeader,\n      null,\n      _react2.default.createElement(\n        BackLink,\n        { to: '/' },\n        '<',\n        ' Back Home'\n      ),\n      _react2.default.createElement(\n        Date,\n        null,\n        'published on ',\n        date\n      )\n    ),\n    _react2.default.createElement(\n      Heading,\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n}\n\nvar Footer = function Footer(_ref2) {\n  var post = _ref2.post;\n  return _react2.default.createElement(\n    PostFooter,\n    null,\n    _react2.default.createElement(\n      PostFooterWraper,\n      null,\n      post.authors && _react2.default.createElement(\n        Author,\n        null,\n        'written by ',\n        post.authors\n      )\n    )\n  );\n};\n\nfunction PostWithGallery(_ref3) {\n  var post = _ref3.post,\n      galleries = _ref3.galleries;\n\n  var gallery_names = post.galleries.replace(/ /g, '').split(',');\n  var names_columns = gallery_names.map(function (x) {\n    return x.split(':');\n  });\n  gallery_names = names_columns.map(function (x) {\n    return x[0];\n  });\n  var columns = names_columns.map(function (x) {\n    return Number.parseInt(x[1], 10);\n  });\n\n  return _react2.default.createElement(\n    PostWithGalleryWrapper,\n    null,\n    _react2.default.createElement(SimplePost, { post: post }),\n    gallery_names.map(function (key, index) {\n      return _react2.default.createElement(_LightboxGallery2.default, {\n        key: index, photo_set: galleries[key], columns: columns[index] });\n    }),\n    _react2.default.createElement(Footer, { post: post })\n  );\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref4) {\n  var post = _ref4.post,\n      galleries = _ref4.galleries,\n      test = _ref4.test;\n\n  var hasGallery = Object.hasOwnProperty.call(post, 'galleries');\n  var keywords = post.categories.replace(/ /g, '').split(',');\n  var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\\n/g, '');\n\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(_Head2.default, {\n      title: post.title + ' | Bitdefender Research',\n      description: synopsis + '...',\n      tags: keywords,\n      image: 'https://bit-ml.github.io/tile.png' }),\n    _react2.default.createElement(\n      PageWithCoverImg,\n      null,\n      _react2.default.createElement(CoverImg, { featured_img: post.featured_img }),\n      _react2.default.createElement(\n        Post,\n        null,\n        _react2.default.createElement(_Navigation2.default, { pageName: 'post' }),\n        hasGallery ? _react2.default.createElement(PostWithGallery, { post: post, galleries: galleries, test: test }) : _react2.default.createElement(SimplePost, { post: post })\n      )\n    )\n  );\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    display: flex;\\n    justify-content: space-between;\\n\\n    nav {\\n      padding: 0;\\n    }\\n  '], ['\\n    display: flex;\\n    justify-content: space-between;\\n\\n    nav {\\n      padding: 0;\\n    }\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    display: flex;\\n    justify-content: space-between;\\n  '], ['\\n    display: flex;\\n    justify-content: space-between;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    max-width: 62%;\\n    padding: 0 2rem;\\n  '], ['\\n    max-width: 62%;\\n    padding: 0 2rem;\\n  ']),\n    _templateObject4 = _taggedTemplateLiteral(['\\n    max-width: 62%;\\n    padding: 0 5rem;\\n  '], ['\\n    max-width: 62%;\\n    padding: 0 5rem;\\n  ']),\n    _templateObject5 = _taggedTemplateLiteral(['\\n    padding-left: 0 0 0 100px;\\n  '], ['\\n    padding-left: 0 0 0 100px;\\n  ']),\n    _templateObject6 = _taggedTemplateLiteral(['\\n    background: #fff url(', ') no-repeat bottom;\\n    background-size: cover;\\n    position: sticky;\\n    top: 0;\\n    left: 0;\\n    height: 100vh;\\n    width: 38%;\\n  '], ['\\n    background: #fff url(', ') no-repeat bottom;\\n    background-size: cover;\\n    position: sticky;\\n    top: 0;\\n    left: 0;\\n    height: 100vh;\\n    width: 38%;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _striptags = require('striptags');\n\nvar _striptags2 = _interopRequireDefault(_striptags);\n\nvar _Head = require('components/Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nvar _Navigation = require('components/Navigation');\n\nvar _Navigation2 = _interopRequireDefault(_Navigation);\n\nvar _LightboxGallery = require('components/LightboxGallery');\n\nvar _LightboxGallery2 = _interopRequireDefault(_LightboxGallery);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n//\n\n\nvar PageWithCoverImg = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PageWithCoverImg',\n  componentId: 'oyq0rs-0'\n})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject), (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2));\n\nvar Post = _styledComponents2.default.div.withConfig({\n  displayName: 'Post',\n  componentId: 'oyq0rs-1'\n})(['margin:0 auto;padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));\n\nvar Heading = _styledComponents2.default.h1.withConfig({\n  displayName: 'Post__Heading',\n  componentId: 'oyq0rs-2'\n})(['font-family:\\'Exo 2\\',sans-serif;margin:4rem 0;font-style:normal;font-weight:700;line-height:3rem;font-size:2.2rem;letter-spacing:0.03em;color:#333333;']);\n\nvar PostContent = _styledComponents2.default.section.withConfig({\n  displayName: 'Post__PostContent',\n  componentId: 'oyq0rs-3'\n})(['margin:0 auto;max-width:720px;>p{font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}>p a{text-decoration:underline;color:#333;&:hover{color:#E6212B}}>blockquote{font-size:1.1rem;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:\"\\\\201E\" \"\\\\201C\";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:#EDEBEB;font-size:5rem;font-weight:400;}>footer{margin-top:10px;font-style:normal;font-weight:400;}}']);\n\nvar PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostWithGalleryWrapper',\n  componentId: 'oyq0rs-4'\n})(['']);\n\nvar Author = _styledComponents2.default.p.withConfig({\n  displayName: 'Post__Author',\n  componentId: 'oyq0rs-5'\n})(['']);\n\nvar PostHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostHeader',\n  componentId: 'oyq0rs-6'\n})(['display:flex;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:1.8rem;letter-spacing:0.03em;']);\n\nvar BackLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Post__BackLink',\n  componentId: 'oyq0rs-7'\n})(['flex-grow:1;color:#828282;&:hover{color:#E6212B;}']);\n\nvar Date = _styledComponents2.default.small.withConfig({\n  displayName: 'Post__Date',\n  componentId: 'oyq0rs-8'\n})(['flex-grow:1;font-size:1rem;text-align:right;color:#828282;']);\n\nvar PostFooter = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostFooter',\n  componentId: 'oyq0rs-9'\n})(['display:inline-block;background:#EDEBEB;width:100%;']);\n\nvar PostFooterWraper = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostFooterWraper',\n  componentId: 'oyq0rs-10'\n})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;&>p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));\n\nvar CoverImg = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__CoverImg',\n  componentId: 'oyq0rs-11'\n})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6, function (props) {\n  return props.featured_img;\n}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {\n  return props.featured_img;\n}));\n\nfunction SimplePost(_ref) {\n  var post = _ref.post;\n\n  var date = post.date.replace('-', ' ').replace('-', ', ');\n  return _react2.default.createElement(\n    PostContent,\n    null,\n    _react2.default.createElement(\n      PostHeader,\n      null,\n      _react2.default.createElement(\n        BackLink,\n        { to: '/' },\n        '<',\n        ' Back Home'\n      ),\n      _react2.default.createElement(\n        Date,\n        null,\n        'published on ',\n        date\n      )\n    ),\n    _react2.default.createElement(\n      Heading,\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n}\n\nvar Footer = function Footer(_ref2) {\n  var post = _ref2.post;\n  return _react2.default.createElement(\n    PostFooter,\n    null,\n    _react2.default.createElement(\n      PostFooterWraper,\n      null,\n      post.authors && _react2.default.createElement(\n        Author,\n        null,\n        'written by ',\n        post.authors\n      )\n    )\n  );\n};\n\nfunction PostWithGallery(_ref3) {\n  var post = _ref3.post,\n      galleries = _ref3.galleries;\n\n  var gallery_names = post.galleries.replace(/ /g, '').split(',');\n  var names_columns = gallery_names.map(function (x) {\n    return x.split(':');\n  });\n  gallery_names = names_columns.map(function (x) {\n    return x[0];\n  });\n  var columns = names_columns.map(function (x) {\n    return Number.parseInt(x[1], 10);\n  });\n\n  return _react2.default.createElement(\n    PostWithGalleryWrapper,\n    null,\n    _react2.default.createElement(SimplePost, { post: post }),\n    gallery_names.map(function (key, index) {\n      return _react2.default.createElement(_LightboxGallery2.default, {\n        key: index, photo_set: galleries[key], columns: columns[index] });\n    }),\n    _react2.default.createElement(Footer, { post: post })\n  );\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref4) {\n  var post = _ref4.post,\n      galleries = _ref4.galleries,\n      test = _ref4.test;\n\n  var hasGallery = Object.hasOwnProperty.call(post, 'galleries');\n  var keywords = post.categories.replace(/ /g, '').split(',');\n  var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\\n/g, '');\n\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(_Head2.default, {\n      title: post.title + ' | Bitdefender Research',\n      description: synopsis + '...',\n      tags: keywords,\n      image: 'https://bit-ml.github.io/tile.png' }),\n    _react2.default.createElement(\n      PageWithCoverImg,\n      null,\n      _react2.default.createElement(CoverImg, { featured_img: post.featured_img }),\n      _react2.default.createElement(\n        Post,\n        null,\n        _react2.default.createElement(_Navigation2.default, { pageName: 'post' }),\n        hasGallery ? _react2.default.createElement(PostWithGallery, { post: post, galleries: galleries, test: test }) : _react2.default.createElement(SimplePost, { post: post })\n      )\n    )\n  );\n});"
         },
         {
           "id": 149,
@@ -3263,15 +3263,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 33171,
+      "size": 33660,
       "names": [
         "src/pages/Home"
       ],
       "files": [
-        "templates/src/pages/Home.6e73cd60.js",
-        "templates/src/pages/Home.6e73cd60.js.map"
+        "templates/src/pages/Home.5de0f1f7.js",
+        "templates/src/pages/Home.5de0f1f7.js.map"
       ],
-      "hash": "6e73cd60354f6ad8cf4c",
+      "hash": "5de0f1f7c690eb7815e5",
       "parents": [
         4
       ],
@@ -3531,7 +3531,7 @@
           "name": "./src/components/Featured.js",
           "index": 144,
           "index2": 139,
-          "size": 3404,
+          "size": 3893,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3561,7 +3561,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 5,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    bottom: -5px;\\n  '], ['\\n    bottom: -5px;\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  '], ['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:-5px;position:absolute;width:100%;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['display:flex;margin:0 auto;padding:0 1rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;']);\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_tmlss2018/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at TMLSS 2018'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Bitdefender participated with eight of its members at the first edition of the Transylvania Machine Learning Summer School that took place at the end of July 2018 in Cluj-Napoca.'\n        )\n      )\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    bottom: -5px;\\n  '], ['\\n    bottom: -5px;\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  '], ['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:-5px;position:absolute;width:100%;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['display:flex;margin:0 auto;padding:0 1rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;']);\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_EEML2019/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at EEML 2019'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n        )\n      ),\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_tmlss2018/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at TMLSS 2018'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Bitdefender participated with eight of its members at the first edition of the Transylvania Machine Learning Summer School that took place at the end of July 2018 in Cluj-Napoca.'\n        )\n      )\n    )\n  );\n};"
         },
         {
           "id": 172,
@@ -5548,9 +5548,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
-          "issuerId": 120,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
+          "issuerId": 121,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -6531,9 +6531,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
-          "issuerId": 120,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
+          "issuerId": 121,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7227,9 +7227,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
-          "issuerId": 120,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
+          "issuerId": 121,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7283,9 +7283,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
-          "issuerId": 120,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
+          "issuerId": 121,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -12327,10 +12327,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.3224dd39.js",
-        "bootstrap.3224dd39.js.map"
+        "bootstrap.f327d2dd.js",
+        "bootstrap.f327d2dd.js.map"
       ],
-      "hash": "3224dd392bdee9bae607",
+      "hash": "f327d2dd99d9a6f8d11a",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -13814,9 +13814,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
-      "issuerId": 120,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
+      "issuerId": 121,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14797,9 +14797,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
-      "issuerId": 120,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
+      "issuerId": 121,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15493,9 +15493,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
-      "issuerId": 120,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
+      "issuerId": 121,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15549,9 +15549,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
-      "issuerId": 120,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
+      "issuerId": 121,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17118,7 +17118,7 @@
       "name": "./src/pages/Post.js",
       "index": 150,
       "index2": 214,
-      "size": 8842,
+      "size": 8970,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -17157,7 +17157,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    display: flex;\\n    justify-content: space-between;\\n\\n    nav {\\n      padding: 0;\\n    }\\n  '], ['\\n    display: flex;\\n    justify-content: space-between;\\n\\n    nav {\\n      padding: 0;\\n    }\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    display: flex;\\n    justify-content: space-between;\\n  '], ['\\n    display: flex;\\n    justify-content: space-between;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    max-width: 62%;\\n    padding: 0 2rem;\\n  '], ['\\n    max-width: 62%;\\n    padding: 0 2rem;\\n  ']),\n    _templateObject4 = _taggedTemplateLiteral(['\\n    max-width: 62%;\\n    padding: 0 5rem;\\n  '], ['\\n    max-width: 62%;\\n    padding: 0 5rem;\\n  ']),\n    _templateObject5 = _taggedTemplateLiteral(['\\n    padding-left: 0 0 0 100px;\\n  '], ['\\n    padding-left: 0 0 0 100px;\\n  ']),\n    _templateObject6 = _taggedTemplateLiteral(['\\n    background: #fff url(', ') no-repeat bottom;\\n    background-size: cover;\\n    position: sticky;\\n    top: 0;\\n    left: 0;\\n    height: 100vh;\\n    width: 38%;\\n  '], ['\\n    background: #fff url(', ') no-repeat bottom;\\n    background-size: cover;\\n    position: sticky;\\n    top: 0;\\n    left: 0;\\n    height: 100vh;\\n    width: 38%;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _striptags = require('striptags');\n\nvar _striptags2 = _interopRequireDefault(_striptags);\n\nvar _Head = require('components/Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nvar _Navigation = require('components/Navigation');\n\nvar _Navigation2 = _interopRequireDefault(_Navigation);\n\nvar _LightboxGallery = require('components/LightboxGallery');\n\nvar _LightboxGallery2 = _interopRequireDefault(_LightboxGallery);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n//\n\n\nvar PageWithCoverImg = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PageWithCoverImg',\n  componentId: 'oyq0rs-0'\n})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject), (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2));\n\nvar Post = _styledComponents2.default.div.withConfig({\n  displayName: 'Post',\n  componentId: 'oyq0rs-1'\n})(['margin:0 auto;padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));\n\nvar Heading = _styledComponents2.default.h1.withConfig({\n  displayName: 'Post__Heading',\n  componentId: 'oyq0rs-2'\n})(['font-family:\\'Exo 2\\',sans-serif;margin:4rem 0;font-style:normal;font-weight:700;line-height:3rem;font-size:2.2rem;letter-spacing:0.03em;color:#333333;']);\n\nvar PostContent = _styledComponents2.default.section.withConfig({\n  displayName: 'Post__PostContent',\n  componentId: 'oyq0rs-3'\n})(['margin:0 auto;max-width:720px;>p{font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}>p a{text-decoration:underline;color:#333;&:hover{color:#E6212B}}>blockquote{font-size:1.1rem;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;background-color:#f2f2f2;padding:24px;>footer{margin-top:10px;font-style:normal;font-weight:400;}}']);\n\nvar PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostWithGalleryWrapper',\n  componentId: 'oyq0rs-4'\n})(['']);\n\nvar Author = _styledComponents2.default.p.withConfig({\n  displayName: 'Post__Author',\n  componentId: 'oyq0rs-5'\n})(['']);\n\nvar PostHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostHeader',\n  componentId: 'oyq0rs-6'\n})(['display:flex;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:1.8rem;letter-spacing:0.03em;']);\n\nvar BackLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Post__BackLink',\n  componentId: 'oyq0rs-7'\n})(['flex-grow:1;color:#828282;&:hover{color:#E6212B;}']);\n\nvar Date = _styledComponents2.default.small.withConfig({\n  displayName: 'Post__Date',\n  componentId: 'oyq0rs-8'\n})(['flex-grow:1;font-size:1rem;text-align:right;color:#828282;']);\n\nvar PostFooter = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostFooter',\n  componentId: 'oyq0rs-9'\n})(['display:inline-block;background:#EDEBEB;width:100%;']);\n\nvar PostFooterWraper = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostFooterWraper',\n  componentId: 'oyq0rs-10'\n})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;&>p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));\n\nvar CoverImg = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__CoverImg',\n  componentId: 'oyq0rs-11'\n})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6, function (props) {\n  return props.featured_img;\n}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {\n  return props.featured_img;\n}));\n\nfunction SimplePost(_ref) {\n  var post = _ref.post;\n\n  var date = post.date.replace('-', ' ').replace('-', ', ');\n  return _react2.default.createElement(\n    PostContent,\n    null,\n    _react2.default.createElement(\n      PostHeader,\n      null,\n      _react2.default.createElement(\n        BackLink,\n        { to: '/' },\n        '<',\n        ' Back Home'\n      ),\n      _react2.default.createElement(\n        Date,\n        null,\n        'published on ',\n        date\n      )\n    ),\n    _react2.default.createElement(\n      Heading,\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n}\n\nvar Footer = function Footer(_ref2) {\n  var post = _ref2.post;\n  return _react2.default.createElement(\n    PostFooter,\n    null,\n    _react2.default.createElement(\n      PostFooterWraper,\n      null,\n      post.authors && _react2.default.createElement(\n        Author,\n        null,\n        'written by ',\n        post.authors\n      )\n    )\n  );\n};\n\nfunction PostWithGallery(_ref3) {\n  var post = _ref3.post,\n      galleries = _ref3.galleries;\n\n  var gallery_names = post.galleries.replace(/ /g, '').split(',');\n  var names_columns = gallery_names.map(function (x) {\n    return x.split(':');\n  });\n  gallery_names = names_columns.map(function (x) {\n    return x[0];\n  });\n  var columns = names_columns.map(function (x) {\n    return Number.parseInt(x[1], 10);\n  });\n\n  return _react2.default.createElement(\n    PostWithGalleryWrapper,\n    null,\n    _react2.default.createElement(SimplePost, { post: post }),\n    gallery_names.map(function (key, index) {\n      return _react2.default.createElement(_LightboxGallery2.default, {\n        key: index, photo_set: galleries[key], columns: columns[index] });\n    }),\n    _react2.default.createElement(Footer, { post: post })\n  );\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref4) {\n  var post = _ref4.post,\n      galleries = _ref4.galleries,\n      test = _ref4.test;\n\n  var hasGallery = Object.hasOwnProperty.call(post, 'galleries');\n  var keywords = post.categories.replace(/ /g, '').split(',');\n  var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\\n/g, '');\n\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(_Head2.default, {\n      title: post.title + ' | Bitdefender Research',\n      description: synopsis + '...',\n      tags: keywords,\n      image: 'https://bit-ml.github.io/tile.png' }),\n    _react2.default.createElement(\n      PageWithCoverImg,\n      null,\n      _react2.default.createElement(CoverImg, { featured_img: post.featured_img }),\n      _react2.default.createElement(\n        Post,\n        null,\n        _react2.default.createElement(_Navigation2.default, { pageName: 'post' }),\n        hasGallery ? _react2.default.createElement(PostWithGallery, { post: post, galleries: galleries, test: test }) : _react2.default.createElement(SimplePost, { post: post })\n      )\n    )\n  );\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    display: flex;\\n    justify-content: space-between;\\n\\n    nav {\\n      padding: 0;\\n    }\\n  '], ['\\n    display: flex;\\n    justify-content: space-between;\\n\\n    nav {\\n      padding: 0;\\n    }\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    display: flex;\\n    justify-content: space-between;\\n  '], ['\\n    display: flex;\\n    justify-content: space-between;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    max-width: 62%;\\n    padding: 0 2rem;\\n  '], ['\\n    max-width: 62%;\\n    padding: 0 2rem;\\n  ']),\n    _templateObject4 = _taggedTemplateLiteral(['\\n    max-width: 62%;\\n    padding: 0 5rem;\\n  '], ['\\n    max-width: 62%;\\n    padding: 0 5rem;\\n  ']),\n    _templateObject5 = _taggedTemplateLiteral(['\\n    padding-left: 0 0 0 100px;\\n  '], ['\\n    padding-left: 0 0 0 100px;\\n  ']),\n    _templateObject6 = _taggedTemplateLiteral(['\\n    background: #fff url(', ') no-repeat bottom;\\n    background-size: cover;\\n    position: sticky;\\n    top: 0;\\n    left: 0;\\n    height: 100vh;\\n    width: 38%;\\n  '], ['\\n    background: #fff url(', ') no-repeat bottom;\\n    background-size: cover;\\n    position: sticky;\\n    top: 0;\\n    left: 0;\\n    height: 100vh;\\n    width: 38%;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _striptags = require('striptags');\n\nvar _striptags2 = _interopRequireDefault(_striptags);\n\nvar _Head = require('components/Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nvar _Navigation = require('components/Navigation');\n\nvar _Navigation2 = _interopRequireDefault(_Navigation);\n\nvar _LightboxGallery = require('components/LightboxGallery');\n\nvar _LightboxGallery2 = _interopRequireDefault(_LightboxGallery);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n//\n\n\nvar PageWithCoverImg = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PageWithCoverImg',\n  componentId: 'oyq0rs-0'\n})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject), (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2));\n\nvar Post = _styledComponents2.default.div.withConfig({\n  displayName: 'Post',\n  componentId: 'oyq0rs-1'\n})(['margin:0 auto;padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));\n\nvar Heading = _styledComponents2.default.h1.withConfig({\n  displayName: 'Post__Heading',\n  componentId: 'oyq0rs-2'\n})(['font-family:\\'Exo 2\\',sans-serif;margin:4rem 0;font-style:normal;font-weight:700;line-height:3rem;font-size:2.2rem;letter-spacing:0.03em;color:#333333;']);\n\nvar PostContent = _styledComponents2.default.section.withConfig({\n  displayName: 'Post__PostContent',\n  componentId: 'oyq0rs-3'\n})(['margin:0 auto;max-width:720px;>p{font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}>p a{text-decoration:underline;color:#333;&:hover{color:#E6212B}}>blockquote{font-size:1.1rem;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:\"\\\\201E\" \"\\\\201C\";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:#EDEBEB;font-size:5rem;font-weight:400;}>footer{margin-top:10px;font-style:normal;font-weight:400;}}']);\n\nvar PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostWithGalleryWrapper',\n  componentId: 'oyq0rs-4'\n})(['']);\n\nvar Author = _styledComponents2.default.p.withConfig({\n  displayName: 'Post__Author',\n  componentId: 'oyq0rs-5'\n})(['']);\n\nvar PostHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostHeader',\n  componentId: 'oyq0rs-6'\n})(['display:flex;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;line-height:1.8rem;letter-spacing:0.03em;']);\n\nvar BackLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Post__BackLink',\n  componentId: 'oyq0rs-7'\n})(['flex-grow:1;color:#828282;&:hover{color:#E6212B;}']);\n\nvar Date = _styledComponents2.default.small.withConfig({\n  displayName: 'Post__Date',\n  componentId: 'oyq0rs-8'\n})(['flex-grow:1;font-size:1rem;text-align:right;color:#828282;']);\n\nvar PostFooter = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostFooter',\n  componentId: 'oyq0rs-9'\n})(['display:inline-block;background:#EDEBEB;width:100%;']);\n\nvar PostFooterWraper = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__PostFooterWraper',\n  componentId: 'oyq0rs-10'\n})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;&>p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));\n\nvar CoverImg = _styledComponents2.default.div.withConfig({\n  displayName: 'Post__CoverImg',\n  componentId: 'oyq0rs-11'\n})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6, function (props) {\n  return props.featured_img;\n}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {\n  return props.featured_img;\n}));\n\nfunction SimplePost(_ref) {\n  var post = _ref.post;\n\n  var date = post.date.replace('-', ' ').replace('-', ', ');\n  return _react2.default.createElement(\n    PostContent,\n    null,\n    _react2.default.createElement(\n      PostHeader,\n      null,\n      _react2.default.createElement(\n        BackLink,\n        { to: '/' },\n        '<',\n        ' Back Home'\n      ),\n      _react2.default.createElement(\n        Date,\n        null,\n        'published on ',\n        date\n      )\n    ),\n    _react2.default.createElement(\n      Heading,\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n}\n\nvar Footer = function Footer(_ref2) {\n  var post = _ref2.post;\n  return _react2.default.createElement(\n    PostFooter,\n    null,\n    _react2.default.createElement(\n      PostFooterWraper,\n      null,\n      post.authors && _react2.default.createElement(\n        Author,\n        null,\n        'written by ',\n        post.authors\n      )\n    )\n  );\n};\n\nfunction PostWithGallery(_ref3) {\n  var post = _ref3.post,\n      galleries = _ref3.galleries;\n\n  var gallery_names = post.galleries.replace(/ /g, '').split(',');\n  var names_columns = gallery_names.map(function (x) {\n    return x.split(':');\n  });\n  gallery_names = names_columns.map(function (x) {\n    return x[0];\n  });\n  var columns = names_columns.map(function (x) {\n    return Number.parseInt(x[1], 10);\n  });\n\n  return _react2.default.createElement(\n    PostWithGalleryWrapper,\n    null,\n    _react2.default.createElement(SimplePost, { post: post }),\n    gallery_names.map(function (key, index) {\n      return _react2.default.createElement(_LightboxGallery2.default, {\n        key: index, photo_set: galleries[key], columns: columns[index] });\n    }),\n    _react2.default.createElement(Footer, { post: post })\n  );\n}\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref4) {\n  var post = _ref4.post,\n      galleries = _ref4.galleries,\n      test = _ref4.test;\n\n  var hasGallery = Object.hasOwnProperty.call(post, 'galleries');\n  var keywords = post.categories.replace(/ /g, '').split(',');\n  var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\\n/g, '');\n\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(_Head2.default, {\n      title: post.title + ' | Bitdefender Research',\n      description: synopsis + '...',\n      tags: keywords,\n      image: 'https://bit-ml.github.io/tile.png' }),\n    _react2.default.createElement(\n      PageWithCoverImg,\n      null,\n      _react2.default.createElement(CoverImg, { featured_img: post.featured_img }),\n      _react2.default.createElement(\n        Post,\n        null,\n        _react2.default.createElement(_Navigation2.default, { pageName: 'post' }),\n        hasGallery ? _react2.default.createElement(PostWithGallery, { post: post, galleries: galleries, test: test }) : _react2.default.createElement(SimplePost, { post: post })\n      )\n    )\n  );\n});"
     },
     {
       "id": 57,
@@ -21974,7 +21974,7 @@
       "name": "./src/components/Featured.js",
       "index": 144,
       "index2": 139,
-      "size": 3404,
+      "size": 3893,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -22004,7 +22004,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 5,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    bottom: -5px;\\n  '], ['\\n    bottom: -5px;\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  '], ['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:-5px;position:absolute;width:100%;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['display:flex;margin:0 auto;padding:0 1rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;']);\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_tmlss2018/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at TMLSS 2018'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Bitdefender participated with eight of its members at the first edition of the Transylvania Machine Learning Summer School that took place at the end of July 2018 in Cluj-Napoca.'\n        )\n      )\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    bottom: -5px;\\n  '], ['\\n    bottom: -5px;\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  '], ['\\n    flex-basis: 50%;\\n    padding: 1rem;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:-5px;position:absolute;width:100%;', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['display:flex;margin:0 auto;padding:0 1rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;']);\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_EEML2019/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at EEML 2019'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n        )\n      ),\n      _react2.default.createElement(\n        FeaturedLink,\n        { to: '/blog/post/bitdefender_at_tmlss2018/' },\n        _react2.default.createElement(\n          FeaturedHeading,\n          null,\n          'Bitdefender at TMLSS 2018'\n        ),\n        _react2.default.createElement(\n          FeaturedSynopsis,\n          null,\n          'Bitdefender participated with eight of its members at the first edition of the Transylvania Machine Learning Summer School that took place at the end of July 2018 in Cluj-Napoca.'\n        )\n      )\n    )\n  );\n};"
     },
     {
       "id": 172,
