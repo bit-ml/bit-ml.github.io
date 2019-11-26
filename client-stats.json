@@ -2,21 +2,21 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "f864dd4a864c0099df88",
-  "time": 7547,
+  "hash": "9589288df454eef22663",
+  "time": 7490,
   "publicPath": "https://bit-ml.github.io/",
   "assetsByChunkName": {
     "src/pages/Post": [
-      "templates/src/pages/Post.3d4a1eb5.js",
-      "templates/src/pages/Post.3d4a1eb5.js.map"
+      "templates/src/pages/Post.48622912.js",
+      "templates/src/pages/Post.48622912.js.map"
     ],
     "src/pages/Home": [
-      "templates/src/pages/Home.4bf4b0fc.js",
-      "templates/src/pages/Home.4bf4b0fc.js.map"
+      "templates/src/pages/Home.0f38ce5c.js",
+      "templates/src/pages/Home.0f38ce5c.js.map"
     ],
     "src/pages/Blog": [
-      "templates/src/pages/Blog.78477bc3.js",
-      "templates/src/pages/Blog.78477bc3.js.map"
+      "templates/src/pages/Blog.a209992a.js",
+      "templates/src/pages/Blog.a209992a.js.map"
     ],
     "src/pages/404": [
       "templates/src/pages/404.256774f0.js",
@@ -27,14 +27,14 @@
       "main.b0acd7e8.js.map"
     ],
     "bootstrap": [
-      "bootstrap.6ee06291.js",
-      "bootstrap.6ee06291.js.map"
+      "bootstrap.1dae0382.js",
+      "bootstrap.1dae0382.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/pages/Post.3d4a1eb5.js.map",
-      "size": 693204,
+      "name": "templates/src/pages/Post.48622912.js.map",
+      "size": 693295,
       "chunks": [
         0
       ],
@@ -44,8 +44,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Post.3d4a1eb5.js",
-      "size": 104873,
+      "name": "templates/src/pages/Post.48622912.js",
+      "size": 104958,
       "chunks": [
         0
       ],
@@ -55,8 +55,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Blog.78477bc3.js",
-      "size": 4850,
+      "name": "templates/src/pages/Blog.a209992a.js",
+      "size": 4935,
       "chunks": [
         2
       ],
@@ -89,7 +89,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.6ee06291.js",
+      "name": "bootstrap.1dae0382.js",
       "size": 1583,
       "chunks": [
         5
@@ -100,8 +100,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.4bf4b0fc.js",
-      "size": 21454,
+      "name": "templates/src/pages/Home.0f38ce5c.js",
+      "size": 21539,
       "chunks": [
         1
       ],
@@ -111,8 +111,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.4bf4b0fc.js.map",
-      "size": 69747,
+      "name": "templates/src/pages/Home.0f38ce5c.js.map",
+      "size": 69837,
       "chunks": [
         1
       ],
@@ -122,8 +122,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Blog.78477bc3.js.map",
-      "size": 19227,
+      "name": "templates/src/pages/Blog.a209992a.js.map",
+      "size": 19317,
       "chunks": [
         2
       ],
@@ -155,7 +155,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.6ee06291.js.map",
+      "name": "bootstrap.1dae0382.js.map",
       "size": 14568,
       "chunks": [
         5
@@ -174,8 +174,8 @@
         4
       ],
       "assets": [
-        "bootstrap.6ee06291.js",
-        "bootstrap.6ee06291.js.map",
+        "bootstrap.1dae0382.js",
+        "bootstrap.1dae0382.js.map",
         "main.b0acd7e8.js",
         "main.b0acd7e8.js.map"
       ],
@@ -189,15 +189,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 261284,
+      "size": 261307,
       "names": [
         "src/pages/Post"
       ],
       "files": [
-        "templates/src/pages/Post.3d4a1eb5.js",
-        "templates/src/pages/Post.3d4a1eb5.js.map"
+        "templates/src/pages/Post.48622912.js",
+        "templates/src/pages/Post.48622912.js.map"
       ],
-      "hash": "3d4a1eb55d3bf992bd4e",
+      "hash": "486229121a51a451dd55",
       "parents": [
         4
       ],
@@ -356,9 +356,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-images/lib/components/Arrow.js",
-          "issuerId": 164,
-          "issuerName": "./node_modules/react-images/lib/components/Arrow.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-images/lib/components/Container.js",
+          "issuerId": 208,
+          "issuerName": "./node_modules/react-images/lib/components/Container.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -522,7 +522,7 @@
           "name": "./src/components/Head.js",
           "index": 138,
           "index2": 134,
-          "size": 2502,
+          "size": 2525,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -533,9 +533,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Post.js",
+          "issuerId": 56,
+          "issuerName": "./src/pages/Post.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -572,7 +572,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\n\nvar siteTitle = 'https://bit-ml.github.io/';\nvar siteTwitter = '';\n\nexports.default = function (_ref) {\n  var children = _ref.children,\n      title = _ref.title,\n      description = _ref.description,\n      tagline = _ref.tagline,\n      image = _ref.image,\n      path = _ref.path,\n      tags = _ref.tags;\n  return _react2.default.createElement(\n    _reactStatic.Head,\n    null,\n    children,\n    path && _react2.default.createElement('link', { rel: 'canonical', href: path }),\n    title && _react2.default.createElement(\n      'title',\n      null,\n      title\n    ),\n    description && _react2.default.createElement('meta', { name: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { name: 'keywords', content: tags.join(',') }),\n    title && _react2.default.createElement('meta', { property: 'og:title', content: title }),\n    description && _react2.default.createElement('meta', { property: 'og:description', content: description }),\n    siteTitle && _react2.default.createElement('meta', { property: 'og:site_name', content: siteTitle }),\n    tags && tags.slice(0, 6).map(function (tag) {\n      return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });\n    }),\n    image && _react2.default.createElement('meta', { property: 'og:image', content: '' + siteTitle + image }),\n    _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary' }),\n    siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),\n    title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n    description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),\n    image && _react2.default.createElement('meta', { name: 'twitter:image', content: '' + siteTitle + image }),\n    description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),\n    image && _react2.default.createElement('meta', { itemProp: 'image', content: '' + siteTitle + image })\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\n\nvar siteTitle = 'https://bit-ml.github.io';\nvar siteTwitter = '@Bitdefender';\n\nexports.default = function (_ref) {\n  var children = _ref.children,\n      title = _ref.title,\n      description = _ref.description,\n      tagline = _ref.tagline,\n      image = _ref.image,\n      path = _ref.path,\n      tags = _ref.tags;\n  return _react2.default.createElement(\n    _reactStatic.Head,\n    null,\n    children,\n    path && _react2.default.createElement('link', { rel: 'canonical', href: path }),\n    title && _react2.default.createElement(\n      'title',\n      null,\n      title\n    ),\n    description && _react2.default.createElement('meta', { name: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { name: 'keywords', content: tags.join(',') }),\n    title && _react2.default.createElement('meta', { property: 'og:title', content: title }),\n    description && _react2.default.createElement('meta', { property: 'og:description', content: description }),\n    siteTitle && _react2.default.createElement('meta', { property: 'og:site_name', content: siteTitle }),\n    tags && tags.slice(0, 6).map(function (tag) {\n      return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });\n    }),\n    image && _react2.default.createElement('meta', { property: 'og:image', content: '' + siteTitle + image }),\n    _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n    siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),\n    title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n    description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),\n    image && _react2.default.createElement('meta', { name: 'twitter:image', content: '' + siteTitle + image }),\n    description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),\n    image && _react2.default.createElement('meta', { itemProp: 'image', content: '' + siteTitle + image })\n  );\n};"
         },
         {
           "id": 153,
@@ -591,9 +591,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Post.js",
+          "issuerId": 56,
+          "issuerName": "./src/pages/Post.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1247,9 +1247,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-transition-group/Transition.js",
-          "issuerId": 166,
-          "issuerName": "./node_modules/react-transition-group/Transition.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-transition-group/TransitionGroup.js",
+          "issuerId": 169,
+          "issuerName": "./node_modules/react-transition-group/TransitionGroup.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3263,15 +3263,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 34283,
+      "size": 34306,
       "names": [
         "src/pages/Home"
       ],
       "files": [
-        "templates/src/pages/Home.4bf4b0fc.js",
-        "templates/src/pages/Home.4bf4b0fc.js.map"
+        "templates/src/pages/Home.0f38ce5c.js",
+        "templates/src/pages/Home.0f38ce5c.js.map"
       ],
-      "hash": "4bf4b0fca6485be34e12",
+      "hash": "0f38ce5c504c797ffada",
       "parents": [
         4
       ],
@@ -3329,7 +3329,7 @@
           "name": "./src/components/Head.js",
           "index": 138,
           "index2": 134,
-          "size": 2502,
+          "size": 2525,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3340,9 +3340,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Post.js",
+          "issuerId": 56,
+          "issuerName": "./src/pages/Post.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3379,7 +3379,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\n\nvar siteTitle = 'https://bit-ml.github.io/';\nvar siteTwitter = '';\n\nexports.default = function (_ref) {\n  var children = _ref.children,\n      title = _ref.title,\n      description = _ref.description,\n      tagline = _ref.tagline,\n      image = _ref.image,\n      path = _ref.path,\n      tags = _ref.tags;\n  return _react2.default.createElement(\n    _reactStatic.Head,\n    null,\n    children,\n    path && _react2.default.createElement('link', { rel: 'canonical', href: path }),\n    title && _react2.default.createElement(\n      'title',\n      null,\n      title\n    ),\n    description && _react2.default.createElement('meta', { name: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { name: 'keywords', content: tags.join(',') }),\n    title && _react2.default.createElement('meta', { property: 'og:title', content: title }),\n    description && _react2.default.createElement('meta', { property: 'og:description', content: description }),\n    siteTitle && _react2.default.createElement('meta', { property: 'og:site_name', content: siteTitle }),\n    tags && tags.slice(0, 6).map(function (tag) {\n      return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });\n    }),\n    image && _react2.default.createElement('meta', { property: 'og:image', content: '' + siteTitle + image }),\n    _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary' }),\n    siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),\n    title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n    description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),\n    image && _react2.default.createElement('meta', { name: 'twitter:image', content: '' + siteTitle + image }),\n    description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),\n    image && _react2.default.createElement('meta', { itemProp: 'image', content: '' + siteTitle + image })\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\n\nvar siteTitle = 'https://bit-ml.github.io';\nvar siteTwitter = '@Bitdefender';\n\nexports.default = function (_ref) {\n  var children = _ref.children,\n      title = _ref.title,\n      description = _ref.description,\n      tagline = _ref.tagline,\n      image = _ref.image,\n      path = _ref.path,\n      tags = _ref.tags;\n  return _react2.default.createElement(\n    _reactStatic.Head,\n    null,\n    children,\n    path && _react2.default.createElement('link', { rel: 'canonical', href: path }),\n    title && _react2.default.createElement(\n      'title',\n      null,\n      title\n    ),\n    description && _react2.default.createElement('meta', { name: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { name: 'keywords', content: tags.join(',') }),\n    title && _react2.default.createElement('meta', { property: 'og:title', content: title }),\n    description && _react2.default.createElement('meta', { property: 'og:description', content: description }),\n    siteTitle && _react2.default.createElement('meta', { property: 'og:site_name', content: siteTitle }),\n    tags && tags.slice(0, 6).map(function (tag) {\n      return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });\n    }),\n    image && _react2.default.createElement('meta', { property: 'og:image', content: '' + siteTitle + image }),\n    _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n    siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),\n    title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n    description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),\n    image && _react2.default.createElement('meta', { name: 'twitter:image', content: '' + siteTitle + image }),\n    description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),\n    image && _react2.default.createElement('meta', { itemProp: 'image', content: '' + siteTitle + image })\n  );\n};"
         },
         {
           "id": 153,
@@ -3398,9 +3398,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Post.js",
+          "issuerId": 56,
+          "issuerName": "./src/pages/Post.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3455,9 +3455,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3735,15 +3735,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 8405,
+      "size": 8428,
       "names": [
         "src/pages/Blog"
       ],
       "files": [
-        "templates/src/pages/Blog.78477bc3.js",
-        "templates/src/pages/Blog.78477bc3.js.map"
+        "templates/src/pages/Blog.a209992a.js",
+        "templates/src/pages/Blog.a209992a.js.map"
       ],
-      "hash": "78477bc3d6a479211254",
+      "hash": "a209992a47c35ce071c2",
       "parents": [
         4
       ],
@@ -3801,7 +3801,7 @@
           "name": "./src/components/Head.js",
           "index": 138,
           "index2": 134,
-          "size": 2502,
+          "size": 2525,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3812,9 +3812,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Post.js",
+          "issuerId": 56,
+          "issuerName": "./src/pages/Post.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3851,7 +3851,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\n\nvar siteTitle = 'https://bit-ml.github.io/';\nvar siteTwitter = '';\n\nexports.default = function (_ref) {\n  var children = _ref.children,\n      title = _ref.title,\n      description = _ref.description,\n      tagline = _ref.tagline,\n      image = _ref.image,\n      path = _ref.path,\n      tags = _ref.tags;\n  return _react2.default.createElement(\n    _reactStatic.Head,\n    null,\n    children,\n    path && _react2.default.createElement('link', { rel: 'canonical', href: path }),\n    title && _react2.default.createElement(\n      'title',\n      null,\n      title\n    ),\n    description && _react2.default.createElement('meta', { name: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { name: 'keywords', content: tags.join(',') }),\n    title && _react2.default.createElement('meta', { property: 'og:title', content: title }),\n    description && _react2.default.createElement('meta', { property: 'og:description', content: description }),\n    siteTitle && _react2.default.createElement('meta', { property: 'og:site_name', content: siteTitle }),\n    tags && tags.slice(0, 6).map(function (tag) {\n      return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });\n    }),\n    image && _react2.default.createElement('meta', { property: 'og:image', content: '' + siteTitle + image }),\n    _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary' }),\n    siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),\n    title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n    description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),\n    image && _react2.default.createElement('meta', { name: 'twitter:image', content: '' + siteTitle + image }),\n    description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),\n    image && _react2.default.createElement('meta', { itemProp: 'image', content: '' + siteTitle + image })\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\n\nvar siteTitle = 'https://bit-ml.github.io';\nvar siteTwitter = '@Bitdefender';\n\nexports.default = function (_ref) {\n  var children = _ref.children,\n      title = _ref.title,\n      description = _ref.description,\n      tagline = _ref.tagline,\n      image = _ref.image,\n      path = _ref.path,\n      tags = _ref.tags;\n  return _react2.default.createElement(\n    _reactStatic.Head,\n    null,\n    children,\n    path && _react2.default.createElement('link', { rel: 'canonical', href: path }),\n    title && _react2.default.createElement(\n      'title',\n      null,\n      title\n    ),\n    description && _react2.default.createElement('meta', { name: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { name: 'keywords', content: tags.join(',') }),\n    title && _react2.default.createElement('meta', { property: 'og:title', content: title }),\n    description && _react2.default.createElement('meta', { property: 'og:description', content: description }),\n    siteTitle && _react2.default.createElement('meta', { property: 'og:site_name', content: siteTitle }),\n    tags && tags.slice(0, 6).map(function (tag) {\n      return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });\n    }),\n    image && _react2.default.createElement('meta', { property: 'og:image', content: '' + siteTitle + image }),\n    _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n    siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),\n    title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n    description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),\n    image && _react2.default.createElement('meta', { name: 'twitter:image', content: '' + siteTitle + image }),\n    description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),\n    image && _react2.default.createElement('meta', { itemProp: 'image', content: '' + siteTitle + image })\n  );\n};"
         },
         {
           "id": 153,
@@ -3870,9 +3870,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Post.js",
+          "issuerId": 56,
+          "issuerName": "./src/pages/Post.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3927,9 +3927,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-          "issuerId": 55,
-          "issuerName": "./src/pages/Blog.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
+          "issuerId": 54,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -12327,10 +12327,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.6ee06291.js",
-        "bootstrap.6ee06291.js.map"
+        "bootstrap.1dae0382.js",
+        "bootstrap.1dae0382.js.map"
       ],
-      "hash": "6ee06291b33c97310a2d",
+      "hash": "1dae03822d022fd63ae0",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -20863,9 +20863,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-images/lib/components/Arrow.js",
-      "issuerId": 164,
-      "issuerName": "./node_modules/react-images/lib/components/Arrow.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-images/lib/components/Container.js",
+      "issuerId": 208,
+      "issuerName": "./node_modules/react-images/lib/components/Container.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21029,7 +21029,7 @@
       "name": "./src/components/Head.js",
       "index": 138,
       "index2": 134,
-      "size": 2502,
+      "size": 2525,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -21040,9 +21040,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-      "issuerId": 55,
-      "issuerName": "./src/pages/Blog.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Post.js",
+      "issuerId": 56,
+      "issuerName": "./src/pages/Post.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21079,7 +21079,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 4,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\n\nvar siteTitle = 'https://bit-ml.github.io/';\nvar siteTwitter = '';\n\nexports.default = function (_ref) {\n  var children = _ref.children,\n      title = _ref.title,\n      description = _ref.description,\n      tagline = _ref.tagline,\n      image = _ref.image,\n      path = _ref.path,\n      tags = _ref.tags;\n  return _react2.default.createElement(\n    _reactStatic.Head,\n    null,\n    children,\n    path && _react2.default.createElement('link', { rel: 'canonical', href: path }),\n    title && _react2.default.createElement(\n      'title',\n      null,\n      title\n    ),\n    description && _react2.default.createElement('meta', { name: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { name: 'keywords', content: tags.join(',') }),\n    title && _react2.default.createElement('meta', { property: 'og:title', content: title }),\n    description && _react2.default.createElement('meta', { property: 'og:description', content: description }),\n    siteTitle && _react2.default.createElement('meta', { property: 'og:site_name', content: siteTitle }),\n    tags && tags.slice(0, 6).map(function (tag) {\n      return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });\n    }),\n    image && _react2.default.createElement('meta', { property: 'og:image', content: '' + siteTitle + image }),\n    _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary' }),\n    siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),\n    title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n    description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),\n    image && _react2.default.createElement('meta', { name: 'twitter:image', content: '' + siteTitle + image }),\n    description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),\n    image && _react2.default.createElement('meta', { itemProp: 'image', content: '' + siteTitle + image })\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\n\nvar siteTitle = 'https://bit-ml.github.io';\nvar siteTwitter = '@Bitdefender';\n\nexports.default = function (_ref) {\n  var children = _ref.children,\n      title = _ref.title,\n      description = _ref.description,\n      tagline = _ref.tagline,\n      image = _ref.image,\n      path = _ref.path,\n      tags = _ref.tags;\n  return _react2.default.createElement(\n    _reactStatic.Head,\n    null,\n    children,\n    path && _react2.default.createElement('link', { rel: 'canonical', href: path }),\n    title && _react2.default.createElement(\n      'title',\n      null,\n      title\n    ),\n    description && _react2.default.createElement('meta', { name: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { name: 'keywords', content: tags.join(',') }),\n    title && _react2.default.createElement('meta', { property: 'og:title', content: title }),\n    description && _react2.default.createElement('meta', { property: 'og:description', content: description }),\n    siteTitle && _react2.default.createElement('meta', { property: 'og:site_name', content: siteTitle }),\n    tags && tags.slice(0, 6).map(function (tag) {\n      return _react2.default.createElement('meta', { key: tag, property: 'article:tag', content: tag });\n    }),\n    image && _react2.default.createElement('meta', { property: 'og:image', content: '' + siteTitle + image }),\n    _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n    siteTwitter && _react2.default.createElement('meta', { name: 'twitter:site', content: siteTwitter }),\n    title && _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n    description && _react2.default.createElement('meta', { name: 'twitter:description', content: description }),\n    image && _react2.default.createElement('meta', { name: 'twitter:image', content: '' + siteTitle + image }),\n    description && _react2.default.createElement('meta', { itemProp: 'description', content: description }),\n    tags && _react2.default.createElement('meta', { itemProp: 'keywords', content: tags.join(',') }),\n    image && _react2.default.createElement('meta', { itemProp: 'image', content: '' + siteTitle + image })\n  );\n};"
     },
     {
       "id": 153,
@@ -21098,9 +21098,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-      "issuerId": 55,
-      "issuerName": "./src/pages/Blog.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Post.js",
+      "issuerId": 56,
+      "issuerName": "./src/pages/Post.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21220,9 +21220,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
-      "issuerId": 55,
-      "issuerName": "./src/pages/Blog.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
+      "issuerId": 54,
+      "issuerName": "./src/pages/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21802,9 +21802,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-transition-group/Transition.js",
-      "issuerId": 166,
-      "issuerName": "./node_modules/react-transition-group/Transition.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-transition-group/TransitionGroup.js",
+      "issuerId": 169,
+      "issuerName": "./node_modules/react-transition-group/TransitionGroup.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
