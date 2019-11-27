@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "03c21b516508b6aec04c",
-  "time": 8889,
+  "hash": "28d28708e9806ba4c503",
+  "time": 9020,
   "publicPath": "https://bit-ml.github.io/",
   "assetsByChunkName": {
     "src/pages/Post": [
@@ -11,8 +11,8 @@
       "templates/src/pages/Post.999d57d8.js.map"
     ],
     "src/pages/Home": [
-      "templates/src/pages/Home.93443542.js",
-      "templates/src/pages/Home.93443542.js.map"
+      "templates/src/pages/Home.072d3795.js",
+      "templates/src/pages/Home.072d3795.js.map"
     ],
     "src/pages/Blog": [
       "templates/src/pages/Blog.a209992a.js",
@@ -24,13 +24,13 @@
     ],
     "main": [
       "main.b0acd7e8.js",
-      "styles.03c21b51.css",
+      "styles.28d28708.css",
       "main.b0acd7e8.js.map",
-      "styles.03c21b51.css.map"
+      "styles.28d28708.css.map"
     ],
     "bootstrap": [
-      "bootstrap.328c8020.js",
-      "bootstrap.328c8020.js.map"
+      "bootstrap.bd9bde29.js",
+      "bootstrap.bd9bde29.js.map"
     ]
   },
   "assets": [
@@ -91,7 +91,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.328c8020.js",
+      "name": "bootstrap.bd9bde29.js",
       "size": 1583,
       "chunks": [
         5
@@ -102,7 +102,7 @@
       "emitted": true
     },
     {
-      "name": "styles.03c21b51.css",
+      "name": "styles.28d28708.css",
       "size": 2991,
       "chunks": [
         4
@@ -113,8 +113,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.93443542.js",
-      "size": 77768,
+      "name": "templates/src/pages/Home.072d3795.js",
+      "size": 77764,
       "chunks": [
         1
       ],
@@ -124,8 +124,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.93443542.js.map",
-      "size": 264810,
+      "name": "templates/src/pages/Home.072d3795.js.map",
+      "size": 264802,
       "chunks": [
         1
       ],
@@ -168,7 +168,7 @@
       "emitted": true
     },
     {
-      "name": "styles.03c21b51.css.map",
+      "name": "styles.28d28708.css.map",
       "size": 96,
       "chunks": [
         4
@@ -179,7 +179,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.328c8020.js.map",
+      "name": "bootstrap.bd9bde29.js.map",
       "size": 14568,
       "chunks": [
         5
@@ -198,12 +198,12 @@
         4
       ],
       "assets": [
-        "bootstrap.328c8020.js",
-        "bootstrap.328c8020.js.map",
+        "bootstrap.bd9bde29.js",
+        "bootstrap.bd9bde29.js.map",
         "main.b0acd7e8.js",
-        "styles.03c21b51.css",
+        "styles.28d28708.css",
         "main.b0acd7e8.js.map",
-        "styles.03c21b51.css.map"
+        "styles.28d28708.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -559,9 +559,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-          "issuerId": 54,
-          "issuerName": "./src/pages/Home.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+          "issuerId": 55,
+          "issuerName": "./src/pages/Blog.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -617,9 +617,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-          "issuerId": 54,
-          "issuerName": "./src/pages/Home.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+          "issuerId": 55,
+          "issuerName": "./src/pages/Blog.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -673,9 +673,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
-          "issuerId": 192,
-          "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+          "issuerId": 193,
+          "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1273,9 +1273,9 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-transition-group/Transition.js",
-          "issuerId": 166,
-          "issuerName": "./node_modules/react-transition-group/Transition.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-transition-group/TransitionGroup.js",
+          "issuerId": 169,
+          "issuerName": "./node_modules/react-transition-group/TransitionGroup.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3289,15 +3289,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 100338,
+      "size": 100334,
       "names": [
         "src/pages/Home"
       ],
       "files": [
-        "templates/src/pages/Home.93443542.js",
-        "templates/src/pages/Home.93443542.js.map"
+        "templates/src/pages/Home.072d3795.js",
+        "templates/src/pages/Home.072d3795.js.map"
       ],
-      "hash": "93443542a3e4b6d75c02",
+      "hash": "072d379539bc0bc1830a",
       "parents": [
         4
       ],
@@ -3366,9 +3366,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-          "issuerId": 54,
-          "issuerName": "./src/pages/Home.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+          "issuerId": 55,
+          "issuerName": "./src/pages/Blog.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3424,9 +3424,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-          "issuerId": 54,
-          "issuerName": "./src/pages/Home.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+          "issuerId": 55,
+          "issuerName": "./src/pages/Blog.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3481,9 +3481,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-          "issuerId": 54,
-          "issuerName": "./src/pages/Home.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+          "issuerId": 55,
+          "issuerName": "./src/pages/Blog.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3557,7 +3557,7 @@
           "name": "./src/components/Featured.js",
           "index": 144,
           "index2": 141,
-          "size": 10047,
+          "size": 10043,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3587,7 +3587,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 5,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    ul > li {\\n      padding-bottom: 5% !important;\\n    }\\n  '], ['\\n    ul > li {\\n      padding-bottom: 5% !important;\\n    }\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    padding: 2rem;\\n  '], ['\\n    padding: 2rem;\\n  ']),\n    _templateObject4 = _taggedTemplateLiteral(['\\n    padding: 2rem 3rem;\\n  '], ['\\n    padding: 2rem 3rem;\\n  ']),\n    _templateObject5 = _taggedTemplateLiteral(['\\n    left: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  '], ['\\n    left: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  ']),\n    _templateObject6 = _taggedTemplateLiteral(['\\n    right: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  '], ['\\n    right: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _pureReactCarousel = require('pure-react-carousel');\n\nrequire('pure-react-carousel/dist/react-carousel.es.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:0;position:absolute;width:100%;ul > li{padding-bottom:25% !important;}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['margin:0 auto;padding:0 3rem;padding-bottom:0.5rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['display:block;width:100%;height:100%;background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;color:#fff;']);\n\nvar StyledButtonBack = (0, _styledComponents2.default)(_pureReactCarousel.ButtonBack).withConfig({\n  displayName: 'Featured__StyledButtonBack',\n  componentId: 'xm4c49-5'\n})(['position:absolute;top:50%;left:-5px;margin-left:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject5), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));\nvar StyledButtonNext = (0, _styledComponents2.default)(_pureReactCarousel.ButtonNext).withConfig({\n  displayName: 'Featured__StyledButtonNext',\n  componentId: 'xm4c49-6'\n})(['position:absolute;top:50%;right:-5px;margin-right:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6));\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        _pureReactCarousel.CarouselProvider,\n        {\n          naturalSlideWidth: 100,\n          naturalSlideHeight: 125,\n          totalSlides: 3\n        },\n        _react2.default.createElement(\n          _pureReactCarousel.Slider,\n          null,\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 0 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/recurrent-space-time-graph-neural-nets/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Recurrent Space-time Graph Neural Network'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'We introduce our recurrent graph model designed for video processing from our new paper that will be presented at NeurIPS 2019 in Vancouver.'\n              )\n            )\n          ),\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 1 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/bitdefender_at_eeml2019/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Bitdefender at EEML 2019'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n              )\n            )\n          ),\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 2 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/bitdefender_at_tmlss2018/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Bitdefender at TMLSS 2018'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'Bitdefender participated at the first edition of the Transylvania Machine Learning Summer School that took place in Cluj-Napoca.'\n              )\n            )\n          )\n        ),\n        _react2.default.createElement(\n          StyledButtonBack,\n          null,\n          _react2.default.createElement(\n            'span',\n            null,\n            _react2.default.createElement(\n              'svg',\n              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },\n              _react2.default.createElement('path', { d: 'M213.7,256L213.7,256L213.7,256L380.9,81.9c4.2-4.3,4.1-11.4-0.2-15.8l-29.9-30.6c-4.3-4.4-11.3-4.5-15.5-0.2L131.1,247.9 c-2.2,2.2-3.2,5.2-3,8.1c-0.1,3,0.9,5.9,3,8.1l204.2,212.7c4.2,4.3,11.2,4.2,15.5-0.2l29.9-30.6c4.3-4.4,4.4-11.5,0.2-15.8 L213.7,256z' })\n            )\n          )\n        ),\n        _react2.default.createElement(\n          StyledButtonNext,\n          null,\n          _react2.default.createElement(\n            'span',\n            null,\n            _react2.default.createElement(\n              'svg',\n              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },\n              _react2.default.createElement('path', { d: 'M298.3,256L298.3,256L298.3,256L131.1,81.9c-4.2-4.3-4.1-11.4,0.2-15.8l29.9-30.6c4.3-4.4,11.3-4.5,15.5-0.2l204.2,212.7 c2.2,2.2,3.2,5.2,3,8.1c0.1,3-0.9,5.9-3,8.1L176.7,476.8c-4.2,4.3-11.2,4.2-15.5-0.2L131.3,446c-4.3-4.4-4.4-11.5-0.2-15.8 L298.3,256z' })\n            )\n          )\n        )\n      )\n    )\n  );\n};\n\n// export default ({ posts }) => (\n//   <FeaturedContainer>\n//     <FeaturedWrapper>\n//      {<FeaturedLink to=\"/blog/post/recurrent-space-time-graph-neural-nets/\">\n//         <FeaturedHeading>Recurrent Space-time Graph Neural Network</FeaturedHeading>\n//         <FeaturedSynopsis>We introduce our recurrent graph model designed for\n//         video processing from our new paper that will be presented at NeurIPS\n//         2019 in Vancouver.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>}\n//      {<FeaturedLink to=\"/blog/post/bitdefender_at_eeml2019/\">\n//         <FeaturedHeading>Bitdefender at EEML 2019</FeaturedHeading>\n//         <FeaturedSynopsis>Read about our team's experience of organizing and\n//         participating at Eastern European Machine Learning summer school in\n//         Bucharest.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>}\n//       <FeaturedLink to=\"/blog/post/bitdefender_at_tmlss2018/\">\n//         <FeaturedHeading>Bitdefender at TMLSS 2018</FeaturedHeading>\n//         <FeaturedSynopsis>Bitdefender participated at the first edition of\n//         the Transylvania Machine Learning Summer School that took place in\n//         Cluj-Napoca.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>\n//     </FeaturedWrapper>\n//   </FeaturedContainer>\n// )"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    ul > li {\\n      padding-bottom: 5% !important;\\n    }\\n  '], ['\\n    ul > li {\\n      padding-bottom: 5% !important;\\n    }\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    padding: 2rem;\\n  '], ['\\n    padding: 2rem;\\n  ']),\n    _templateObject4 = _taggedTemplateLiteral(['\\n    padding: 2rem 3rem;\\n  '], ['\\n    padding: 2rem 3rem;\\n  ']),\n    _templateObject5 = _taggedTemplateLiteral(['\\n    left: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  '], ['\\n    left: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  ']),\n    _templateObject6 = _taggedTemplateLiteral(['\\n    right: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  '], ['\\n    right: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _pureReactCarousel = require('pure-react-carousel');\n\nrequire('pure-react-carousel/dist/react-carousel.es.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:0;position:absolute;width:100%;ul > li{padding-bottom:25% !important;}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['margin:0 auto;padding:0 3rem;padding-bottom:0.5rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['display:block;width:100%;height:100%;background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;color:#fff;']);\n\nvar StyledButtonBack = (0, _styledComponents2.default)(_pureReactCarousel.ButtonBack).withConfig({\n  displayName: 'Featured__StyledButtonBack',\n  componentId: 'xm4c49-5'\n})(['position:absolute;top:50%;left:-5px;margin-left:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject5), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));\nvar StyledButtonNext = (0, _styledComponents2.default)(_pureReactCarousel.ButtonNext).withConfig({\n  displayName: 'Featured__StyledButtonNext',\n  componentId: 'xm4c49-6'\n})(['position:absolute;top:50%;right:-5px;margin-right:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6));\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        _pureReactCarousel.CarouselProvider,\n        {\n          naturalSlideWidth: 100,\n          naturalSlideHeight: 125,\n          totalSlides: 3\n        },\n        _react2.default.createElement(\n          _pureReactCarousel.Slider,\n          null,\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 0 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/recurrent-space-time-graph-neural-nets/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Recurrent Space-time Graph Neural Network'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'We introduce our recurrent graph model designed for video processing from our paper that will be presented at NeurIPS 2019 in Vancouver.'\n              )\n            )\n          ),\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 1 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/bitdefender_at_eeml2019/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Bitdefender at EEML 2019'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n              )\n            )\n          ),\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 2 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/bitdefender_at_tmlss2018/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Bitdefender at TMLSS 2018'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'Bitdefender participated at the first edition of the Transylvania Machine Learning Summer School that took place in Cluj-Napoca.'\n              )\n            )\n          )\n        ),\n        _react2.default.createElement(\n          StyledButtonBack,\n          null,\n          _react2.default.createElement(\n            'span',\n            null,\n            _react2.default.createElement(\n              'svg',\n              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },\n              _react2.default.createElement('path', { d: 'M213.7,256L213.7,256L213.7,256L380.9,81.9c4.2-4.3,4.1-11.4-0.2-15.8l-29.9-30.6c-4.3-4.4-11.3-4.5-15.5-0.2L131.1,247.9 c-2.2,2.2-3.2,5.2-3,8.1c-0.1,3,0.9,5.9,3,8.1l204.2,212.7c4.2,4.3,11.2,4.2,15.5-0.2l29.9-30.6c4.3-4.4,4.4-11.5,0.2-15.8 L213.7,256z' })\n            )\n          )\n        ),\n        _react2.default.createElement(\n          StyledButtonNext,\n          null,\n          _react2.default.createElement(\n            'span',\n            null,\n            _react2.default.createElement(\n              'svg',\n              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },\n              _react2.default.createElement('path', { d: 'M298.3,256L298.3,256L298.3,256L131.1,81.9c-4.2-4.3-4.1-11.4,0.2-15.8l29.9-30.6c4.3-4.4,11.3-4.5,15.5-0.2l204.2,212.7 c2.2,2.2,3.2,5.2,3,8.1c0.1,3-0.9,5.9-3,8.1L176.7,476.8c-4.2,4.3-11.2,4.2-15.5-0.2L131.3,446c-4.3-4.4-4.4-11.5-0.2-15.8 L298.3,256z' })\n            )\n          )\n        )\n      )\n    )\n  );\n};\n\n// export default ({ posts }) => (\n//   <FeaturedContainer>\n//     <FeaturedWrapper>\n//      {<FeaturedLink to=\"/blog/post/recurrent-space-time-graph-neural-nets/\">\n//         <FeaturedHeading>Recurrent Space-time Graph Neural Network</FeaturedHeading>\n//         <FeaturedSynopsis>We introduce our recurrent graph model designed for\n//         video processing from our new paper that will be presented at NeurIPS\n//         2019 in Vancouver.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>}\n//      {<FeaturedLink to=\"/blog/post/bitdefender_at_eeml2019/\">\n//         <FeaturedHeading>Bitdefender at EEML 2019</FeaturedHeading>\n//         <FeaturedSynopsis>Read about our team's experience of organizing and\n//         participating at Eastern European Machine Learning summer school in\n//         Bucharest.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>}\n//       <FeaturedLink to=\"/blog/post/bitdefender_at_tmlss2018/\">\n//         <FeaturedHeading>Bitdefender at TMLSS 2018</FeaturedHeading>\n//         <FeaturedSynopsis>Bitdefender participated at the first edition of\n//         the Transylvania Machine Learning Summer School that took place in\n//         Cluj-Napoca.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>\n//     </FeaturedWrapper>\n//   </FeaturedContainer>\n// )"
         },
         {
           "id": 172,
@@ -3930,9 +3930,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-          "issuerId": 54,
-          "issuerName": "./src/pages/Home.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+          "issuerId": 55,
+          "issuerName": "./src/pages/Blog.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3988,9 +3988,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-          "issuerId": 54,
-          "issuerName": "./src/pages/Home.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+          "issuerId": 55,
+          "issuerName": "./src/pages/Blog.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4045,9 +4045,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-          "issuerId": 54,
-          "issuerName": "./src/pages/Home.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+          "issuerId": 55,
+          "issuerName": "./src/pages/Blog.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4183,9 +4183,9 @@
       ],
       "files": [
         "main.b0acd7e8.js",
-        "styles.03c21b51.css",
+        "styles.28d28708.css",
         "main.b0acd7e8.js.map",
-        "styles.03c21b51.css.map"
+        "styles.28d28708.css.map"
       ],
       "hash": "b0acd7e8c208dc99aaf4",
       "parents": [
@@ -4920,9 +4920,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-ga/dist/react-ga.js",
-          "issuerId": 146,
-          "issuerName": "./node_modules/react-ga/dist/react-ga.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": 17,
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5446,9 +5446,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createHashHistory.js",
-          "issuerId": 122,
-          "issuerName": "./node_modules/history/createHashHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 120,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5677,9 +5677,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-          "issuerId": 121,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 120,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -6660,9 +6660,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-          "issuerId": 121,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 120,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7356,9 +7356,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-          "issuerId": 121,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 120,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7412,9 +7412,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-          "issuerId": 121,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 120,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -7885,9 +7885,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
-          "issuerId": 36,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
+          "issuerId": 22,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -8408,9 +8408,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createHashHistory.js",
-          "issuerId": 122,
-          "issuerName": "./node_modules/history/createHashHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 120,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -12456,10 +12456,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.328c8020.js",
-        "bootstrap.328c8020.js.map"
+        "bootstrap.bd9bde29.js",
+        "bootstrap.bd9bde29.js.map"
       ],
-      "hash": "328c8020c89c74ddceec",
+      "hash": "bd9bde297015f506ca8c",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -13195,9 +13195,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-ga/dist/react-ga.js",
-      "issuerId": 146,
-      "issuerName": "./node_modules/react-ga/dist/react-ga.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": 17,
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13721,9 +13721,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createHashHistory.js",
-      "issuerId": 122,
-      "issuerName": "./node_modules/history/createHashHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 120,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13952,9 +13952,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-      "issuerId": 121,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 120,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14935,9 +14935,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-      "issuerId": 121,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 120,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15631,9 +15631,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-      "issuerId": 121,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 120,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15687,9 +15687,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-      "issuerId": 121,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 120,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16160,9 +16160,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
-      "issuerId": 36,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
+      "issuerId": 22,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16683,9 +16683,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createHashHistory.js",
-      "issuerId": 122,
-      "issuerName": "./node_modules/history/createHashHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 120,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21178,9 +21178,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-      "issuerId": 54,
-      "issuerName": "./src/pages/Home.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+      "issuerId": 55,
+      "issuerName": "./src/pages/Blog.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21236,9 +21236,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-      "issuerId": 54,
-      "issuerName": "./src/pages/Home.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+      "issuerId": 55,
+      "issuerName": "./src/pages/Blog.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21292,9 +21292,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
-      "issuerId": 192,
-      "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/calc.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
+      "issuerId": 193,
+      "issuerName": "./node_modules/inline-style-prefixer/lib/static/plugins/cursor.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21358,9 +21358,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Home.js",
-      "issuerId": 54,
-      "issuerName": "./src/pages/Home.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/home/fgogianu/Code/web/bit-ml/src/pages/Blog.js",
+      "issuerId": 55,
+      "issuerName": "./src/pages/Blog.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21940,9 +21940,9 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-transition-group/Transition.js",
-      "issuerId": 166,
-      "issuerName": "./node_modules/react-transition-group/Transition.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-transition-group/TransitionGroup.js",
+      "issuerId": 169,
+      "issuerName": "./node_modules/react-transition-group/TransitionGroup.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -22112,7 +22112,7 @@
       "name": "./src/components/Featured.js",
       "index": 144,
       "index2": 141,
-      "size": 10047,
+      "size": 10043,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -22142,7 +22142,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 5,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    ul > li {\\n      padding-bottom: 5% !important;\\n    }\\n  '], ['\\n    ul > li {\\n      padding-bottom: 5% !important;\\n    }\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    padding: 2rem;\\n  '], ['\\n    padding: 2rem;\\n  ']),\n    _templateObject4 = _taggedTemplateLiteral(['\\n    padding: 2rem 3rem;\\n  '], ['\\n    padding: 2rem 3rem;\\n  ']),\n    _templateObject5 = _taggedTemplateLiteral(['\\n    left: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  '], ['\\n    left: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  ']),\n    _templateObject6 = _taggedTemplateLiteral(['\\n    right: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  '], ['\\n    right: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _pureReactCarousel = require('pure-react-carousel');\n\nrequire('pure-react-carousel/dist/react-carousel.es.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:0;position:absolute;width:100%;ul > li{padding-bottom:25% !important;}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['margin:0 auto;padding:0 3rem;padding-bottom:0.5rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['display:block;width:100%;height:100%;background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;color:#fff;']);\n\nvar StyledButtonBack = (0, _styledComponents2.default)(_pureReactCarousel.ButtonBack).withConfig({\n  displayName: 'Featured__StyledButtonBack',\n  componentId: 'xm4c49-5'\n})(['position:absolute;top:50%;left:-5px;margin-left:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject5), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));\nvar StyledButtonNext = (0, _styledComponents2.default)(_pureReactCarousel.ButtonNext).withConfig({\n  displayName: 'Featured__StyledButtonNext',\n  componentId: 'xm4c49-6'\n})(['position:absolute;top:50%;right:-5px;margin-right:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6));\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        _pureReactCarousel.CarouselProvider,\n        {\n          naturalSlideWidth: 100,\n          naturalSlideHeight: 125,\n          totalSlides: 3\n        },\n        _react2.default.createElement(\n          _pureReactCarousel.Slider,\n          null,\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 0 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/recurrent-space-time-graph-neural-nets/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Recurrent Space-time Graph Neural Network'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'We introduce our recurrent graph model designed for video processing from our new paper that will be presented at NeurIPS 2019 in Vancouver.'\n              )\n            )\n          ),\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 1 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/bitdefender_at_eeml2019/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Bitdefender at EEML 2019'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n              )\n            )\n          ),\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 2 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/bitdefender_at_tmlss2018/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Bitdefender at TMLSS 2018'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'Bitdefender participated at the first edition of the Transylvania Machine Learning Summer School that took place in Cluj-Napoca.'\n              )\n            )\n          )\n        ),\n        _react2.default.createElement(\n          StyledButtonBack,\n          null,\n          _react2.default.createElement(\n            'span',\n            null,\n            _react2.default.createElement(\n              'svg',\n              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },\n              _react2.default.createElement('path', { d: 'M213.7,256L213.7,256L213.7,256L380.9,81.9c4.2-4.3,4.1-11.4-0.2-15.8l-29.9-30.6c-4.3-4.4-11.3-4.5-15.5-0.2L131.1,247.9 c-2.2,2.2-3.2,5.2-3,8.1c-0.1,3,0.9,5.9,3,8.1l204.2,212.7c4.2,4.3,11.2,4.2,15.5-0.2l29.9-30.6c4.3-4.4,4.4-11.5,0.2-15.8 L213.7,256z' })\n            )\n          )\n        ),\n        _react2.default.createElement(\n          StyledButtonNext,\n          null,\n          _react2.default.createElement(\n            'span',\n            null,\n            _react2.default.createElement(\n              'svg',\n              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },\n              _react2.default.createElement('path', { d: 'M298.3,256L298.3,256L298.3,256L131.1,81.9c-4.2-4.3-4.1-11.4,0.2-15.8l29.9-30.6c4.3-4.4,11.3-4.5,15.5-0.2l204.2,212.7 c2.2,2.2,3.2,5.2,3,8.1c0.1,3-0.9,5.9-3,8.1L176.7,476.8c-4.2,4.3-11.2,4.2-15.5-0.2L131.3,446c-4.3-4.4-4.4-11.5-0.2-15.8 L298.3,256z' })\n            )\n          )\n        )\n      )\n    )\n  );\n};\n\n// export default ({ posts }) => (\n//   <FeaturedContainer>\n//     <FeaturedWrapper>\n//      {<FeaturedLink to=\"/blog/post/recurrent-space-time-graph-neural-nets/\">\n//         <FeaturedHeading>Recurrent Space-time Graph Neural Network</FeaturedHeading>\n//         <FeaturedSynopsis>We introduce our recurrent graph model designed for\n//         video processing from our new paper that will be presented at NeurIPS\n//         2019 in Vancouver.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>}\n//      {<FeaturedLink to=\"/blog/post/bitdefender_at_eeml2019/\">\n//         <FeaturedHeading>Bitdefender at EEML 2019</FeaturedHeading>\n//         <FeaturedSynopsis>Read about our team's experience of organizing and\n//         participating at Eastern European Machine Learning summer school in\n//         Bucharest.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>}\n//       <FeaturedLink to=\"/blog/post/bitdefender_at_tmlss2018/\">\n//         <FeaturedHeading>Bitdefender at TMLSS 2018</FeaturedHeading>\n//         <FeaturedSynopsis>Bitdefender participated at the first edition of\n//         the Transylvania Machine Learning Summer School that took place in\n//         Cluj-Napoca.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>\n//     </FeaturedWrapper>\n//   </FeaturedContainer>\n// )"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _templateObject = _taggedTemplateLiteral(['\\n    ul > li {\\n      padding-bottom: 5% !important;\\n    }\\n  '], ['\\n    ul > li {\\n      padding-bottom: 5% !important;\\n    }\\n  ']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n    padding: 0 5rem;\\n  '], ['\\n    padding: 0 5rem;\\n  ']),\n    _templateObject3 = _taggedTemplateLiteral(['\\n    padding: 2rem;\\n  '], ['\\n    padding: 2rem;\\n  ']),\n    _templateObject4 = _taggedTemplateLiteral(['\\n    padding: 2rem 3rem;\\n  '], ['\\n    padding: 2rem 3rem;\\n  ']),\n    _templateObject5 = _taggedTemplateLiteral(['\\n    left: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  '], ['\\n    left: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  ']),\n    _templateObject6 = _taggedTemplateLiteral(['\\n    right: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  '], ['\\n    right: 10px;\\n    width: 70px;\\n    height: 70px;\\n    padding: 15px;\\n  ']);\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _styledComponentsBreakpoint = require('styled-components-breakpoint');\n\nvar _styledComponentsBreakpoint2 = _interopRequireDefault(_styledComponentsBreakpoint);\n\nvar _pureReactCarousel = require('pure-react-carousel');\n\nrequire('pure-react-carousel/dist/react-carousel.es.css');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nvar FeaturedContainer = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedContainer',\n  componentId: 'xm4c49-0'\n})(['background:rgba(24,27,42,0.8);left:0;bottom:0;position:absolute;width:100%;ul > li{padding-bottom:25% !important;}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject));\n\nvar FeaturedWrapper = _styledComponents2.default.div.withConfig({\n  displayName: 'Featured__FeaturedWrapper',\n  componentId: 'xm4c49-1'\n})(['margin:0 auto;padding:0 3rem;padding-bottom:0.5rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));\n\nvar FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({\n  displayName: 'Featured__FeaturedLink',\n  componentId: 'xm4c49-2'\n})(['display:block;width:100%;height:100%;background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));\n\nvar FeaturedHeading = _styledComponents2.default.h2.withConfig({\n  displayName: 'Featured__FeaturedHeading',\n  componentId: 'xm4c49-3'\n})(['font-family:\\'Exo 2\\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);\n\nvar FeaturedSynopsis = _styledComponents2.default.p.withConfig({\n  displayName: 'Featured__FeaturedSynopsis',\n  componentId: 'xm4c49-4'\n})(['line-height:1.4;color:#fff;']);\n\nvar StyledButtonBack = (0, _styledComponents2.default)(_pureReactCarousel.ButtonBack).withConfig({\n  displayName: 'Featured__StyledButtonBack',\n  componentId: 'xm4c49-5'\n})(['position:absolute;top:50%;left:-5px;margin-left:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject5), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));\nvar StyledButtonNext = (0, _styledComponents2.default)(_pureReactCarousel.ButtonNext).withConfig({\n  displayName: 'Featured__StyledButtonNext',\n  componentId: 'xm4c49-6'\n})(['position:absolute;top:50%;right:-5px;margin-right:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6));\n\nexports.default = function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    FeaturedContainer,\n    null,\n    _react2.default.createElement(\n      FeaturedWrapper,\n      null,\n      _react2.default.createElement(\n        _pureReactCarousel.CarouselProvider,\n        {\n          naturalSlideWidth: 100,\n          naturalSlideHeight: 125,\n          totalSlides: 3\n        },\n        _react2.default.createElement(\n          _pureReactCarousel.Slider,\n          null,\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 0 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/recurrent-space-time-graph-neural-nets/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Recurrent Space-time Graph Neural Network'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'We introduce our recurrent graph model designed for video processing from our paper that will be presented at NeurIPS 2019 in Vancouver.'\n              )\n            )\n          ),\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 1 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/bitdefender_at_eeml2019/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Bitdefender at EEML 2019'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'Read about our team\\'s experience of organizing and participating at Eastern European Machine Learning summer school in Bucharest.'\n              )\n            )\n          ),\n          _react2.default.createElement(\n            _pureReactCarousel.Slide,\n            { index: 2 },\n            _react2.default.createElement(\n              FeaturedLink,\n              { to: '/blog/post/bitdefender_at_tmlss2018/' },\n              _react2.default.createElement(\n                FeaturedHeading,\n                null,\n                'Bitdefender at TMLSS 2018'\n              ),\n              _react2.default.createElement(\n                FeaturedSynopsis,\n                null,\n                'Bitdefender participated at the first edition of the Transylvania Machine Learning Summer School that took place in Cluj-Napoca.'\n              )\n            )\n          )\n        ),\n        _react2.default.createElement(\n          StyledButtonBack,\n          null,\n          _react2.default.createElement(\n            'span',\n            null,\n            _react2.default.createElement(\n              'svg',\n              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },\n              _react2.default.createElement('path', { d: 'M213.7,256L213.7,256L213.7,256L380.9,81.9c4.2-4.3,4.1-11.4-0.2-15.8l-29.9-30.6c-4.3-4.4-11.3-4.5-15.5-0.2L131.1,247.9 c-2.2,2.2-3.2,5.2-3,8.1c-0.1,3,0.9,5.9,3,8.1l204.2,212.7c4.2,4.3,11.2,4.2,15.5-0.2l29.9-30.6c4.3-4.4,4.4-11.5,0.2-15.8 L213.7,256z' })\n            )\n          )\n        ),\n        _react2.default.createElement(\n          StyledButtonNext,\n          null,\n          _react2.default.createElement(\n            'span',\n            null,\n            _react2.default.createElement(\n              'svg',\n              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },\n              _react2.default.createElement('path', { d: 'M298.3,256L298.3,256L298.3,256L131.1,81.9c-4.2-4.3-4.1-11.4,0.2-15.8l29.9-30.6c4.3-4.4,11.3-4.5,15.5-0.2l204.2,212.7 c2.2,2.2,3.2,5.2,3,8.1c0.1,3-0.9,5.9-3,8.1L176.7,476.8c-4.2,4.3-11.2,4.2-15.5-0.2L131.3,446c-4.3-4.4-4.4-11.5-0.2-15.8 L298.3,256z' })\n            )\n          )\n        )\n      )\n    )\n  );\n};\n\n// export default ({ posts }) => (\n//   <FeaturedContainer>\n//     <FeaturedWrapper>\n//      {<FeaturedLink to=\"/blog/post/recurrent-space-time-graph-neural-nets/\">\n//         <FeaturedHeading>Recurrent Space-time Graph Neural Network</FeaturedHeading>\n//         <FeaturedSynopsis>We introduce our recurrent graph model designed for\n//         video processing from our new paper that will be presented at NeurIPS\n//         2019 in Vancouver.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>}\n//      {<FeaturedLink to=\"/blog/post/bitdefender_at_eeml2019/\">\n//         <FeaturedHeading>Bitdefender at EEML 2019</FeaturedHeading>\n//         <FeaturedSynopsis>Read about our team's experience of organizing and\n//         participating at Eastern European Machine Learning summer school in\n//         Bucharest.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>}\n//       <FeaturedLink to=\"/blog/post/bitdefender_at_tmlss2018/\">\n//         <FeaturedHeading>Bitdefender at TMLSS 2018</FeaturedHeading>\n//         <FeaturedSynopsis>Bitdefender participated at the first edition of\n//         the Transylvania Machine Learning Summer School that took place in\n//         Cluj-Napoca.\n//         </FeaturedSynopsis>\n//       </FeaturedLink>\n//     </FeaturedWrapper>\n//   </FeaturedContainer>\n// )"
     },
     {
       "id": 172,
