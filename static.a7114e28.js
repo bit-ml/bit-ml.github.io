@@ -171,7 +171,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n    padding: 0 5rem;\n  '], ['\n    padding: 0 5rem;\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    padding: 0 5rem;\n    justify-content: flex-end;\n    a {\n      padding: 0.5rem 1rem 0.25rem 1rem;\n    }\n  '], ['\n    padding: 0 5rem;\n    justify-content: flex-end;\n    a {\n      padding: 0.5rem 1rem 0.25rem 1rem;\n    }\n  ']);
 
 var _reactStatic = __webpack_require__(3);
 
@@ -194,7 +194,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 var Nav = _styledComponents2.default.nav.withConfig({
   displayName: 'Navigation__Nav',
   componentId: 'qabwmo-0'
-})(['width:100%;background:', ';padding:0 1rem;font-family:"Roboto",Helvetica,Arial,sans-serif;text-align:right;a{padding:0.3rem 1.2rem 0.25rem 1.2rem;display:inline-block;font-style:normal;font-weight:500;line-height:23px;font-size:14px;text-align:right;text-transform:uppercase;color:', ';}a:last-child{padding-right:0;}', ''], function (props) {
+})(['width:100%;background:', ';padding:0 1rem;font-family:"Roboto",Helvetica,Arial,sans-serif;display:flex;justify-content:space-between;a{padding:0.5rem 0 0.25rem 0;font-style:normal;font-weight:500;line-height:23px;font-size:14px;text-align:right;text-transform:uppercase;color:', ';}a:last-child{padding:0.5rem;padding-right:0;}', ''], function (props) {
   return props.bgColor;
 }, function (props) {
   return props.fontColor;
@@ -914,7 +914,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var LightboxGalleryWrapper = _styledComponents2.default.div.withConfig({
   displayName: 'LightboxGallery__LightboxGalleryWrapper',
   componentId: 'i6rccf-0'
-})(['background-color:#F5F2F2;padding:1rem;margin:1rem 0;']);
+})(['background-color:', ';padding:1rem;margin:1rem 0;'], function (props) {
+  return props.theme.colors.tintedBackground;
+});
 
 var LightboxGallery = function (_React$Component) {
   _inherits(LightboxGallery, _React$Component);
@@ -1070,12 +1072,14 @@ var _templateObject = _taggedTemplateLiteral(['\n    display: flex;\n    justify
     _templateObject2 = _taggedTemplateLiteral(['\n    display: flex;\n    justify-content: space-between;\n  '], ['\n    display: flex;\n    justify-content: space-between;\n  ']),
     _templateObject3 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 2rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 2rem;\n  ']),
     _templateObject4 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 5rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 5rem;\n  ']),
-    _templateObject5 = _taggedTemplateLiteral(['\n      justify-content: flex-end;\n    '], ['\n      justify-content: flex-end;\n    ']),
-    _templateObject6 = _taggedTemplateLiteral(['\n      width: 100px;\n      height: 100px;\n    '], ['\n      width: 100px;\n      height: 100px;\n    ']),
+    _templateObject5 = _taggedTemplateLiteral(['\n      font-size: ', ';\n      line-height: ', ';\n      > span {\n        font-size: ', ';\n      }\n    '], ['\n      font-size: ', ';\n      line-height: ', ';\n      > span {\n        font-size: ', ';\n      }\n    ']),
+    _templateObject6 = _taggedTemplateLiteral(['\n      font-size: ', ';\n      line-height: ', ';\n    '], ['\n      font-size: ', ';\n      line-height: ', ';\n    ']),
     _templateObject7 = _taggedTemplateLiteral(['\n      font-size: ', ';\n    '], ['\n      font-size: ', ';\n    ']),
-    _templateObject8 = _taggedTemplateLiteral(['\n      width: calc(100% - (100px + 1rem));\n    '], ['\n      width: calc(100% - (100px + 1rem));\n    ']),
-    _templateObject9 = _taggedTemplateLiteral(['\n    padding-left: 0 0 0 100px;\n  '], ['\n    padding-left: 0 0 0 100px;\n  ']),
-    _templateObject10 = _taggedTemplateLiteral(['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  '], ['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  ']);
+    _templateObject8 = _taggedTemplateLiteral(['\n      justify-content: flex-end;\n    '], ['\n      justify-content: flex-end;\n    ']),
+    _templateObject9 = _taggedTemplateLiteral(['\n      width: 100px;\n      height: 100px;\n    '], ['\n      width: 100px;\n      height: 100px;\n    ']),
+    _templateObject10 = _taggedTemplateLiteral(['\n      width: calc(100% - (100px + 1rem));\n    '], ['\n      width: calc(100% - (100px + 1rem));\n    ']),
+    _templateObject11 = _taggedTemplateLiteral(['\n    padding-left: 0 0 0 100px;\n  '], ['\n    padding-left: 0 0 0 100px;\n  ']),
+    _templateObject12 = _taggedTemplateLiteral(['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  '], ['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  ']);
 
 var _styledSystem = __webpack_require__(7);
 
@@ -1122,50 +1126,36 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 var PageWithCoverImg = _styledComponents2.default.div.withConfig({
   displayName: 'Page__PageWithCoverImg',
   componentId: 'sc-16gl3c1-0'
-})(['background-color:', ' ', ' ', ';'], function (props) {
+})(['background-color:', ';', ' ', ';'], function (props) {
   return props.theme.colors.background;
 }, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject), (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2));
 
 var Post = _styledComponents2.default.div.withConfig({
   displayName: 'Page__Post',
   componentId: 'sc-16gl3c1-1'
-})(['margin:0 auto;padding:0 1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));
+})(['margin:0 auto;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));
 
-var Heading = _styledComponents2.default.h1.withConfig({
-  displayName: 'Page__Heading',
-  componentId: 'sc-16gl3c1-2'
-})(['', ' ', ' ', ''], _styledSystem.typography, _styledSystem.color, _styledSystem.space);
-Heading.defaultProps = {
-  mt: 1,
-  mb: 2,
-  p: 0,
-  fontFamily: 'title',
-  fontSize: 8,
-  titleWeight: 'titleSemi',
-  lineHeight: 'title',
-  color: 'highContrast'
-};
+// const Heading = styled.h1`
+//   ${typography}
+//   ${color}
+//   ${space}
+//   // text-transform: uppercase;
+// `
+// Heading.defaultProps = {
+//   mt: 1,
+//   mb: 2,
+//   p: 0,
+//   fontFamily: 'title',
+//   fontSize: 8,
+//   titleWeight: 'titleSemi',
+//   lineHeight: 'title',
+//   color: 'highContrast',
+// }
 
 var PostContent = _styledComponents2.default.section.withConfig({
   displayName: 'Page__PostContent',
-  componentId: 'sc-16gl3c1-3'
-})(['margin:0 auto;max-width:720px;> h1{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';> span{display:block;font-size:', ';}}> h2{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';}> h3{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';}> h4{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';}> h5{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';}p{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:0;font-style:normal;letter-spacing:0.03em;color:', ';> strong{font-weight:', ';}}a{text-decoration:underline;color:', ';&:hover{color:', ';}}ul,ol{margin-top:', ';margin-bottom:', ';font-weight:', ';line-height:', ';> li ul{margin-bottom:', ';}}> img,> p img{margin:0 auto;display:block;}.title--separator{text-align:right;border-bottom:1px solid ', ';}.mo{margin:0;&:hover{background-color:', ';}padding:5px;}.mo__link{display:flex;align-items:flex-start;flex-direction:row;padding:0;color:', ';&:hover{color:', ';}flex-wrap:wrap;text-decoration:none;', '}.mo__img{flex-basis:auto;margin:0 1rem 0 0;border-radius:50%;width:64px;height:64px;', '}.mo__header{flex-grow:1;flex-basis:100px;}.mo__title{font-weight:500;font-size:', ';margin:', ';', '}.mo__body{font-size:', ';font-weight:', ';line-height:', ';flex-grow:0;', '}> blockquote{font-size:1.1rem;font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:"\\201E""\\201C";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:', ';font-size:5rem;font-weight:400;}> footer{margin-top:10px;font-style:normal;font-weight:400;}}'], function (props) {
-  return props.theme.fonts.title;
-}, function (props) {
-  return props.theme.fontSizes[8];
-}, function (props) {
-  return props.theme.fontWeights.titleSemi;
-}, function (props) {
-  return props.theme.space[1];
-}, function (props) {
-  return props.theme.space[1];
-}, function (props) {
-  return props.theme.space[0];
-}, function (props) {
-  return props.theme.lineHeights.title;
-}, function (props) {
-  return props.theme.fontSizes[5];
-}, function (props) {
+  componentId: 'sc-16gl3c1-2'
+})(['margin:0 auto;padding:0 1rem;max-width:720px;> h1{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';> span{display:block;font-size:', ';line-height:', ';}', '}> h2{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h3{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h4{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h5{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';}p{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:0;font-style:normal;letter-spacing:0.03em;color:', ';> strong{font-weight:', ';}}a{text-decoration:underline;color:', ';&:hover{color:', ';}}ul,ol{margin-top:', ';margin-bottom:', ';font-weight:', ';line-height:', ';> li ul{margin-bottom:', ';}}> img,> p img{margin:0 auto;display:block;}.title--separator{text-align:right;border-bottom:1px solid ', ';}.mo{margin:0;&:hover{background-color:', ';}padding:5px;}.mo__link{display:flex;align-items:flex-start;flex-direction:row;padding:0;color:', ';&:hover{color:', ';}flex-wrap:wrap;text-decoration:none;', '}.mo__img{flex-basis:auto;margin:0 1rem 0 0;border-radius:50%;width:64px;height:64px;', '}.mo__header{flex-grow:1;flex-basis:100px;}.mo__title{font-weight:500;font-size:', ';margin:', ';line-height:', ';', '}.mo__body{font-size:', ';font-weight:', ';line-height:', ';flex-grow:0;', '}> blockquote{font-size:1.1rem;font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:"\\201E""\\201C";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:', ';font-size:5rem;font-weight:400;}> footer{margin-top:10px;font-style:normal;font-weight:400;}}'], function (props) {
   return props.theme.fonts.title;
 }, function (props) {
   return props.theme.fontSizes[7];
@@ -1180,6 +1170,16 @@ var PostContent = _styledComponents2.default.section.withConfig({
 }, function (props) {
   return props.theme.lineHeights.title;
 }, function (props) {
+  return props.theme.fontSizes[4];
+}, function (props) {
+  return props.theme.lineHeights.copy;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5, function (props) {
+  return props.theme.fontSizes[8];
+}, function (props) {
+  return props.theme.lineHeights.title;
+}, function (props) {
+  return props.theme.fontSizes[5];
+}), function (props) {
   return props.theme.fonts.title;
 }, function (props) {
   return props.theme.fontSizes[6];
@@ -1193,7 +1193,11 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.copy;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {
+  return props.theme.fontSizes[7];
 }, function (props) {
+  return props.theme.lineHeights.title;
+}), function (props) {
   return props.theme.fonts.title;
 }, function (props) {
   return props.theme.fontSizes[5];
@@ -1207,7 +1211,25 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.copy;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
+  return props.theme.fontSizes[6];
+}), function (props) {
+  return props.theme.fonts.title;
 }, function (props) {
+  return props.theme.fontSizes[4];
+}, function (props) {
+  return props.theme.fontWeights.titleSemi;
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.lineHeights.copy;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
+  return props.theme.fontSizes[5];
+}), function (props) {
   return props.theme.fonts.title;
 }, function (props) {
   return props.theme.fontSizes[4];
@@ -1257,48 +1279,52 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.colors.highContrast;
 }, function (props) {
   return props.theme.colors.highContrast;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6), function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject8), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject9), function (props) {
   return props.theme.fontSizes[3];
 }, function (props) {
   return props.theme.space[0];
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
+}, function (props) {
+  return props.theme.lineHeights.small;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {
   return props.theme.fontSizes[4];
+}, function (props) {
+  return props.theme.lineHeights.copy;
 }), function (props) {
   return props.theme.fontSizes[2];
 }, function (props) {
   return props.theme.fontWeights.bodyNormal;
 }, function (props) {
   return props.theme.lineHeights.small;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject8), function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject10), function (props) {
   return props.theme.colors.lowContrast;
 });
 
 var PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({
   displayName: 'Page__PostWithGalleryWrapper',
-  componentId: 'sc-16gl3c1-4'
+  componentId: 'sc-16gl3c1-3'
 })(['']);
 
 var Author = _styledComponents2.default.p.withConfig({
   displayName: 'Page__Author',
-  componentId: 'sc-16gl3c1-5'
+  componentId: 'sc-16gl3c1-4'
 })(['']);
 
 var PostFooter = _styledComponents2.default.div.withConfig({
   displayName: 'Page__PostFooter',
-  componentId: 'sc-16gl3c1-6'
+  componentId: 'sc-16gl3c1-5'
 })(['display:inline-block;background:#edebeb;width:100%;']);
 
 var PostFooterWraper = _styledComponents2.default.div.withConfig({
   displayName: 'Page__PostFooterWraper',
-  componentId: 'sc-16gl3c1-7'
-})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;& > p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject9));
+  componentId: 'sc-16gl3c1-6'
+})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;& > p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject11));
 
 var CoverImg = _styledComponents2.default.div.withConfig({
   displayName: 'Page__CoverImg',
-  componentId: 'sc-16gl3c1-8'
-})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject10, function (props) {
+  componentId: 'sc-16gl3c1-7'
+})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject12, function (props) {
   return props.featured_img;
-}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject10, function (props) {
+}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject12, function (props) {
   return props.featured_img;
 }));
 
@@ -2571,7 +2597,7 @@ var Hero = exports.Hero = _styledComponents2.default.div.withConfig({
 var Heading = _styledComponents2.default.h1.withConfig({
   displayName: 'Hero__Heading',
   componentId: 'ajom9h-1'
-})(['max-width:800px;font-family:\'Exo 2\',sans-serif;font-style:normal;font-weight:500;font-size:36px;line-height:3rem;color:#E4E4E4;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));
+})(['max-width:800px;font-family:\'Exo 2\',sans-serif;font-style:normal;font-weight:500;font-size:32px;line-height:2.7rem;color:#E4E4E4;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject3));
 
 exports.default = function (_ref) {
   var props = _ref.props;
@@ -2603,8 +2629,10 @@ var _templateObject = _taggedTemplateLiteral(['\n    ul > li {\n      padding-bo
     _templateObject2 = _taggedTemplateLiteral(['\n    padding: 0 5rem;\n  '], ['\n    padding: 0 5rem;\n  ']),
     _templateObject3 = _taggedTemplateLiteral(['\n    padding: 2rem;\n  '], ['\n    padding: 2rem;\n  ']),
     _templateObject4 = _taggedTemplateLiteral(['\n    padding: 2rem 3rem;\n  '], ['\n    padding: 2rem 3rem;\n  ']),
-    _templateObject5 = _taggedTemplateLiteral(['\n    left: 10px;\n    width: 70px;\n    height: 70px;\n    padding: 15px;\n  '], ['\n    left: 10px;\n    width: 70px;\n    height: 70px;\n    padding: 15px;\n  ']),
-    _templateObject6 = _taggedTemplateLiteral(['\n    right: 10px;\n    width: 70px;\n    height: 70px;\n    padding: 15px;\n  '], ['\n    right: 10px;\n    width: 70px;\n    height: 70px;\n    padding: 15px;\n  ']);
+    _templateObject5 = _taggedTemplateLiteral(['\n    font-size: 1.4rem;\n    line-height: 2rem;\n  '], ['\n    font-size: 1.4rem;\n    line-height: 2rem;\n  ']),
+    _templateObject6 = _taggedTemplateLiteral(['\n    font-size: 1rem;\n    line-height: 1.4;\n  '], ['\n    font-size: 1rem;\n    line-height: 1.4;\n  ']),
+    _templateObject7 = _taggedTemplateLiteral(['\n    left: 10px;\n    width: 70px;\n    height: 70px;\n    padding: 15px;\n  '], ['\n    left: 10px;\n    width: 70px;\n    height: 70px;\n    padding: 15px;\n  ']),
+    _templateObject8 = _taggedTemplateLiteral(['\n    right: 10px;\n    width: 70px;\n    height: 70px;\n    padding: 15px;\n  '], ['\n    right: 10px;\n    width: 70px;\n    height: 70px;\n    padding: 15px;\n  ']);
 
 var _react = __webpack_require__(0);
 
@@ -2636,31 +2664,31 @@ var FeaturedContainer = _styledComponents2.default.div.withConfig({
 var FeaturedWrapper = _styledComponents2.default.div.withConfig({
   displayName: 'Featured__FeaturedWrapper',
   componentId: 'xm4c49-1'
-})(['margin:0 auto;padding:0 3rem;padding-bottom:0.5rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));
+})(['margin:0 auto;padding:0 2.2rem;padding-bottom:0.5rem;color:#fff;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject2));
 
 var FeaturedLink = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({
   displayName: 'Featured__FeaturedLink',
   componentId: 'xm4c49-2'
-})(['display:block;width:100%;height:100%;background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#E4E4E4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));
+})(['display:block;width:100%;height:100%;background:rgba(98,118,207,0);transition:all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);color:#e4e4e4;&:hover{color:#fff;background:rgba(98,118,207,0.3);}', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));
 
 var FeaturedHeading = _styledComponents2.default.h2.withConfig({
   displayName: 'Featured__FeaturedHeading',
   componentId: 'xm4c49-3'
-})(['font-family:\'Exo 2\',sans-serif;font-style:normal;font-weight:500;font-size:1.4rem;line-height:2rem;color:#89cdf0;']);
+})(['font-family:"Exo 2",sans-serif;font-style:normal;font-weight:500;font-size:1rem;line-height:1.32rem;margin:0.4rem 0 0 0;color:#89cdf0;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject5), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));
 
 var FeaturedSynopsis = _styledComponents2.default.p.withConfig({
   displayName: 'Featured__FeaturedSynopsis',
   componentId: 'xm4c49-4'
-})(['line-height:1.4;color:#fff;']);
+})(['font-size:0.833rem;font-weight:300;line-height:1.4;color:#fff;line-height:1rem;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6));
 
 var StyledButtonBack = (0, _styledComponents2.default)(_pureReactCarousel.ButtonBack).withConfig({
   displayName: 'Featured__StyledButtonBack',
   componentId: 'xm4c49-5'
-})(['position:absolute;top:50%;left:-5px;margin-left:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject5), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));
+})(['position:absolute;top:50%;left:-5px;margin-left:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject7), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7));
 var StyledButtonNext = (0, _styledComponents2.default)(_pureReactCarousel.ButtonNext).withConfig({
   displayName: 'Featured__StyledButtonNext',
   componentId: 'xm4c49-6'
-})(['position:absolute;top:50%;right:-5px;margin-right:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6));
+})(['position:absolute;top:50%;right:-5px;margin-right:10px;margin-top:-20px;width:40px;height:40px;padding:10px;background:none;border:none;outline:none;border-radius:40px;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject8), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject8));
 
 exports.default = function (_ref) {
   var posts = _ref.posts;
@@ -2743,7 +2771,18 @@ exports.default = function (_ref) {
             null,
             _react2.default.createElement(
               'svg',
-              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },
+              {
+                fill: '#fff',
+                version: '1.1',
+                xmlns: 'http://www.w3.org/2000/svg',
+                xlink: 'http://www.w3.org/1999/xlink',
+                x: '0px',
+                y: '0px',
+                width: '100%',
+                height: '100%',
+                viewBox: '0 0 512 512',
+                space: 'preserve'
+              },
               _react2.default.createElement('path', { d: 'M213.7,256L213.7,256L213.7,256L380.9,81.9c4.2-4.3,4.1-11.4-0.2-15.8l-29.9-30.6c-4.3-4.4-11.3-4.5-15.5-0.2L131.1,247.9 c-2.2,2.2-3.2,5.2-3,8.1c-0.1,3,0.9,5.9,3,8.1l204.2,212.7c4.2,4.3,11.2,4.2,15.5-0.2l29.9-30.6c4.3-4.4,4.4-11.5,0.2-15.8 L213.7,256z' })
             )
           )
@@ -2756,7 +2795,18 @@ exports.default = function (_ref) {
             null,
             _react2.default.createElement(
               'svg',
-              { fill: '#fff', version: '1.1', xmlns: 'http://www.w3.org/2000/svg', xlink: 'http://www.w3.org/1999/xlink', x: '0px', y: '0px', width: '100%', height: '100%', viewBox: '0 0 512 512', space: 'preserve' },
+              {
+                fill: '#fff',
+                version: '1.1',
+                xmlns: 'http://www.w3.org/2000/svg',
+                xlink: 'http://www.w3.org/1999/xlink',
+                x: '0px',
+                y: '0px',
+                width: '100%',
+                height: '100%',
+                viewBox: '0 0 512 512',
+                space: 'preserve'
+              },
               _react2.default.createElement('path', { d: 'M298.3,256L298.3,256L298.3,256L131.1,81.9c-4.2-4.3-4.1-11.4,0.2-15.8l29.9-30.6c4.3-4.4,11.3-4.5,15.5-0.2l204.2,212.7 c2.2,2.2,3.2,5.2,3,8.1c0.1,3-0.9,5.9-3,8.1L176.7,476.8c-4.2,4.3-11.2,4.2-15.5-0.2L131.3,446c-4.3-4.4-4.4-11.5-0.2-15.8 L298.3,256z' })
             )
           )
@@ -3345,4 +3395,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.6868304f.js.map
+//# sourceMappingURL=static.a7114e28.js.map
