@@ -1068,18 +1068,18 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  '], ['\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  ']),
-    _templateObject2 = _taggedTemplateLiteral(['\n    display: flex;\n    justify-content: space-between;\n  '], ['\n    display: flex;\n    justify-content: space-between;\n  ']),
-    _templateObject3 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 2rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 2rem;\n  ']),
-    _templateObject4 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 5rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 5rem;\n  ']),
-    _templateObject5 = _taggedTemplateLiteral(['\n      font-size: ', ';\n      line-height: ', ';\n      > span {\n        font-size: ', ';\n      }\n    '], ['\n      font-size: ', ';\n      line-height: ', ';\n      > span {\n        font-size: ', ';\n      }\n    ']),
-    _templateObject6 = _taggedTemplateLiteral(['\n      font-size: ', ';\n      line-height: ', ';\n    '], ['\n      font-size: ', ';\n      line-height: ', ';\n    ']),
-    _templateObject7 = _taggedTemplateLiteral(['\n      font-size: ', ';\n    '], ['\n      font-size: ', ';\n    ']),
-    _templateObject8 = _taggedTemplateLiteral(['\n      justify-content: flex-end;\n    '], ['\n      justify-content: flex-end;\n    ']),
-    _templateObject9 = _taggedTemplateLiteral(['\n      width: 100px;\n      height: 100px;\n    '], ['\n      width: 100px;\n      height: 100px;\n    ']),
-    _templateObject10 = _taggedTemplateLiteral(['\n      width: calc(100% - (100px + 1rem));\n    '], ['\n      width: calc(100% - (100px + 1rem));\n    ']),
-    _templateObject11 = _taggedTemplateLiteral(['\n    padding-left: 0 0 0 100px;\n  '], ['\n    padding-left: 0 0 0 100px;\n  ']),
-    _templateObject12 = _taggedTemplateLiteral(['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  '], ['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  ']);
+var _templateObject = _taggedTemplateLiteral(["\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  "], ["\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  "]),
+    _templateObject2 = _taggedTemplateLiteral(["\n    display: flex;\n    justify-content: space-between;\n  "], ["\n    display: flex;\n    justify-content: space-between;\n  "]),
+    _templateObject3 = _taggedTemplateLiteral(["\n    max-width: 62%;\n    padding: 0 2rem;\n  "], ["\n    max-width: 62%;\n    padding: 0 2rem;\n  "]),
+    _templateObject4 = _taggedTemplateLiteral(["\n    max-width: 62%;\n    padding: 0 5rem;\n  "], ["\n    max-width: 62%;\n    padding: 0 5rem;\n  "]),
+    _templateObject5 = _taggedTemplateLiteral(["\n      font-size: ", ";\n      line-height: ", ";\n      > span {\n        font-size: ", ";\n      }\n    "], ["\n      font-size: ", ";\n      line-height: ", ";\n      > span {\n        font-size: ", ";\n      }\n    "]),
+    _templateObject6 = _taggedTemplateLiteral(["\n      font-size: ", ";\n      line-height: ", ";\n    "], ["\n      font-size: ", ";\n      line-height: ", ";\n    "]),
+    _templateObject7 = _taggedTemplateLiteral(["\n      font-size: ", ";\n    "], ["\n      font-size: ", ";\n    "]),
+    _templateObject8 = _taggedTemplateLiteral(["\n      justify-content: flex-end;\n    "], ["\n      justify-content: flex-end;\n    "]),
+    _templateObject9 = _taggedTemplateLiteral(["\n      width: 100px;\n      height: 100px;\n    "], ["\n      width: 100px;\n      height: 100px;\n    "]),
+    _templateObject10 = _taggedTemplateLiteral(["\n      width: calc(100% - (100px + 1rem));\n    "], ["\n      width: calc(100% - (100px + 1rem));\n    "]),
+    _templateObject11 = _taggedTemplateLiteral(["\n    padding-left: 0 0 0 100px;\n  "], ["\n    padding-left: 0 0 0 100px;\n  "]),
+    _templateObject12 = _taggedTemplateLiteral(["\n    background: #fff url(", ") no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  "], ["\n    background: #fff url(", ") no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  "]);
 
 var _styledSystem = __webpack_require__(7);
 
@@ -1124,16 +1124,16 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 //
 
 var PageWithCoverImg = _styledComponents2.default.div.withConfig({
-  displayName: 'Page__PageWithCoverImg',
-  componentId: 'sc-16gl3c1-0'
-})(['background-color:', ';', ' ', ';'], function (props) {
+  displayName: "Page__PageWithCoverImg",
+  componentId: "sc-16gl3c1-0"
+})(["background-color:", ";", " ", ";"], function (props) {
   return props.theme.colors.background;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject), (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2));
+}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject), (0, _styledComponentsBreakpoint2.default)("tablet")(_templateObject2));
 
 var Post = _styledComponents2.default.div.withConfig({
-  displayName: 'Page__Post',
-  componentId: 'sc-16gl3c1-1'
-})(['margin:0 auto;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));
+  displayName: "Page__Post",
+  componentId: "sc-16gl3c1-1"
+})(["margin:0 auto;", " ", ""], (0, _styledComponentsBreakpoint2.default)("tablet")(_templateObject3), (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject4));
 
 // const Heading = styled.h1`
 //   ${typography}
@@ -1153,9 +1153,9 @@ var Post = _styledComponents2.default.div.withConfig({
 // }
 
 var PostContent = _styledComponents2.default.section.withConfig({
-  displayName: 'Page__PostContent',
-  componentId: 'sc-16gl3c1-2'
-})(['margin:0 auto;padding:0 1rem;max-width:720px;> h1{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';> span{display:block;font-size:', ';line-height:', ';}', '}> h2{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h3{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h4{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h5{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';}p{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:0;font-style:normal;letter-spacing:0.03em;color:', ';> strong{font-weight:', ';}}a{text-decoration:underline;color:', ';&:hover{color:', ';}}ul,ol{margin-top:', ';margin-bottom:', ';font-weight:', ';line-height:', ';> li ul{margin-bottom:', ';}}> img,> p img{margin:0 auto;display:block;}.title--separator{text-align:right;border-bottom:1px solid ', ';}.mo{margin:0;&:hover{background-color:', ';}padding:5px;}.mo__link{display:flex;align-items:flex-start;flex-direction:row;padding:0;color:', ';&:hover{color:', ';}flex-wrap:wrap;text-decoration:none;', '}.mo__img{flex-basis:auto;margin:0 1rem 0 0;border-radius:50%;width:64px;height:64px;', '}.mo__header{flex-grow:1;flex-basis:100px;}.mo__title{font-weight:500;font-size:', ';margin:', ';line-height:', ';', '}.mo__body{font-size:', ';font-weight:', ';line-height:', ';flex-grow:0;', '}> blockquote{font-size:1.1rem;font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:"\\201E""\\201C";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:', ';font-size:5rem;font-weight:400;}> footer{margin-top:10px;font-style:normal;font-weight:400;}}'], function (props) {
+  displayName: "Page__PostContent",
+  componentId: "sc-16gl3c1-2"
+})(["margin:0 auto;padding:0 1rem;max-width:720px;> h1{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";> span{display:block;font-size:", ";line-height:", ";}", "}> h2{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";", "}> h3{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";", "}> h4{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";", "}> h5{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";}p{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:0;font-style:normal;letter-spacing:0.03em;color:", ";> strong{font-weight:", ";}}a{text-decoration:underline;color:", ";&:hover{color:", ";}}ul,ol{margin-top:", ";margin-bottom:", ";font-weight:", ";line-height:", ";> li ul{margin-bottom:", ";}}> img,> p img{margin:0 auto;display:block;}.title--separator{text-align:right;border-bottom:1px solid ", ";}> hr{border:0;border-top:1px solid ", ";}.mo{margin:0;&:hover{background-color:", ";}padding:5px;}.mo__link{display:flex;align-items:flex-start;flex-direction:row;padding:0;color:", ";&:hover{color:", ";}flex-wrap:wrap;text-decoration:none;", "}.mo__img{flex-basis:auto;margin:0 1rem 0 0;border-radius:50%;width:64px;height:64px;", "}.mo__header{flex-grow:1;flex-basis:100px;}.mo__title{font-weight:500;font-size:", ";margin:", ";line-height:", ";", "}.mo__body{font-size:", ";font-weight:", ";line-height:", ";flex-grow:0;", "}> blockquote{font-size:1.1rem;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:\"\\201E\"\"\\201C\";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:", ";font-size:5rem;font-weight:400;}> footer{margin-top:10px;font-style:normal;font-weight:400;}}"], function (props) {
   return props.theme.fonts.title;
 }, function (props) {
   return props.theme.fontSizes[7];
@@ -1173,7 +1173,7 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.fontSizes[4];
 }, function (props) {
   return props.theme.lineHeights.copy;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject5, function (props) {
   return props.theme.fontSizes[8];
 }, function (props) {
   return props.theme.lineHeights.title;
@@ -1193,7 +1193,7 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.copy;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject6, function (props) {
   return props.theme.fontSizes[7];
 }, function (props) {
   return props.theme.lineHeights.title;
@@ -1211,7 +1211,7 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.copy;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject7, function (props) {
   return props.theme.fontSizes[6];
 }), function (props) {
   return props.theme.fonts.title;
@@ -1227,7 +1227,7 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.copy;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject7, function (props) {
   return props.theme.fontSizes[5];
 }), function (props) {
   return props.theme.fonts.title;
@@ -1274,18 +1274,20 @@ var PostContent = _styledComponents2.default.section.withConfig({
 }, function (props) {
   return props.theme.colors.lowContrast;
 }, function (props) {
+  return props.theme.colors.lowContrast;
+}, function (props) {
   return props.theme.colors.tintedBackground;
 }, function (props) {
   return props.theme.colors.highContrast;
 }, function (props) {
   return props.theme.colors.highContrast;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject8), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject9), function (props) {
+}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject8), (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject9), function (props) {
   return props.theme.fontSizes[3];
 }, function (props) {
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.small;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject6, function (props) {
   return props.theme.fontSizes[4];
 }, function (props) {
   return props.theme.lineHeights.copy;
@@ -1295,36 +1297,36 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.fontWeights.bodyNormal;
 }, function (props) {
   return props.theme.lineHeights.small;
-}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject10), function (props) {
+}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject10), function (props) {
   return props.theme.colors.lowContrast;
 });
 
 var PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({
-  displayName: 'Page__PostWithGalleryWrapper',
-  componentId: 'sc-16gl3c1-3'
-})(['']);
+  displayName: "Page__PostWithGalleryWrapper",
+  componentId: "sc-16gl3c1-3"
+})([""]);
 
 var Author = _styledComponents2.default.p.withConfig({
-  displayName: 'Page__Author',
-  componentId: 'sc-16gl3c1-4'
-})(['']);
+  displayName: "Page__Author",
+  componentId: "sc-16gl3c1-4"
+})([""]);
 
 var PostFooter = _styledComponents2.default.div.withConfig({
-  displayName: 'Page__PostFooter',
-  componentId: 'sc-16gl3c1-5'
-})(['display:inline-block;background:#edebeb;width:100%;']);
+  displayName: "Page__PostFooter",
+  componentId: "sc-16gl3c1-5"
+})(["display:inline-block;background:#edebeb;width:100%;"]);
 
 var PostFooterWraper = _styledComponents2.default.div.withConfig({
-  displayName: 'Page__PostFooterWraper',
-  componentId: 'sc-16gl3c1-6'
-})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;& > p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject11));
+  displayName: "Page__PostFooterWraper",
+  componentId: "sc-16gl3c1-6"
+})(["display:flex;max-width:720px;padding:0 1rem;margin:0 auto;& > p{flex-grow:1;color:#828282;}", ""], (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject11));
 
 var CoverImg = _styledComponents2.default.div.withConfig({
-  displayName: 'Page__CoverImg',
-  componentId: 'sc-16gl3c1-7'
-})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject12, function (props) {
+  displayName: "Page__CoverImg",
+  componentId: "sc-16gl3c1-7"
+})(["", " ", ""], (0, _styledComponentsBreakpoint2.default)("tablet")(_templateObject12, function (props) {
   return props.featured_img;
-}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject12, function (props) {
+}), (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject12, function (props) {
   return props.featured_img;
 }));
 
@@ -1349,7 +1351,7 @@ var Footer = function Footer(_ref2) {
       post.authors && _react2.default.createElement(
         Author,
         null,
-        'written by ',
+        "written by ",
         post.authors
       )
     )
@@ -1360,9 +1362,9 @@ function PostWithGallery(_ref3) {
   var post = _ref3.post,
       galleries = _ref3.galleries;
 
-  var gallery_names = post.galleries.replace(/ /g, '').split(',');
+  var gallery_names = post.galleries.replace(/ /g, "").split(",");
   var names_columns = gallery_names.map(function (x) {
-    return x.split(':');
+    return x.split(":");
   });
   gallery_names = names_columns.map(function (x) {
     return x[0];
@@ -1386,10 +1388,10 @@ function PostWithGallery(_ref3) {
 }
 
 function checkGallery(post) {
-  var hasGallery = Object.hasOwnProperty.call(post, 'galleries');
+  var hasGallery = Object.hasOwnProperty.call(post, "galleries");
   if (hasGallery === true) {
     if (post.galleries == null) {
-      console.log('Warning, you have a gallery field in in your markdown ' + 'but it has no value.', post.galleries);
+      console.log("Warning, you have a gallery field in in your markdown " + "but it has no value.", post.galleries);
       hasGallery = false;
     }
   }
@@ -1402,15 +1404,15 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref4) {
       test = _ref4.test;
 
   var hasGallery = checkGallery(post);
-  var keywords = post.categories.replace(/ /g, '').split(',');
-  var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\n/g, '');
+  var keywords = post.categories.replace(/ /g, "").split(",");
+  var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\n/g, "");
 
   return _react2.default.createElement(
-    'div',
+    "div",
     null,
     _react2.default.createElement(_Head2.default, {
-      title: post.title + ' | Bitdefender Research',
-      description: synopsis + '...',
+      title: post.title + " | Bitdefender Research",
+      description: synopsis + "...",
       tags: keywords,
       image: post.featured_img
     }),
@@ -1421,7 +1423,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref4) {
       _react2.default.createElement(
         Post,
         null,
-        _react2.default.createElement(_Navigation2.default, { pageName: 'post' }),
+        _react2.default.createElement(_Navigation2.default, { pageName: "post" }),
         hasGallery ? _react2.default.createElement(PostWithGallery, { post: post, galleries: galleries, test: test }) : _react2.default.createElement(SimplePost, { post: post }),
         _react2.default.createElement(Footer, { post: post })
       )
@@ -1753,7 +1755,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Home',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/pages/Home', {
       disableWarnings: true
@@ -1773,7 +1775,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Blog',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 12)), (0, _importCss3.default)('src/pages/Blog', {
       disableWarnings: true
@@ -1793,7 +1795,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Post',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 13)), (0, _importCss3.default)('src/pages/Post', {
       disableWarnings: true
@@ -1813,7 +1815,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Page',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 17)), (0, _importCss3.default)('src/pages/Page', {
       disableWarnings: true
@@ -1833,7 +1835,7 @@ var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_4 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/404',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 18)), (0, _importCss3.default)('src/pages/404', {
       disableWarnings: true
@@ -3413,4 +3415,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.2cf51998.js.map
+//# sourceMappingURL=static.fedef611.js.map
