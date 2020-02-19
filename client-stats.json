@@ -3,7 +3,7 @@
   "warnings": [],
   "version": "3.12.0",
   "hash": "05cdf593011ffbb3c98e",
-  "time": 11039,
+  "time": 10519,
   "publicPath": "https://bit-ml.github.io/",
   "assetsByChunkName": {
     "src/pages/Page": [
@@ -412,7 +412,7 @@
               "moduleName": "./node_modules/styled-system/dist/index.esm.js",
               "type": "harmony import",
               "userRequest": "@styled-system/core",
-              "loc": "1:0-72"
+              "loc": "11:0-94"
             },
             {
               "moduleId": 181,
@@ -421,7 +421,7 @@
               "moduleName": "./node_modules/styled-system/dist/index.esm.js",
               "type": "harmony import",
               "userRequest": "@styled-system/core",
-              "loc": "11:0-94"
+              "loc": "1:0-72"
             },
             {
               "moduleId": 183,
@@ -8106,7 +8106,7 @@
               "moduleName": "./node_modules/styled-system/dist/index.esm.js",
               "type": "harmony import",
               "userRequest": "@styled-system/core",
-              "loc": "1:0-72"
+              "loc": "11:0-94"
             },
             {
               "moduleId": 181,
@@ -8115,7 +8115,7 @@
               "moduleName": "./node_modules/styled-system/dist/index.esm.js",
               "type": "harmony import",
               "userRequest": "@styled-system/core",
-              "loc": "11:0-94"
+              "loc": "1:0-72"
             },
             {
               "moduleId": 183,
@@ -11690,9 +11690,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-          "issuerId": 131,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 130,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -12673,9 +12673,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-          "issuerId": 131,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 130,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -12738,9 +12738,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react/cjs/react.production.min.js",
-          "issuerId": 59,
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": 60,
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -12859,9 +12859,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/es/createBrowserHistory.js",
-          "issuerId": 77,
-          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/es/createHashHistory.js",
+          "issuerId": 78,
+          "issuerName": "./node_modules/history/es/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -13211,9 +13211,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-          "issuerId": 131,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 130,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -13267,9 +13267,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-          "issuerId": 131,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+          "issuerId": 130,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -13707,9 +13707,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/es/createBrowserHistory.js",
-          "issuerId": 77,
-          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/es/createHashHistory.js",
+          "issuerId": 78,
+          "issuerName": "./node_modules/history/es/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -13925,9 +13925,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
-          "issuerId": 22,
-          "issuerName": "./node_modules/react-router/es/matchPath.js",
+          "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
+          "issuerId": 36,
+          "issuerName": "./node_modules/react-router/es/generatePath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -19858,9 +19858,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-      "issuerId": 131,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 130,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -20841,9 +20841,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-      "issuerId": 131,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 130,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -20906,9 +20906,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react/cjs/react.production.min.js",
-      "issuerId": 59,
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": 60,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21027,9 +21027,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/es/createBrowserHistory.js",
-      "issuerId": 77,
-      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/es/createHashHistory.js",
+      "issuerId": 78,
+      "issuerName": "./node_modules/history/es/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21379,9 +21379,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-      "issuerId": 131,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 130,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21435,9 +21435,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createMemoryHistory.js",
-      "issuerId": 131,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/createBrowserHistory.js",
+      "issuerId": 130,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -21875,9 +21875,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/es/createBrowserHistory.js",
-      "issuerId": 77,
-      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/history/es/createHashHistory.js",
+      "issuerId": 78,
+      "issuerName": "./node_modules/history/es/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -22093,9 +22093,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/matchPath.js",
-      "issuerId": 22,
-      "issuerName": "./node_modules/react-router/es/matchPath.js",
+      "issuer": "/home/fgogianu/Code/web/bit-ml/node_modules/react-router/es/generatePath.js",
+      "issuerId": 36,
+      "issuerName": "./node_modules/react-router/es/generatePath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -26842,7 +26842,7 @@
           "moduleName": "./node_modules/styled-system/dist/index.esm.js",
           "type": "harmony import",
           "userRequest": "@styled-system/core",
-          "loc": "1:0-72"
+          "loc": "11:0-94"
         },
         {
           "moduleId": 181,
@@ -26851,7 +26851,7 @@
           "moduleName": "./node_modules/styled-system/dist/index.esm.js",
           "type": "harmony import",
           "userRequest": "@styled-system/core",
-          "loc": "11:0-94"
+          "loc": "1:0-72"
         },
         {
           "moduleId": 183,
