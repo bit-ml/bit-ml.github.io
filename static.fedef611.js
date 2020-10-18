@@ -1755,7 +1755,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Home',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/pages/Home', {
       disableWarnings: true
@@ -1775,7 +1775,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Blog',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 12)), (0, _importCss3.default)('src/pages/Blog', {
       disableWarnings: true
@@ -1795,7 +1795,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Post',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 13)), (0, _importCss3.default)('src/pages/Post', {
       disableWarnings: true
@@ -1815,7 +1815,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Page',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 17)), (0, _importCss3.default)('src/pages/Page', {
       disableWarnings: true
@@ -1835,7 +1835,7 @@ var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_4 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/404',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 18)), (0, _importCss3.default)('src/pages/404', {
       disableWarnings: true
@@ -3415,4 +3415,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.5e4574e8.js.map
+//# sourceMappingURL=static.fedef611.js.map
