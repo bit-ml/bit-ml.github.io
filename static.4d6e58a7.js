@@ -611,8 +611,8 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
               { key: id },
               _react2.default.createElement(
                 _reactStatic.Link,
-                { to: '/blog/post/' + post.slug + '/' },
-                post.title
+                { to: '/blog/post/' + post.data.slug + '/' },
+                post.data.title
               )
             );
           })
@@ -637,8 +637,11 @@ var _templateObject = _taggedTemplateLiteral(['\n    display: flex;\n    justify
     _templateObject2 = _taggedTemplateLiteral(['\n    display: flex;\n    justify-content: space-between;\n  '], ['\n    display: flex;\n    justify-content: space-between;\n  ']),
     _templateObject3 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 2rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 2rem;\n  ']),
     _templateObject4 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 5rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 5rem;\n  ']),
-    _templateObject5 = _taggedTemplateLiteral(['\n    padding-left: 0 0 0 100px;\n  '], ['\n    padding-left: 0 0 0 100px;\n  ']),
-    _templateObject6 = _taggedTemplateLiteral(['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  '], ['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  ']);
+    _templateObject5 = _taggedTemplateLiteral(['\n      font-size: ', ';\n      line-height: ', ';\n      > span {\n        font-size: ', ';\n      }\n    '], ['\n      font-size: ', ';\n      line-height: ', ';\n      > span {\n        font-size: ', ';\n      }\n    ']),
+    _templateObject6 = _taggedTemplateLiteral(['\n      font-size: ', ';\n      line-height: ', ';\n    '], ['\n      font-size: ', ';\n      line-height: ', ';\n    ']),
+    _templateObject7 = _taggedTemplateLiteral(['\n      font-size: ', ';\n    '], ['\n      font-size: ', ';\n    ']),
+    _templateObject8 = _taggedTemplateLiteral(['\n    padding-left: 0 0 0 100px;\n  '], ['\n    padding-left: 0 0 0 100px;\n  ']),
+    _templateObject9 = _taggedTemplateLiteral(['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  '], ['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  ']);
 
 var _react = __webpack_require__(0);
 
@@ -698,7 +701,123 @@ var Heading = _styledComponents2.default.h1.withConfig({
 var PostContent = _styledComponents2.default.section.withConfig({
   displayName: 'Post__PostContent',
   componentId: 'oyq0rs-3'
-})(['margin:0 auto;max-width:720px;> p{font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:normal;font-weight:300;line-height:1.8rem;font-size:1.2rem;letter-spacing:0.03em;color:#333333;> strong{font-weight:500;}}> p a{text-decoration:underline;color:#333;&:hover{color:#e6212b;}}> img,> p img{margin:0 auto;display:block;}> blockquote{font-size:1.1rem;font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:"\\201E""\\201C";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:#edebeb;font-size:5rem;font-weight:400;}> footer{margin-top:10px;font-style:normal;font-weight:400;}}']);
+})(['margin:0 auto;max-width:720px;> h1{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';> span{display:block;font-size:', ';line-height:', ';}', '}> h2{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h3{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h4{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h5{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';}p{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:0;font-style:normal;letter-spacing:0.03em;color:', ';> strong{font-weight:', ';}}a{text-decoration:underline;color:', ';&:hover{color:', ';}}ul,ol{margin-top:', ';margin-bottom:', ';font-weight:', ';line-height:', ';> li ul{margin-bottom:', ';}}> img,> p img{margin:0 auto;display:block;}> blockquote{font-size:1.1rem;font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:"\\201E""\\201C";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:#edebeb;font-size:5rem;font-weight:400;}> footer{margin-top:10px;font-style:normal;font-weight:400;}}'], function (props) {
+  return props.theme.fonts.title;
+}, function (props) {
+  return props.theme.fontSizes[7];
+}, function (props) {
+  return props.theme.fontWeights.titleSemi;
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.lineHeights.title;
+}, function (props) {
+  return props.theme.fontSizes[4];
+}, function (props) {
+  return props.theme.lineHeights.copy;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5, function (props) {
+  return props.theme.fontSizes[8];
+}, function (props) {
+  return props.theme.lineHeights.title;
+}, function (props) {
+  return props.theme.fontSizes[5];
+}), function (props) {
+  return props.theme.fonts.title;
+}, function (props) {
+  return props.theme.fontSizes[6];
+}, function (props) {
+  return props.theme.fontWeights.titleSemi;
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.lineHeights.copy;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {
+  return props.theme.fontSizes[7];
+}, function (props) {
+  return props.theme.lineHeights.title;
+}), function (props) {
+  return props.theme.fonts.title;
+}, function (props) {
+  return props.theme.fontSizes[5];
+}, function (props) {
+  return props.theme.fontWeights.titleSemi;
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.lineHeights.copy;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
+  return props.theme.fontSizes[6];
+}), function (props) {
+  return props.theme.fonts.title;
+}, function (props) {
+  return props.theme.fontSizes[4];
+}, function (props) {
+  return props.theme.fontWeights.titleSemi;
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.lineHeights.copy;
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
+  return props.theme.fontSizes[5];
+}), function (props) {
+  return props.theme.fonts.title;
+}, function (props) {
+  return props.theme.fontSizes[4];
+}, function (props) {
+  return props.theme.fontWeights.titleSemi;
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.lineHeights.copy;
+}, function (props) {
+  return props.theme.fonts.body;
+}, function (props) {
+  return props.theme.fontSizes[3];
+}, function (props) {
+  return props.theme.fontWeights.bodyNormal;
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.colors.highContrast;
+}, function (props) {
+  return props.theme.fontWeights.bodyBold;
+}, function (props) {
+  return props.theme.colors.highContrast;
+}, function (props) {
+  return props.theme.colors.brandRed;
+}, function (props) {
+  return props.theme.space[0];
+}, function (props) {
+  return props.theme.space[1];
+}, function (props) {
+  return props.theme.fontWeights.bodyNormal;
+}, function (props) {
+  return props.theme.lineHeights.copy;
+}, function (props) {
+  return props.theme.space[0];
+});
 
 var PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({
   displayName: 'Post__PostWithGalleryWrapper',
@@ -733,21 +852,21 @@ var PostFooter = _styledComponents2.default.div.withConfig({
 var PostFooterWraper = _styledComponents2.default.div.withConfig({
   displayName: 'Post__PostFooterWraper',
   componentId: 'oyq0rs-10'
-})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;& > p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5));
+})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;& > p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject8));
 
 var CoverImg = _styledComponents2.default.div.withConfig({
   displayName: 'Post__CoverImg',
   componentId: 'oyq0rs-11'
-})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject6, function (props) {
+})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject9, function (props) {
   return props.featured_img;
-}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {
+}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject9, function (props) {
   return props.featured_img;
 }));
 
 function SimplePost(_ref) {
   var post = _ref.post;
 
-  var date = post.date.replace('-', ' ').replace('-', ', ');
+  var date = post.data.date.replace('-', ' ').replace('-', ', ');
   return _react2.default.createElement(
     PostContent,
     null,
@@ -767,11 +886,6 @@ function SimplePost(_ref) {
         date
       )
     ),
-    _react2.default.createElement(
-      Heading,
-      null,
-      post.title
-    ),
     (0, _htmr2.default)(post.contents)
   );
 }
@@ -784,11 +898,11 @@ var Footer = function Footer(_ref2) {
     _react2.default.createElement(
       PostFooterWraper,
       null,
-      post.authors && _react2.default.createElement(
+      post.data.authors && _react2.default.createElement(
         Author,
         null,
         'written by ',
-        post.authors
+        post.data.authors
       )
     )
   );
@@ -798,7 +912,7 @@ function PostWithGallery(_ref3) {
   var post = _ref3.post,
       galleries = _ref3.galleries;
 
-  var gallery_names = post.galleries.replace(/ /g, '').split(',');
+  var gallery_names = post.data.galleries.replace(/ /g, '').split(',');
   var names_columns = gallery_names.map(function (x) {
     return x.split(':');
   });
@@ -829,22 +943,22 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref4) {
       test = _ref4.test;
 
   var hasGallery = Object.hasOwnProperty.call(post, 'galleries');
-  var keywords = post.categories.replace(/ /g, '').split(',');
+  var keywords = post.data.categories.replace(/ /g, '').split(',');
   var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\n/g, '');
 
   return _react2.default.createElement(
     'div',
     null,
     _react2.default.createElement(_Head2.default, {
-      title: post.title + ' | Bitdefender Research',
+      title: post.data.title + ' | Bitdefender Research',
       description: synopsis + '...',
       tags: keywords,
-      image: post.featured_img
+      image: post.data.featured_img
     }),
     _react2.default.createElement(
       PageWithCoverImg,
       null,
-      _react2.default.createElement(CoverImg, { featured_img: post.featured_img }),
+      _react2.default.createElement(CoverImg, { featured_img: post.data.featured_img }),
       _react2.default.createElement(
         Post,
         null,
@@ -1068,18 +1182,18 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(["\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  "], ["\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  "]),
-    _templateObject2 = _taggedTemplateLiteral(["\n    display: flex;\n    justify-content: space-between;\n  "], ["\n    display: flex;\n    justify-content: space-between;\n  "]),
-    _templateObject3 = _taggedTemplateLiteral(["\n    max-width: 62%;\n    padding: 0 2rem;\n  "], ["\n    max-width: 62%;\n    padding: 0 2rem;\n  "]),
-    _templateObject4 = _taggedTemplateLiteral(["\n    max-width: 62%;\n    padding: 0 5rem;\n  "], ["\n    max-width: 62%;\n    padding: 0 5rem;\n  "]),
-    _templateObject5 = _taggedTemplateLiteral(["\n      font-size: ", ";\n      line-height: ", ";\n      > span {\n        font-size: ", ";\n      }\n    "], ["\n      font-size: ", ";\n      line-height: ", ";\n      > span {\n        font-size: ", ";\n      }\n    "]),
-    _templateObject6 = _taggedTemplateLiteral(["\n      font-size: ", ";\n      line-height: ", ";\n    "], ["\n      font-size: ", ";\n      line-height: ", ";\n    "]),
-    _templateObject7 = _taggedTemplateLiteral(["\n      font-size: ", ";\n    "], ["\n      font-size: ", ";\n    "]),
-    _templateObject8 = _taggedTemplateLiteral(["\n      justify-content: flex-end;\n    "], ["\n      justify-content: flex-end;\n    "]),
-    _templateObject9 = _taggedTemplateLiteral(["\n      width: 100px;\n      height: 100px;\n    "], ["\n      width: 100px;\n      height: 100px;\n    "]),
-    _templateObject10 = _taggedTemplateLiteral(["\n      width: calc(100% - (100px + 1rem));\n    "], ["\n      width: calc(100% - (100px + 1rem));\n    "]),
-    _templateObject11 = _taggedTemplateLiteral(["\n    padding-left: 0 0 0 100px;\n  "], ["\n    padding-left: 0 0 0 100px;\n  "]),
-    _templateObject12 = _taggedTemplateLiteral(["\n    background: #fff url(", ") no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  "], ["\n    background: #fff url(", ") no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  "]);
+var _templateObject = _taggedTemplateLiteral(['\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  '], ['\n    display: flex;\n    justify-content: space-between;\n\n    nav {\n      padding: 0;\n    }\n  ']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    display: flex;\n    justify-content: space-between;\n  '], ['\n    display: flex;\n    justify-content: space-between;\n  ']),
+    _templateObject3 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 2rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 2rem;\n  ']),
+    _templateObject4 = _taggedTemplateLiteral(['\n    max-width: 62%;\n    padding: 0 5rem;\n  '], ['\n    max-width: 62%;\n    padding: 0 5rem;\n  ']),
+    _templateObject5 = _taggedTemplateLiteral(['\n      font-size: ', ';\n      line-height: ', ';\n      > span {\n        font-size: ', ';\n      }\n    '], ['\n      font-size: ', ';\n      line-height: ', ';\n      > span {\n        font-size: ', ';\n      }\n    ']),
+    _templateObject6 = _taggedTemplateLiteral(['\n      font-size: ', ';\n      line-height: ', ';\n    '], ['\n      font-size: ', ';\n      line-height: ', ';\n    ']),
+    _templateObject7 = _taggedTemplateLiteral(['\n      font-size: ', ';\n    '], ['\n      font-size: ', ';\n    ']),
+    _templateObject8 = _taggedTemplateLiteral(['\n      justify-content: flex-end;\n    '], ['\n      justify-content: flex-end;\n    ']),
+    _templateObject9 = _taggedTemplateLiteral(['\n      width: 100px;\n      height: 100px;\n    '], ['\n      width: 100px;\n      height: 100px;\n    ']),
+    _templateObject10 = _taggedTemplateLiteral(['\n      width: calc(100% - (100px + 1rem));\n    '], ['\n      width: calc(100% - (100px + 1rem));\n    ']),
+    _templateObject11 = _taggedTemplateLiteral(['\n    padding-left: 0 0 0 100px;\n  '], ['\n    padding-left: 0 0 0 100px;\n  ']),
+    _templateObject12 = _taggedTemplateLiteral(['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  '], ['\n    background: #fff url(', ') no-repeat bottom;\n    background-size: cover;\n    position: sticky;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    width: 38%;\n  ']);
 
 var _styledSystem = __webpack_require__(7);
 
@@ -1124,16 +1238,16 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 //
 
 var PageWithCoverImg = _styledComponents2.default.div.withConfig({
-  displayName: "Page__PageWithCoverImg",
-  componentId: "sc-16gl3c1-0"
-})(["background-color:", ";", " ", ";"], function (props) {
+  displayName: 'Page__PageWithCoverImg',
+  componentId: 'sc-16gl3c1-0'
+})(['background-color:', ';', ' ', ';'], function (props) {
   return props.theme.colors.background;
-}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject), (0, _styledComponentsBreakpoint2.default)("tablet")(_templateObject2));
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject), (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject2));
 
 var Post = _styledComponents2.default.div.withConfig({
-  displayName: "Page__Post",
-  componentId: "sc-16gl3c1-1"
-})(["margin:0 auto;", " ", ""], (0, _styledComponentsBreakpoint2.default)("tablet")(_templateObject3), (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject4));
+  displayName: 'Page__Post',
+  componentId: 'sc-16gl3c1-1'
+})(['margin:0 auto;', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject3), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject4));
 
 // const Heading = styled.h1`
 //   ${typography}
@@ -1153,9 +1267,9 @@ var Post = _styledComponents2.default.div.withConfig({
 // }
 
 var PostContent = _styledComponents2.default.section.withConfig({
-  displayName: "Page__PostContent",
-  componentId: "sc-16gl3c1-2"
-})(["margin:0 auto;padding:0 1rem;max-width:720px;> h1{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";> span{display:block;font-size:", ";line-height:", ";}", "}> h2{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";", "}> h3{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";", "}> h4{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";", "}> h5{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:", ";line-height:", ";}p{font-family:", ";font-size:", ";font-weight:", ";margin-top:", ";margin-bottom:", ";padding:0;font-style:normal;letter-spacing:0.03em;color:", ";> strong{font-weight:", ";}}a{text-decoration:underline;color:", ";&:hover{color:", ";}}ul,ol{margin-top:", ";margin-bottom:", ";font-weight:", ";line-height:", ";> li ul{margin-bottom:", ";}}> img,> p img{margin:0 auto;display:block;}.title--separator{text-align:right;border-bottom:1px solid ", ";}> hr{border:0;border-top:1px solid ", ";}.mo{margin:0;&:hover{background-color:", ";}padding:5px;}.mo__link{display:flex;align-items:flex-start;flex-direction:row;padding:0;color:", ";&:hover{color:", ";}flex-wrap:wrap;text-decoration:none;", "}.mo__img{flex-basis:auto;margin:0 1rem 0 0;border-radius:50%;width:64px;height:64px;", "}.mo__header{flex-grow:1;flex-basis:100px;}.mo__title{font-weight:500;font-size:", ";margin:", ";line-height:", ";", "}.mo__body{font-size:", ";font-weight:", ";line-height:", ";flex-grow:0;", "}> blockquote{font-size:1.1rem;font-family:\"Roboto\",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:\"\\201E\"\"\\201C\";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:", ";font-size:5rem;font-weight:400;}> footer{margin-top:10px;font-style:normal;font-weight:400;}}"], function (props) {
+  displayName: 'Page__PostContent',
+  componentId: 'sc-16gl3c1-2'
+})(['margin:0 auto;padding:0 1rem;max-width:720px;> h1{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';> span{display:block;font-size:', ';line-height:', ';}', '}> h2{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h3{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h4{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';', '}> h5{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:', ';line-height:', ';}p{font-family:', ';font-size:', ';font-weight:', ';margin-top:', ';margin-bottom:', ';padding:0;font-style:normal;letter-spacing:0.03em;color:', ';> strong{font-weight:', ';}}a{text-decoration:underline;color:', ';&:hover{color:', ';}}ul,ol{margin-top:', ';margin-bottom:', ';font-weight:', ';line-height:', ';> li ul{margin-bottom:', ';}}> img,> p img{margin:0 auto;display:block;}.title--separator{text-align:right;border-bottom:1px solid ', ';}> hr{border:0;border-top:1px solid ', ';}.mo{margin:0;&:hover{background-color:', ';}padding:5px;}.mo__link{display:flex;align-items:flex-start;flex-direction:row;padding:0;color:', ';&:hover{color:', ';}flex-wrap:wrap;text-decoration:none;', '}.mo__img{flex-basis:auto;margin:0 1rem 0 0;border-radius:50%;width:64px;height:64px;', '}.mo__header{flex-grow:1;flex-basis:100px;}.mo__title{font-weight:500;font-size:', ';margin:', ';line-height:', ';', '}.mo__body{font-size:', ';font-weight:', ';line-height:', ';flex-grow:0;', '}> blockquote{font-size:1.1rem;font-family:"Roboto",Helvetica,Arial,sans-serif;font-style:italic;font-weight:300;line-height:1.8rem;letter-spacing:0.03em;text-align:right;margin-right:0;padding:24px;quotes:"\\201E""\\201C";&:before{display:inline-block;transform:translate(-15px,-15px);content:open-quote;color:', ';font-size:5rem;font-weight:400;}> footer{margin-top:10px;font-style:normal;font-weight:400;}}'], function (props) {
   return props.theme.fonts.title;
 }, function (props) {
   return props.theme.fontSizes[7];
@@ -1173,7 +1287,7 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.fontSizes[4];
 }, function (props) {
   return props.theme.lineHeights.copy;
-}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject5, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject5, function (props) {
   return props.theme.fontSizes[8];
 }, function (props) {
   return props.theme.lineHeights.title;
@@ -1193,7 +1307,7 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.copy;
-}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject6, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {
   return props.theme.fontSizes[7];
 }, function (props) {
   return props.theme.lineHeights.title;
@@ -1211,7 +1325,7 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.copy;
-}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject7, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
   return props.theme.fontSizes[6];
 }), function (props) {
   return props.theme.fonts.title;
@@ -1227,7 +1341,7 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.copy;
-}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject7, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject7, function (props) {
   return props.theme.fontSizes[5];
 }), function (props) {
   return props.theme.fonts.title;
@@ -1281,13 +1395,13 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.colors.highContrast;
 }, function (props) {
   return props.theme.colors.highContrast;
-}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject8), (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject9), function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject8), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject9), function (props) {
   return props.theme.fontSizes[3];
 }, function (props) {
   return props.theme.space[0];
 }, function (props) {
   return props.theme.lineHeights.small;
-}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject6, function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject6, function (props) {
   return props.theme.fontSizes[4];
 }, function (props) {
   return props.theme.lineHeights.copy;
@@ -1297,36 +1411,36 @@ var PostContent = _styledComponents2.default.section.withConfig({
   return props.theme.fontWeights.bodyNormal;
 }, function (props) {
   return props.theme.lineHeights.small;
-}, (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject10), function (props) {
+}, (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject10), function (props) {
   return props.theme.colors.lowContrast;
 });
 
 var PostWithGalleryWrapper = _styledComponents2.default.div.withConfig({
-  displayName: "Page__PostWithGalleryWrapper",
-  componentId: "sc-16gl3c1-3"
-})([""]);
+  displayName: 'Page__PostWithGalleryWrapper',
+  componentId: 'sc-16gl3c1-3'
+})(['']);
 
 var Author = _styledComponents2.default.p.withConfig({
-  displayName: "Page__Author",
-  componentId: "sc-16gl3c1-4"
-})([""]);
+  displayName: 'Page__Author',
+  componentId: 'sc-16gl3c1-4'
+})(['']);
 
 var PostFooter = _styledComponents2.default.div.withConfig({
-  displayName: "Page__PostFooter",
-  componentId: "sc-16gl3c1-5"
-})(["display:inline-block;background:#edebeb;width:100%;"]);
+  displayName: 'Page__PostFooter',
+  componentId: 'sc-16gl3c1-5'
+})(['display:inline-block;background:#edebeb;width:100%;']);
 
 var PostFooterWraper = _styledComponents2.default.div.withConfig({
-  displayName: "Page__PostFooterWraper",
-  componentId: "sc-16gl3c1-6"
-})(["display:flex;max-width:720px;padding:0 1rem;margin:0 auto;& > p{flex-grow:1;color:#828282;}", ""], (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject11));
+  displayName: 'Page__PostFooterWraper',
+  componentId: 'sc-16gl3c1-6'
+})(['display:flex;max-width:720px;padding:0 1rem;margin:0 auto;& > p{flex-grow:1;color:#828282;}', ''], (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject11));
 
 var CoverImg = _styledComponents2.default.div.withConfig({
-  displayName: "Page__CoverImg",
-  componentId: "sc-16gl3c1-7"
-})(["", " ", ""], (0, _styledComponentsBreakpoint2.default)("tablet")(_templateObject12, function (props) {
+  displayName: 'Page__CoverImg',
+  componentId: 'sc-16gl3c1-7'
+})(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject12, function (props) {
   return props.featured_img;
-}), (0, _styledComponentsBreakpoint2.default)("desktop")(_templateObject12, function (props) {
+}), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject12, function (props) {
   return props.featured_img;
 }));
 
@@ -1351,7 +1465,7 @@ var Footer = function Footer(_ref2) {
       post.authors && _react2.default.createElement(
         Author,
         null,
-        "written by ",
+        'written by ',
         post.authors
       )
     )
@@ -1362,9 +1476,9 @@ function PostWithGallery(_ref3) {
   var post = _ref3.post,
       galleries = _ref3.galleries;
 
-  var gallery_names = post.galleries.replace(/ /g, "").split(",");
+  var gallery_names = post.data.galleries.replace(/ /g, '').split(',');
   var names_columns = gallery_names.map(function (x) {
-    return x.split(":");
+    return x.split(':');
   });
   gallery_names = names_columns.map(function (x) {
     return x[0];
@@ -1388,10 +1502,10 @@ function PostWithGallery(_ref3) {
 }
 
 function checkGallery(post) {
-  var hasGallery = Object.hasOwnProperty.call(post, "galleries");
+  var hasGallery = Object.hasOwnProperty.call(post, 'galleries');
   if (hasGallery === true) {
-    if (post.galleries == null) {
-      console.log("Warning, you have a gallery field in in your markdown " + "but it has no value.", post.galleries);
+    if (post.data.galleries == null) {
+      console.log('Warning, you have a gallery field in in your markdown ' + 'but it has no value.', post.data.galleries);
       hasGallery = false;
     }
   }
@@ -1404,26 +1518,26 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref4) {
       test = _ref4.test;
 
   var hasGallery = checkGallery(post);
-  var keywords = post.categories.replace(/ /g, "").split(",");
-  var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\n/g, "");
+  var keywords = post.data.categories.replace(/ /g, '').split(',');
+  var synopsis = (0, _striptags2.default)(post.contents).substring(0, 350).replace(/\n/g, '');
 
   return _react2.default.createElement(
-    "div",
+    'div',
     null,
     _react2.default.createElement(_Head2.default, {
-      title: post.title + " | Bitdefender Research",
-      description: synopsis + "...",
+      title: post.data.title + ' | Bitdefender Research',
+      description: synopsis + '...',
       tags: keywords,
-      image: post.featured_img
+      image: post.data.featured_img
     }),
     _react2.default.createElement(
       PageWithCoverImg,
       null,
-      _react2.default.createElement(CoverImg, { featured_img: post.featured_img }),
+      _react2.default.createElement(CoverImg, { featured_img: post.data.featured_img }),
       _react2.default.createElement(
         Post,
         null,
-        _react2.default.createElement(_Navigation2.default, { pageName: "post" }),
+        _react2.default.createElement(_Navigation2.default, { pageName: 'post' }),
         hasGallery ? _react2.default.createElement(PostWithGallery, { post: post, galleries: galleries, test: test }) : _react2.default.createElement(SimplePost, { post: post }),
         _react2.default.createElement(Footer, { post: post })
       )
@@ -1495,7 +1609,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // Load fonts in a non-blocking way.
 // This will make sure WebFont.load is only used in the browser.
 if (typeof window !== 'undefined') {
-  var WebFont = __webpack_require__(46);
+  var WebFont = __webpack_require__(48);
 
   WebFont.load({
     google: {
@@ -1541,7 +1655,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['\n  ', '\n\n  html {\n    font-size: 19px;\n    box-sizing: border-box;\n  }\n  *,*::before,*::after {\n    box-sizing:inherit;\n  }\n\n  body {\n    font-family: "Roboto", Helvetica, Arial, sans-serif;\n    line-height: 1.78rem;\n    padding: 0;\n    background: #FFF;\n  }\n\n  h1 {\n    display: block;\n    margin: 0.67em 0;\n  }\n'], ['\n  ', '\n\n  html {\n    font-size: 19px;\n    box-sizing: border-box;\n  }\n  *,*::before,*::after {\n    box-sizing:inherit;\n  }\n\n  body {\n    font-family: "Roboto", Helvetica, Arial, sans-serif;\n    line-height: 1.78rem;\n    padding: 0;\n    background: #FFF;\n  }\n\n  h1 {\n    display: block;\n    margin: 0.67em 0;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  ', '\n\n  html {\n    font-size: 19px;\n    box-sizing: border-box;\n  }\n  *,*::before,*::after {\n    box-sizing:inherit;\n  }\n\n  body {\n    font-family: "Roboto", Helvetica, Arial, sans-serif;\n    line-height: 1.78rem;\n    padding: 0;\n    background: #FFF;\n  }\n\n  h1 {\n    display: block;\n    margin: 0.67em 0;\n  }\n\n  .remark-highlight {\n    font-size: 16px;\n  }\n\n  p.hint.tip,\n  p.hint.error,\n  p.hint.warn {\n    letter-spacing: 0;\n    box-sizing: border-box;\n    font-size: inherit;\n    line-height: 1.6rem;\n    word-spacing: 0.05rem;\n    background-color: rgba(238, 238, 238, 0.5);\n    border-bottom-right-radius: 2px;\n    border-top-right-radius: 2px;\n    padding: 8px 12px 8px 24px;\n    margin-bottom: 16px;\n    position: relative;\n  }\n\n  p.hint.tip:before,\n  p.hint.error:before,\n  p.hint.warn:before {\n    border-radius: 100%;\n    color: #fff;\n    content: \'!\';\n    font-size: 14px;\n    font-weight: 700;\n    left: -12px;\n    line-height: 20px;\n    position: absolute;\n    height: 20px;\n    width: 20px;\n    text-align: center;\n    top: 12px;\n  }\n\n  p.hint.tip {\n    border-left: 4px solid #27ab83;\n  }\n\n  p.hint.tip:before {\n    background-color: #27ab83;\n  }\n\n  p.hint.warn {\n    border-left: 4px solid #f0b429;\n  }\n\n  p.hint.warn:before {\n    background-color: #f0b429;\n  }\n\n  p.hint.error {\n    border-left: 4px solid #ef4e4e;\n  }\n\n  p.hint.error:before {\n    background-color: #ef4e4e;\n  }\n\n\n  .content table {\n    /* Remove spacing between table cells (from Normalize.css) */\n    border-collapse: collapse;\n    border-spacing: 0;\n    empty-cells: show;\n    border: 1px solid #cbcbcb;\n  }\n\n  .content caption {\n      color: #000;\n      font: italic 85%/1 arial, sans-serif;\n      padding: 1em 0;\n      text-align: center;\n  }\n\n  .content td,\n  .content th {\n      border-left: 1px solid #cbcbcb;/*  inner column border */\n      border-width: 0 0 0 1px;\n      font-size: inherit;\n      margin: 0;\n      overflow: visible; /*to make ths where the title is really long work*/\n      padding: 0.5em 1em; /* cell padding */\n  }\n\n  .content thead {\n      background-color: #e0e0e0;\n      color: #000;\n      text-align: left;\n      vertical-align: bottom;\n  }\n\n  /*\n  striping:\n    even - #fff (white)\n    odd  - #f2f2f2 (light gray)\n  */\n  .content td {\n      background-color: #f2f2f2;\n  }\n\n  /* nth-child selector for modern browsers */\n  .content tr:nth-child(2n-1) td {\n      background-color: transparent;\n  }\n\n  /* BORDERED TABLES */\n  .content td {\n      border-bottom: 1px solid #cbcbcb;\n  }\n  .content tbody > tr:last-child > td {\n      border-bottom-width: 0;\n  }\n\n\n  /* HORIZONTAL BORDERED TABLES */\n\n  .content td,\n  .content th {\n      border-width: 0 0 1px 0;\n      border-bottom: 1px solid #cbcbcb;\n  }\n  .content tbody > tr:last-child > td {\n      border-bottom-width: 0;\n  }\n'], ['\n  ', '\n\n  html {\n    font-size: 19px;\n    box-sizing: border-box;\n  }\n  *,*::before,*::after {\n    box-sizing:inherit;\n  }\n\n  body {\n    font-family: "Roboto", Helvetica, Arial, sans-serif;\n    line-height: 1.78rem;\n    padding: 0;\n    background: #FFF;\n  }\n\n  h1 {\n    display: block;\n    margin: 0.67em 0;\n  }\n\n  .remark-highlight {\n    font-size: 16px;\n  }\n\n  p.hint.tip,\n  p.hint.error,\n  p.hint.warn {\n    letter-spacing: 0;\n    box-sizing: border-box;\n    font-size: inherit;\n    line-height: 1.6rem;\n    word-spacing: 0.05rem;\n    background-color: rgba(238, 238, 238, 0.5);\n    border-bottom-right-radius: 2px;\n    border-top-right-radius: 2px;\n    padding: 8px 12px 8px 24px;\n    margin-bottom: 16px;\n    position: relative;\n  }\n\n  p.hint.tip:before,\n  p.hint.error:before,\n  p.hint.warn:before {\n    border-radius: 100%;\n    color: #fff;\n    content: \'!\';\n    font-size: 14px;\n    font-weight: 700;\n    left: -12px;\n    line-height: 20px;\n    position: absolute;\n    height: 20px;\n    width: 20px;\n    text-align: center;\n    top: 12px;\n  }\n\n  p.hint.tip {\n    border-left: 4px solid #27ab83;\n  }\n\n  p.hint.tip:before {\n    background-color: #27ab83;\n  }\n\n  p.hint.warn {\n    border-left: 4px solid #f0b429;\n  }\n\n  p.hint.warn:before {\n    background-color: #f0b429;\n  }\n\n  p.hint.error {\n    border-left: 4px solid #ef4e4e;\n  }\n\n  p.hint.error:before {\n    background-color: #ef4e4e;\n  }\n\n\n  .content table {\n    /* Remove spacing between table cells (from Normalize.css) */\n    border-collapse: collapse;\n    border-spacing: 0;\n    empty-cells: show;\n    border: 1px solid #cbcbcb;\n  }\n\n  .content caption {\n      color: #000;\n      font: italic 85%/1 arial, sans-serif;\n      padding: 1em 0;\n      text-align: center;\n  }\n\n  .content td,\n  .content th {\n      border-left: 1px solid #cbcbcb;/*  inner column border */\n      border-width: 0 0 0 1px;\n      font-size: inherit;\n      margin: 0;\n      overflow: visible; /*to make ths where the title is really long work*/\n      padding: 0.5em 1em; /* cell padding */\n  }\n\n  .content thead {\n      background-color: #e0e0e0;\n      color: #000;\n      text-align: left;\n      vertical-align: bottom;\n  }\n\n  /*\n  striping:\n    even - #fff (white)\n    odd  - #f2f2f2 (light gray)\n  */\n  .content td {\n      background-color: #f2f2f2;\n  }\n\n  /* nth-child selector for modern browsers */\n  .content tr:nth-child(2n-1) td {\n      background-color: transparent;\n  }\n\n  /* BORDERED TABLES */\n  .content td {\n      border-bottom: 1px solid #cbcbcb;\n  }\n  .content tbody > tr:last-child > td {\n      border-bottom-width: 0;\n  }\n\n\n  /* HORIZONTAL BORDERED TABLES */\n\n  .content td,\n  .content th {\n      border-width: 0 0 1px 0;\n      border-bottom: 1px solid #cbcbcb;\n  }\n  .content tbody > tr:last-child > td {\n      border-bottom-width: 0;\n  }\n']);
 
 var _styledComponents = __webpack_require__(1);
 
@@ -1571,7 +1685,11 @@ var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
 var _reactHotLoader = __webpack_require__(44);
 
-var _theme = __webpack_require__(45);
+__webpack_require__(45);
+
+__webpack_require__(46);
+
+var _theme = __webpack_require__(47);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1582,6 +1700,11 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+//
+// import 'prism-themes/themes/prism-material-light.css'
+
+// import 'highlight.js/styles/github.css'
+
 
 // Initialize the Google Analytics script.
 _reactGa2.default.initialize('UA-11226891-6');
@@ -3360,6 +3483,18 @@ module.exports = require("react-hot-loader");
 
 /***/ }),
 /* 45 */
+/***/ (function(module, exports) {
+
+module.exports = require("prismjs/themes/prism.css");
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports) {
+
+module.exports = require("prismjs/plugins/line-numbers/prism-line-numbers.css");
+
+/***/ }),
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3407,7 +3542,7 @@ theme.fontWeights.titleNormal = theme.fontWeights[1];
 theme.fontWeights.titleSemi = theme.fontWeights[3];
 
 /***/ }),
-/* 46 */
+/* 48 */
 /***/ (function(module, exports) {
 
 module.exports = require("webfontloader");
@@ -3415,4 +3550,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.fedef611.js.map
+//# sourceMappingURL=static.4d6e58a7.js.map
