@@ -458,6 +458,34 @@ var SpecialtyContainer = _styledComponents2.default.div.withConfig({
   componentId: 'sc-1ffwrsf-0'
 })(['']);
 
+// const TeamContainer = styled.div`
+// `
+
+// import { color, space, typography } from 'styled-system'
+// const Heading = styled.h3`
+//   ${typography}
+//   ${color}
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+// `
+// Heading.defaultProps = {
+//   mt: 2,
+//   mb: 1,
+//   p: 0,
+// }
+
+// const HeadingSmall = styled.h5`
+//   ${typography}
+//   ${color}
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+// `
+// HeadingSmall.defaultProps = {
+//   mt: 2,
+//   mb: 1,
+//   p: 0,
+// }
+
 exports.default = (0, _reactStatic.withRouteData)((0, _reactStatic.withSiteData)(function (props) {
   return _react2.default.createElement(
     'div',
@@ -1842,7 +1870,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Home',
-  file: '/home/fgogianu/Code/github/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/github/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/pages/Home', {
       disableWarnings: true
@@ -1862,7 +1890,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Blog',
-  file: '/home/fgogianu/Code/github/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/github/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 12)), (0, _importCss3.default)('src/pages/Blog', {
       disableWarnings: true
@@ -1882,7 +1910,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Post',
-  file: '/home/fgogianu/Code/github/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/github/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 13)), (0, _importCss3.default)('src/pages/Post', {
       disableWarnings: true
@@ -1902,7 +1930,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Page',
-  file: '/home/fgogianu/Code/github/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/github/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 17)), (0, _importCss3.default)('src/pages/Page', {
       disableWarnings: true
@@ -1922,7 +1950,7 @@ var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_4 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/404',
-  file: '/home/fgogianu/Code/github/bit-ml/dist/react-static-routes.js',
+  file: '/home/fgogianu/Code/github/web/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 18)), (0, _importCss3.default)('src/pages/404', {
       disableWarnings: true
@@ -3051,7 +3079,7 @@ var ProjectsWrapper = _styledComponents2.default.div.withConfig({
   componentId: 'pq5osx-5'
 })(['', ' ', ''], (0, _styledComponentsBreakpoint2.default)('tablet')(_templateObject10), (0, _styledComponentsBreakpoint2.default)('desktop')(_templateObject10));
 
-var SpecialtyBg = ['#E6212B', '#00B2CB', '#12161E', '#C700CB'];
+var SpecialtyBg = ['#F3A712', '#E6212B', '#00B2CB', '#12161E', '#C700CB'];
 
 exports.default = function (_ref) {
   var children = _ref.children,
@@ -3575,4 +3603,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.573c3f88.js.map
+//# sourceMappingURL=static.904c7f34.js.map
