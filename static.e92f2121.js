@@ -1910,7 +1910,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Home',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/Users/dtantaru/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/pages/Home', {
       disableWarnings: true
@@ -1930,7 +1930,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Blog',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/Users/dtantaru/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 12)), (0, _importCss3.default)('src/pages/Blog', {
       disableWarnings: true
@@ -1950,7 +1950,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Post',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/Users/dtantaru/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 13)), (0, _importCss3.default)('src/pages/Post', {
       disableWarnings: true
@@ -1970,7 +1970,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/Page',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/Users/dtantaru/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 17)), (0, _importCss3.default)('src/pages/Page', {
       disableWarnings: true
@@ -1990,7 +1990,7 @@ var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_4 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/pages/404',
-  file: '/Users/eburceanu/Projects/bit-ml/dist/react-static-routes.js',
+  file: '/Users/dtantaru/bit-ml/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 18)), (0, _importCss3.default)('src/pages/404', {
       disableWarnings: true
@@ -2859,7 +2859,7 @@ exports.default = function (_ref) {
         {
           naturalSlideWidth: 100,
           naturalSlideHeight: 125,
-          totalSlides: 6
+          totalSlides: 7
         },
         _react2.default.createElement(
           _pureReactCarousel.Slider,
@@ -2867,6 +2867,24 @@ exports.default = function (_ref) {
           _react2.default.createElement(
             _pureReactCarousel.Slide,
             { index: 0 },
+            _react2.default.createElement(
+              FeaturedLink,
+              { to: '/blog/post/fused-swiglu-kernel/' },
+              _react2.default.createElement(
+                FeaturedHeading,
+                null,
+                'Towards Better Kernels for Gated MLP'
+              ),
+              _react2.default.createElement(
+                FeaturedSynopsis,
+                null,
+                'Fusing the upscaling and gating in the Gated MLP.'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            _pureReactCarousel.Slide,
+            { index: 1 },
             _react2.default.createElement(
               FeaturedLink,
               { to: '/blog/post/large-language-models-for-malware-analysis/' },
@@ -2884,7 +2902,7 @@ exports.default = function (_ref) {
           ),
           _react2.default.createElement(
             _pureReactCarousel.Slide,
-            { index: 1 },
+            { index: 2 },
             _react2.default.createElement(
               FeaturedLink,
               { to: '/blog/post/bgv-fully-homomorphic-encryption-scheme-in-python/' },
@@ -2902,7 +2920,7 @@ exports.default = function (_ref) {
           ),
           _react2.default.createElement(
             _pureReactCarousel.Slide,
-            { index: 2 },
+            { index: 3 },
             _react2.default.createElement(
               FeaturedLink,
               { to: '/blog/post/pretrained-atari-agents/' },
@@ -2920,7 +2938,7 @@ exports.default = function (_ref) {
           ),
           _react2.default.createElement(
             _pureReactCarousel.Slide,
-            { index: 3 },
+            { index: 4 },
             _react2.default.createElement(
               FeaturedLink,
               { to: '/blog/post/private-set-intersection-an-implementation-in-python/' },
@@ -2938,7 +2956,7 @@ exports.default = function (_ref) {
           ),
           _react2.default.createElement(
             _pureReactCarousel.Slide,
-            { index: 4 },
+            { index: 5 },
             _react2.default.createElement(
               FeaturedLink,
               { to: '/blog/post/homomorphic-encryption-toy-implementation-in-python/' },
@@ -2956,7 +2974,7 @@ exports.default = function (_ref) {
           ),
           _react2.default.createElement(
             _pureReactCarousel.Slide,
-            { index: 5 },
+            { index: 6 },
             _react2.default.createElement(
               FeaturedLink,
               { to: '/teaching/lectures-and-courses/' },
@@ -3652,4 +3670,4 @@ module.exports = require("webfontloader");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ee6791c2.js.map
+//# sourceMappingURL=static.e92f2121.js.map
