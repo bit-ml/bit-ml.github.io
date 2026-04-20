@@ -18,7 +18,7 @@ cover:
   hiddenInSingle: true
 ---
 
-# BEE Aware of Spuriousness: mechanistic interpretability for fine tuning foundation models
+# Introduction
 
 Fine tuning is usually framed as “adaptation”. In practice, it can also manufacture shortcuts.
 
