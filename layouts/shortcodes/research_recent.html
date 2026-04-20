@@ -1,0 +1,18 @@
+{{- $dir := .Get 0 -}}
+{{- $pages := where site.RegularPages "Section" "news" -}}
+{{- $pages = where $pages "Params.type" "academic" -}}
+{{- $pages = where $pages "Params.research_direction" $dir -}}
+{{- $pages = sort $pages "Date" "desc" | first 3 -}}
+{{- if $pages }}
+<ul class="research-recent-papers">
+{{- range $pages }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="research-recent-venue">({{ .Params.venue | default "venue" }})</span></li>
+{{- end }}
+</ul>
+{{- else }}
+<p class="research-recent-empty"><em>No academic news posts tagged with this direction yet.</em></p>
+{{- end }}
+<p class="research-direction-explore">
+  <span class="research-direction-explore-label">All papers in this direction</span>
+  {{ partial "research_direction_link.html" $dir }}
+</p>

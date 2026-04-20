@@ -1,0 +1,74 @@
+baseURL = "https://bit-ml.github.io/"
+languageCode = "en-us"
+title = "Bitdefender AI Research"
+theme = "PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+[params]
+  description = "Engaging with the broader AI Community."
+  defaultTheme = "light"
+
+  [params.assets]
+    favicon = "favicon.ico?v=4"
+    favicon16x16 = "favicon-16x16.png?v=4"
+    favicon32x32 = "favicon-32x32.png?v=4"
+    apple_touch_icon = "apple-touch-icon.png?v=4"
+
+  # Home page: image, title, short text, and links (R1)
+  [params.profileMode]
+    enabled = true
+    title = "Bitdefender AI Research"
+    subtitle = "Our mission is to advance the state of the art in machine learning, focusing on robustness, security, and reliability and to engage with the global AI community."
+
+    [[params.profileMode.buttons]]
+      name = "Explore Research"
+      url = "/research/"
+    [[params.profileMode.buttons]]
+      name = "Meet the Team"
+      url = "/team/"
+
+  # Only "news" section feeds the home list (we use profileMode so home shows custom content)
+  mainSections = ["news"]
+
+[services.googleAnalytics]
+  id = "G-386447349"
+
+[privacy.googleAnalytics]
+  disable = false
+  respectDoNotTrack = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 2
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    name = "Community"
+    url = "/community/"
+    weight = 5
+  [[menu.main]]
+    name = "Team"
+    url = "/team/"
+    weight = 6

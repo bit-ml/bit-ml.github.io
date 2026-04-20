@@ -1,0 +1,72 @@
+{{- $type := .Params.type | default "news" -}}
+{{- $teaser := .Resources.GetMatch "teaser.*" -}}
+{{- if not $teaser -}}
+  {{- if .Params.cover.image -}}
+    {{- $teaser = .Resources.GetMatch .Params.cover.image -}}
+    {{- if not $teaser -}}
+      {{- $teaser = .Resources.GetMatch (printf "*%s*" .Params.cover.image) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $teaser -}}
+  {{- $teaser = .Resources.GetMatch "cover.*" -}}
+{{- end -}}
+{{- $hasThumb := false -}}
+{{- if $teaser }}{{ $hasThumb = true }}{{ else if .Params.cover.image }}{{ $hasThumb = true }}{{ end -}}
+<article class="academic-card{{ if not $hasThumb }} academic-card--no-thumb{{ end }}">
+  {{- if $hasThumb }}
+  <div class="academic-card-thumb">
+    {{- if $teaser }}
+    <img src="{{ $teaser.RelPermalink }}" alt="Teaser for {{ .Title }}">
+    {{- else }}
+    <img src="{{ .Params.cover.image | absURL }}" alt="Teaser for {{ .Title }}">
+    {{- end }}
+  </div>
+  {{- end }}
+  <div class="academic-card-body">
+    <div class="academic-card-header">
+      <div class="academic-card-pills">
+        <span class="news-type-pill news-type-pill--{{ $type }}">{{ $type | title }}</span>
+        {{- if and (eq $type "academic") .Params.research_direction }}
+        {{ partial "research_direction_link.html" .Params.research_direction }}
+        {{- end }}
+      </div>
+      <h2 class="academic-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    </div>
+    <div class="academic-card-meta">
+      {{- if .Params.authors }}
+      <div class="academic-card-authors">{{ .Params.authors }}</div>
+      {{- end }}
+      <div class="academic-card-meta-line">
+        {{- if .Params.venue }}
+        <span class="academic-card-venue">
+          {{- $v := .Params.venue -}}
+          {{- $p := .Params.presentation -}}
+          {{- $t := .Params.top_percent -}}
+          {{- if hasPrefix (lower $v) "under review" -}}
+          <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
+          {{- else -}}
+          Accepted at <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
+          {{- end }}
+        </span>
+        {{- end }}
+        {{- if and .Params.venue .Date }}<span class="academic-card-meta-dot" aria-hidden="true">·</span>{{ end }}
+        {{- if .Date }}<span class="academic-card-date">{{ .Date.Format "Jan 2006" }}</span>{{ end }}
+      </div>
+    </div>
+    {{- if .Summary }}
+    <div class="academic-card-summary">
+      {{ .Summary | plainify | truncate 150 }}
+    </div>
+    {{- end }}
+    <div class="academic-card-links">
+      <a href="{{ .Permalink }}" class="academic-card-more">Read more →</a>
+      {{- if .Params.arxiv }}
+      <a href="{{ .Params.arxiv }}" class="academic-card-link" target="_blank" rel="noopener">arXiv</a>
+      {{- end }}
+      {{- if .Params.github }}
+      <a href="{{ .Params.github }}" class="academic-card-link" target="_blank" rel="noopener">Code</a>
+      {{- end }}
+    </div>
+  </div>
+</article>

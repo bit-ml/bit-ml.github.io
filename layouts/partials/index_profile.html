@@ -1,0 +1,142 @@
+<div class="profile profile--home-hero">
+    {{- with site.Params.profileMode }}
+    <div class="home-hero-container">
+        <div class="home-hero-text">
+            <h1 class="home-hero-title">{{ .title | default site.Title | markdownify }}</h1>
+            <div class="home-hero-subtitle">{{ .subtitle | markdownify }}</div>
+            
+            <div class="home-hero-focus">
+                <span class="home-hero-focus-label">Core Research</span>
+                <div class="home-hero-focus-pills">
+                    {{ partial "research_direction_link.html" "generalization" }}
+                    {{ partial "research_direction_link.html" "deepfake" }}
+                    {{ partial "research_direction_link.html" "nlp" }}
+                    {{ partial "research_direction_link.html" "rl" }}
+                </div>
+            </div>
+
+            <div class="home-hero-actions">
+                {{- partial "social_icons.html" -}}
+
+                {{- with .buttons }}
+                <div class="buttons">
+                    {{- range . }}
+                    {{- $url := trim .url " " }}
+                    <a class="button" href="{{ if findRE "://" $url }}{{ $url }}{{ else }}{{ $url | strings.TrimPrefix "/" | relURL }}{{ end }}" rel="noopener" title="{{ .name }}">
+                        <span class="button-inner">
+                            {{ .name }}
+                            {{- if (findRE "://" .url) }}&nbsp;
+                            <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                                <path d="M15 3h6v6"></path>
+                                <path d="M10 14L21 3"></path>
+                            </svg>
+                            {{- end }}
+                        </span>
+                    </a>
+                    {{- end }}
+                </div>
+                {{- end }}
+            </div>
+        </div>
+
+        {{- if .imageUrl -}}
+        <div class="home-hero-image">
+            {{- $img := "" }}
+            {{- if not (urls.Parse .imageUrl).IsAbs }}
+                {{- $img = resources.Get .imageUrl }}
+            {{- end }}
+            {{- if $img }}
+                {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+                {{- if hugo.IsExtended -}}
+                    {{- $processableFormats = $processableFormats | append "webp" -}}
+                {{- end -}}
+                {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+                {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+                    {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
+                        {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
+                    {{- else if .imageHeight }}
+                        {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+                    {{ else if .imageWidth }}
+                        {{- $img = $img.Resize (printf "x%d" .imageWidth) }}
+                    {{ else }}
+                        {{- $img = $img.Resize "150x150" }}
+                    {{- end }}
+                {{- end }}
+                <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                    height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+            {{- else }}
+            <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end}}
+
+    <!-- News and Selected Publications Sections -->
+    <div class="home-feed-sections" style="text-align: left;">
+        <!-- News Section (non-academic) -->
+        <div class="home-feed" style="text-align: left;">
+            <h2 class="home-feed-title" style="text-align: center;">News</h2>
+            {{- $newsPages := where site.RegularPages "Section" "news" -}}
+            {{- $newsPages = where $newsPages "Params.type" "!=" "academic" -}}
+            {{- $newsPages = sort $newsPages "Date" "desc" | first 3 -}}
+            <div class="home-feed-list">
+                {{- range $newsPages }}
+                <div class="home-feed-item" style="align-items: center;">
+                    <span class="home-feed-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                    <a href="{{ .Permalink }}" class="home-feed-link">{{ .Title }}</a>
+                </div>
+                {{- end }}
+            </div>
+            <a href="{{ "news/" | relURL }}" class="home-feed-more" style="display: block; text-align: center;">All news →</a>
+        </div>
+
+        <!-- Selected Publications Section (academic) -->
+        <div class="home-feed" style="text-align: left;">
+            <h2 class="home-feed-title" style="text-align: center;">Selected publications</h2>
+            {{- $pubPages := where site.RegularPages "Section" "news" -}}
+            {{- $pubPages = where $pubPages "Params.type" "academic" -}}
+            {{- $pubPages = sort $pubPages "Date" "desc" | first 5 -}}
+            <div class="home-feed-list">
+                {{- range $pubPages }}
+                {{- $teaser := .Resources.GetMatch "teaser.*" -}}
+                {{- if not $teaser -}}
+                  {{- if .Params.cover.image -}}
+                    {{- $teaser = .Resources.GetMatch .Params.cover.image -}}
+                    {{- if not $teaser -}}
+                      {{- $teaser = .Resources.GetMatch (printf "*%s*" .Params.cover.image) -}}
+                    {{- end -}}
+                  {{- end -}}
+                {{- end -}}
+                {{- if not $teaser -}}
+                  {{- $teaser = .Resources.GetMatch "cover.*" -}}
+                {{- end -}}
+                {{- $hasThumb := false -}}
+                {{- if $teaser }}{{ $hasThumb = true }}{{ else if .Params.cover.image }}{{ $hasThumb = true }}{{ end -}}
+                <div class="home-feed-item home-feed-item--pub{{ if not $hasThumb }} home-feed-item--pub-no-thumb{{ end }}">
+                    {{- if $hasThumb }}
+                    <div class="home-pub-thumb">
+                        {{- if $teaser }}
+                        <img src="{{ $teaser.RelPermalink }}" alt="Teaser for {{ .Title }}">
+                        {{- else }}
+                        <img src="{{ .Params.cover.image | absURL }}" alt="Teaser for {{ .Title }}">
+                        {{- end }}
+                    </div>
+                    {{- end }}
+                    <div class="home-pub-body">
+                        <a href="{{ .Permalink }}" class="home-feed-link">{{ .Title }}</a>
+                        <div class="home-pub-meta">
+                            {{- with .Params.authors }}<span class="home-pub-authors">{{ . }}</span>{{ end }}
+                            {{- with .Params.venue }}<span class="home-pub-venue">{{ . }}</span>{{ end }}
+                        </div>
+                    </div>
+                </div>
+                {{- end }}
+            </div>
+            <a href="{{ "research/#publications-and-news" | relURL }}" class="home-feed-more" style="display: block; text-align: center;">Academic highlights →</a>
+        </div>
+    </div>
+</div>

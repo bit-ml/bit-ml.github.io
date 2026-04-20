@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Research on Bitdefender AI Research</title>
+    <link>https://bit-ml.github.io/research/</link>
+    <description>Recent content in Research on Bitdefender AI Research</description>
+    <generator>Hugo -- 0.146.0</generator>
+    <language>en-us</language>
+    <atom:link href="https://bit-ml.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deepfake detection</title>
+      <link>https://bit-ml.github.io/research/deepfake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/research/deepfake/</guid>
+      <description>&lt;p&gt;Aletheia focuses on advancing deepfake detection across video and audio modalities. Our research is guided by three goals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Generalization: develop methods that transfer across diverse datasets and forgery techniques.&lt;/li&gt;
+&lt;li&gt;Transparency: understand how detection models make decisions and ensure datasets are reliable (free of spurious shortcuts).&lt;/li&gt;
+&lt;li&gt;Deployability: build systems that adapt and remain robust on unconstrained &amp;ldquo;in-the-wild&amp;rdquo; content.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Generalization and mechanistic interpretability</title>
+      <link>https://bit-ml.github.io/research/generalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/research/generalization/</guid>
+      <description>&lt;p&gt;We pursue a simple goal: to understand not just whether models work, but why they work, when they fail, and what they are truly relying on under the hood. Our research focuses on robust generalization under distribution shift, the emergence of spurious correlations and shortcut strategies, and the internal mechanisms that drive these behaviors. We develop methods that go beyond merely cataloging failures after the fact by revealing hidden biases in learned representations, tracing shortcut learning through embeddings and weight space, and testing whether models can transfer abstract knowledge beyond the settings in which it was first acquired.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Natural language processing</title>
+      <link>https://bit-ml.github.io/research/nlp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/research/nlp/</guid>
+      <description>&lt;p&gt;We focus on large language models, along with reliability, reasoning, and scientific machine learning, applying our work across areas such as code and low-level languages, multilingual systems, and structured domains like molecules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reinforcement learning</title>
+      <link>https://bit-ml.github.io/research/rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/research/rl/</guid>
+      <description>&lt;p&gt;Within the field of artificial intelligence, reinforcement learning presents a natural setting for training agents that interact with the world we are living in. We engage in furthering the field by developing agents able to learn continuously and efficiently in complex and non-stationary environments.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
