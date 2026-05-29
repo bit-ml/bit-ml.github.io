@@ -4,7 +4,7 @@
     <title>Research on Bitdefender AI Research</title>
     <link>https://bit-ml.github.io/research/</link>
     <description>Recent content in Research on Bitdefender AI Research</description>
-    <generator>Hugo -- 0.162.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
     <atom:link href="https://bit-ml.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,12 +12,11 @@
       <link>https://bit-ml.github.io/research/deepfake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bit-ml.github.io/research/deepfake/</guid>
-      <description>&lt;p&gt;Aletheia focuses on advancing deepfake detection across video and audio modalities. Our research is guided by three goals:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Generalization: develop methods that transfer across diverse datasets and forgery techniques.&lt;/li&gt;
-&lt;li&gt;Transparency: understand how detection models make decisions and ensure datasets are reliable (free of spurious shortcuts).&lt;/li&gt;
-&lt;li&gt;Deployability: build systems that adapt and remain robust on unconstrained &amp;ldquo;in-the-wild&amp;rdquo; content.&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;p&gt;We focus on advancing deepfake detection across video and audio modalities.
+Our research is guided by three goals:
+(i) Generalization: develop methods that transfer across diverse datasets and forgery techniques.
+(ii) Transparency: understand how detection models make decisions and ensure datasets are reliable (free of spurious shortcuts).
+(iii) Deployability: build systems that adapt and remain robust on unconstrained &amp;ldquo;in-the-wild&amp;rdquo; content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Generalization and mechanistic interpretability</title>

@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -132,8 +131,14 @@
     <loc>https://bit-ml.github.io/news/2024-12-10-probabilistic-graph-rewiring/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bit-ml.github.io/news/2024-09-01-generalisable-calibrated-audio-deepfake-detection/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bit-ml.github.io/blog/large-language-models-for-malware-analysis/</loc>
     <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/</loc>
+    <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bit-ml.github.io/blog/bgv-fully-homomorphic-encryption-scheme-in-python/</loc>
     <lastmod>2023-06-29T00:00:00+00:00</lastmod>

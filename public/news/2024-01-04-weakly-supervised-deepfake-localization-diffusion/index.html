@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Weakly-supervised deepfake localization in diffusion-generated images | Bitdefender AI Research</title>
+<meta name="keywords" content="">
+<meta name="description" content="Links: arXiv Proceedings GitHub
+Abstract
+The remarkable generative capabilities of denoising diffusion models have raised new concerns regarding the authenticity of the images we see every day on the Internet. However, the vast majority of existing deepfake detection models are tested against previous generative approaches (e.g. GAN) and usually provide only a &ldquo;fake&rdquo; or &ldquo;real&rdquo; label per image. We believe a more informative output would be to augment the per-image label with a localization map indicating which regions of the input have been manipulated. To this end, we frame this task as a weakly-supervised localization problem and identify three main categories of methods (based on either explanations, local scores or attention), which we compare on an equal footing by using the Xception network as the common backbone architecture. We provide a careful analysis of all the main factors that parameterize the design space: choice of method, type of supervision, dataset and generator used in the creation of manipulated images; our study is enabled by constructing datasets in which only one of the components is varied. Our results show that weakly-supervised localization is attainable, with the best performing detection method (based on local scores) being less sensitive to the looser supervision than to the mismatch in terms of dataset or generator.">
+<meta name="author" content="map[name:Bitdefender AI Research]">
+<link rel="canonical" href="https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://bit-ml.github.io/favicon.ico?v=4">
+<link rel="icon" type="image/png" sizes="16x16" href="https://bit-ml.github.io/favicon-16x16.png?v=4">
+<link rel="icon" type="image/png" sizes="32x32" href="https://bit-ml.github.io/favicon-32x32.png?v=4">
+<link rel="apple-touch-icon" href="https://bit-ml.github.io/apple-touch-icon.png?v=4">
+<link rel="mask-icon" href="https://bit-ml.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script><link rel="stylesheet" href="/css/custom.css?v=7"><script>
+  MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)'], ['$', '$']],
+      displayMath: [['\\[', '\\]'], ['$$', '$$']]
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-386447349"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-386447349');
+        }
+      </script><meta property="og:url" content="https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/">
+  <meta property="og:site_name" content="Bitdefender AI Research">
+  <meta property="og:title" content="Weakly-supervised deepfake localization in diffusion-generated images">
+  <meta property="og:description" content="Links: arXiv Proceedings GitHub
+Abstract The remarkable generative capabilities of denoising diffusion models have raised new concerns regarding the authenticity of the images we see every day on the Internet. However, the vast majority of existing deepfake detection models are tested against previous generative approaches (e.g. GAN) and usually provide only a “fake” or “real” label per image. We believe a more informative output would be to augment the per-image label with a localization map indicating which regions of the input have been manipulated. To this end, we frame this task as a weakly-supervised localization problem and identify three main categories of methods (based on either explanations, local scores or attention), which we compare on an equal footing by using the Xception network as the common backbone architecture. We provide a careful analysis of all the main factors that parameterize the design space: choice of method, type of supervision, dataset and generator used in the creation of manipulated images; our study is enabled by constructing datasets in which only one of the components is varied. Our results show that weakly-supervised localization is attainable, with the best performing detection method (based on local scores) being less sensitive to the looser supervision than to the mismatch in terms of dataset or generator.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="news">
+    <meta property="article:published_time" content="2024-01-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-01-04T00:00:00+00:00">
+    <meta property="og:image" content="https://bit-ml.github.io/teaser.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://bit-ml.github.io/teaser.png">
+<meta name="twitter:title" content="Weakly-supervised deepfake localization in diffusion-generated images">
+<meta name="twitter:description" content="Links: arXiv Proceedings GitHub
+Abstract
+The remarkable generative capabilities of denoising diffusion models have raised new concerns regarding the authenticity of the images we see every day on the Internet. However, the vast majority of existing deepfake detection models are tested against previous generative approaches (e.g. GAN) and usually provide only a &ldquo;fake&rdquo; or &ldquo;real&rdquo; label per image. We believe a more informative output would be to augment the per-image label with a localization map indicating which regions of the input have been manipulated. To this end, we frame this task as a weakly-supervised localization problem and identify three main categories of methods (based on either explanations, local scores or attention), which we compare on an equal footing by using the Xception network as the common backbone architecture. We provide a careful analysis of all the main factors that parameterize the design space: choice of method, type of supervision, dataset and generator used in the creation of manipulated images; our study is enabled by constructing datasets in which only one of the components is varied. Our results show that weakly-supervised localization is attainable, with the best performing detection method (based on local scores) being less sensitive to the looser supervision than to the mismatch in terms of dataset or generator.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "News",
+      "item": "https://bit-ml.github.io/news/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Weakly-supervised deepfake localization in diffusion-generated images",
+      "item": "https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Weakly-supervised deepfake localization in diffusion-generated images",
+  "name": "Weakly-supervised deepfake localization in diffusion-generated images",
+  "description": "Links: arXiv Proceedings GitHub\nAbstract The remarkable generative capabilities of denoising diffusion models have raised new concerns regarding the authenticity of the images we see every day on the Internet. However, the vast majority of existing deepfake detection models are tested against previous generative approaches (e.g. GAN) and usually provide only a \u0026ldquo;fake\u0026rdquo; or \u0026ldquo;real\u0026rdquo; label per image. We believe a more informative output would be to augment the per-image label with a localization map indicating which regions of the input have been manipulated. To this end, we frame this task as a weakly-supervised localization problem and identify three main categories of methods (based on either explanations, local scores or attention), which we compare on an equal footing by using the Xception network as the common backbone architecture. We provide a careful analysis of all the main factors that parameterize the design space: choice of method, type of supervision, dataset and generator used in the creation of manipulated images; our study is enabled by constructing datasets in which only one of the components is varied. Our results show that weakly-supervised localization is attainable, with the best performing detection method (based on local scores) being less sensitive to the looser supervision than to the mismatch in terms of dataset or generator.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Links: arXiv Proceedings GitHub\nAbstract The remarkable generative capabilities of denoising diffusion models have raised new concerns regarding the authenticity of the images we see every day on the Internet. However, the vast majority of existing deepfake detection models are tested against previous generative approaches (e.g. GAN) and usually provide only a “fake” or “real” label per image. We believe a more informative output would be to augment the per-image label with a localization map indicating which regions of the input have been manipulated. To this end, we frame this task as a weakly-supervised localization problem and identify three main categories of methods (based on either explanations, local scores or attention), which we compare on an equal footing by using the Xception network as the common backbone architecture. We provide a careful analysis of all the main factors that parameterize the design space: choice of method, type of supervision, dataset and generator used in the creation of manipulated images; our study is enabled by constructing datasets in which only one of the components is varied. Our results show that weakly-supervised localization is attainable, with the best performing detection method (based on local scores) being less sensitive to the looser supervision than to the mismatch in terms of dataset or generator.\n",
+  "wordCount" : "210",
+  "inLanguage": "en",
+  "image":"https://bit-ml.github.io/teaser.png","datePublished": "2024-01-04T00:00:00Z",
+  "dateModified": "2024-01-04T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": {"name":"Bitdefender AI Research"}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bitdefender AI Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bit-ml.github.io/favicon.ico?v=4"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://bit-ml.github.io/" accesskey="h" title="Bitdefender AI Research (Alt + H)">Bitdefender AI Research</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://bit-ml.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bit-ml.github.io/news/" title="News">
+                    <span>News</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bit-ml.github.io/research/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bit-ml.github.io/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bit-ml.github.io/community/" title="Community">
+                    <span>Community</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bit-ml.github.io/team/" title="Team">
+                    <span>Team</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Weakly-supervised deepfake localization in diffusion-generated images
+    </h1>
+    <div class="academic-paper-meta">
+      <div class="academic-paper-authors">Dragos-Constantin Tantaru, Elisabeta Oneata, Dan Oneata</div>
+      <div class="academic-paper-venue">Accepted at <em>Winter Conference on Applications of Computer Vision (WACV) 2024</em>
+      </div>
+      <div class="academic-card-links" style="margin-top: 1rem;">
+      </div>
+      <div class="academic-paper-direction">
+        <span class="academic-paper-direction-label">Research direction</span>
+        
+<a href="/research/deepfake/" class="news-type-pill news-type-pill--direction news-type-pill--direction-deepfake">Deepfake Detection</a>
+      </div>
+    </div>
+    <div class="post-meta"><span title='2024-01-04 00:00:00 +0000 UTC'>January 4, 2024</span>&nbsp;·&nbsp;<span>map[name:Bitdefender AI Research]</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/teaser_hu_30eb0217c5599654.png 360w,https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/teaser_hu_59e8b69f2b38f950.png 480w,https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/teaser_hu_8a998428deb2e2e.png 720w,https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/teaser_hu_49da3b0ae33811e6.png 1080w,https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/teaser.png 1224w'
+                src="https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/teaser.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1224" height="1584"
+                alt="">
+        
+</figure>
+  <div class="post-content"><p><strong>Links:</strong> <a href="https://arxiv.org/abs/2311.04584">arXiv</a> <a href="https://openaccess.thecvf.com/content/WACV2024/papers/Tantaru_Weakly-Supervised_Deepfake_Localization_in_Diffusion-Generated_Images_WACV_2024_paper.pdf">Proceedings</a> <a href="https://github.com/bit-ml/dolos">GitHub</a></p>
+<h3 id="abstract">Abstract<a hidden class="anchor" aria-hidden="true" href="#abstract">#</a></h3>
+<p>The remarkable generative capabilities of denoising diffusion models have raised new concerns regarding the authenticity of the images we see every day on the Internet. However, the vast majority of existing deepfake detection models are tested against previous generative approaches (e.g. GAN) and usually provide only a &ldquo;fake&rdquo; or &ldquo;real&rdquo; label per image. We believe a more informative output would be to augment the per-image label with a localization map indicating which regions of the input have been manipulated. To this end, we frame this task as a weakly-supervised localization problem and identify three main categories of methods (based on either explanations, local scores or attention), which we compare on an equal footing by using the Xception network as the common backbone architecture. We provide a careful analysis of all the main factors that parameterize the design space: choice of method, type of supervision, dataset and generator used in the creation of manipulated images; our study is enabled by constructing datasets in which only one of the components is varied. Our results show that weakly-supervised localization is attainable, with the best performing detection method (based on local scores) being less sensitive to the looser supervision than to the mismatch in terms of dataset or generator.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://bit-ml.github.io/">Bitdefender AI Research</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -4,7 +4,7 @@
     <title>Bitdefender AI Research</title>
     <link>https://bit-ml.github.io/</link>
     <description>Recent content on Bitdefender AI Research</description>
-    <generator>Hugo -- 0.162.1</generator>
+    <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bit-ml.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -288,6 +288,15 @@
 &lt;p&gt;Message-passing graph neural networks (MPNNs) have emerged as a powerful paradigm for graph-based machine learning. Despite their effectiveness, MPNNs face challenges such as under-reaching and over-squashing, where limited receptive fields and structural bottlenecks hinder information flow in the graph. While graph transformers hold promise in addressing these issues, their scalability is limited due to quadratic complexity regarding the number of nodes, rendering them impractical for larger graphs. Here, we propose implicitly rewired message-passing neural networks (IPR-MPNNs), a novel approach that integrates implicit probabilistic graph rewiring into MPNNs. By introducing a small number of virtual nodes, i.e., adding additional nodes to a given graph and connecting them to existing nodes, in a differentiable, end-to-end manner, IPR-MPNNs enable long-distance message propagation, circumventing quadratic complexity. Theoretically, we demonstrate that IPR-MPNNs surpass the expressiveness of traditional MPNNs. Empirically, we validate our approach by showcasing its ability to mitigate under-reaching and over-squashing effects, achieving state-of-the-art performance across multiple graph datasets. Notably, IPR-MPNNs outperform graph transformers while maintaining significantly faster computational efficiency.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Towards generalisable and calibrated audio deepfake detection with self-supervised representations</title>
+      <link>https://bit-ml.github.io/news/2024-09-01-generalisable-calibrated-audio-deepfake-detection/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2024-09-01-generalisable-calibrated-audio-deepfake-detection/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://www.isca-archive.org/interspeech_2024/pascu24_interspeech.html&#34;&gt;Proceedings&lt;/a&gt; &lt;a href=&#34;https://www.isca-archive.org/interspeech_2024/pascu24_interspeech.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Generalisation—the ability of a model to perform well on unseen data—is crucial for building reliable deepfake detectors. However, recent studies have shown that the current audio deepfake models fall short of this desideratum. In this work we investigate the potential of pretrained self-supervised representations in building general and calibrated audio deepfake detection models. We show that large frozen representations coupled with a simple logistic regression classifier are extremely effective in achieving strong generalisation capabilities: compared to the RawNet2 model, this approach reduces the equal error rate from 30.9% to 8.8% on a benchmark of eight deepfake datasets, while learning less than 2k parameters. Moreover, the proposed method produces considerably more reliable predictions compared to previous approaches making it more suitable for realistic use.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Large Language Models for Malware Analysis</title>
       <link>https://bit-ml.github.io/blog/large-language-models-for-malware-analysis/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
@@ -295,6 +304,15 @@
       <description>&lt;div&gt;&lt;div class=&#34;Post__PageWithCoverImg-oyq0rs-0 cSOdgJ&#34;&gt;&lt;div class=&#34;Post-oyq0rs-1 fGODKX&#34;&gt;&lt;section class=&#34;Post__PostContent-oyq0rs-2 jSdCWo&#34;&gt;
 &lt;p&gt;Large Language Models (LLMs) took the world by storm in 2023, revolutionizing the way people search and generate text content. LLMs for code have also made inroads in helping people understand code or write code based on requests in natural language. For instance, translating requests to &lt;a href=&#34;https://yale-lily.github.io/spider&#34;&gt;SQL queries&lt;/a&gt; has rapidly advanced since the advent of GPT4.&lt;/p&gt;
 &lt;p&gt;Most popular code LLMs focus on generating or understanding high-level programming languages such as Python, C++, Java etc. &lt;a href=&#34;https://arxiv.org/abs/2308.12950&#34;&gt;[1]&lt;/a&gt;,&lt;a href=&#34;https://arxiv.org/abs/2305.06161&#34;&gt;[2]&lt;/a&gt;,&lt;a href=&#34;https://arxiv.org/abs/2306.08568&#34;&gt;[3]&lt;/a&gt;,&lt;a href=&#34;https://arxiv.org/abs/2308.07124&#34;&gt;[4]&lt;/a&gt;. However code LLMs tailored to malware analysis should be adapted to better understand assembly code as well. Recent works also explore this avenue &lt;a href=&#34;https://arxiv.org/abs/2312.09601&#34;&gt;[5]&lt;/a&gt;,&lt;a href=&#34;https://arxiv.org/abs/2310.16853&#34;&gt;[6]&lt;/a&gt;,&lt;a href=&#34;https://arxiv.org/abs/2311.13721&#34;&gt;[7]&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Weakly-supervised deepfake localization in diffusion-generated images</title>
+      <link>https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2024-01-04-weakly-supervised-deepfake-localization-diffusion/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2311.04584&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://openaccess.thecvf.com/content/WACV2024/papers/Tantaru_Weakly-Supervised_Deepfake_Localization_in_Diffusion-Generated_Images_WACV_2024_paper.pdf&#34;&gt;Proceedings&lt;/a&gt; &lt;a href=&#34;https://github.com/bit-ml/dolos&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;The remarkable generative capabilities of denoising diffusion models have raised new concerns regarding the authenticity of the images we see every day on the Internet. However, the vast majority of existing deepfake detection models are tested against previous generative approaches (e.g. GAN) and usually provide only a &amp;ldquo;fake&amp;rdquo; or &amp;ldquo;real&amp;rdquo; label per image. We believe a more informative output would be to augment the per-image label with a localization map indicating which regions of the input have been manipulated. To this end, we frame this task as a weakly-supervised localization problem and identify three main categories of methods (based on either explanations, local scores or attention), which we compare on an equal footing by using the Xception network as the common backbone architecture. We provide a careful analysis of all the main factors that parameterize the design space: choice of method, type of supervision, dataset and generator used in the creation of manipulated images; our study is enabled by constructing datasets in which only one of the components is varied. Our results show that weakly-supervised localization is attainable, with the best performing detection method (based on local scores) being less sensitive to the looser supervision than to the mismatch in terms of dataset or generator.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The BGV fully homomorphic encryption scheme</title>
@@ -387,12 +405,11 @@ post as well since it may be of interest to anyone using the [FV12] scheme in
       <link>https://bit-ml.github.io/research/deepfake/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bit-ml.github.io/research/deepfake/</guid>
-      <description>&lt;p&gt;Aletheia focuses on advancing deepfake detection across video and audio modalities. Our research is guided by three goals:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Generalization: develop methods that transfer across diverse datasets and forgery techniques.&lt;/li&gt;
-&lt;li&gt;Transparency: understand how detection models make decisions and ensure datasets are reliable (free of spurious shortcuts).&lt;/li&gt;
-&lt;li&gt;Deployability: build systems that adapt and remain robust on unconstrained &amp;ldquo;in-the-wild&amp;rdquo; content.&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;p&gt;We focus on advancing deepfake detection across video and audio modalities.
+Our research is guided by three goals:
+(i) Generalization: develop methods that transfer across diverse datasets and forgery techniques.
+(ii) Transparency: understand how detection models make decisions and ensure datasets are reliable (free of spurious shortcuts).
+(iii) Deployability: build systems that adapt and remain robust on unconstrained &amp;ldquo;in-the-wild&amp;rdquo; content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DeepFMI 2022 Posters</title>

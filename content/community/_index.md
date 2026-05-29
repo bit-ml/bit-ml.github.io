@@ -18,6 +18,10 @@ Beyond teaching, we stay close to the research and industry ecosystem:
 
 We run regular **research meetups**. The [meetups page]({{< ref "community/meetups" >}}) lists upcoming sessions and an archive of past events, synced from our shared calendar.
 
+## Deepfake Detection Reading Group
+
+We host a biweekly **Deepfake Detection Reading Group** to discuss the latest work in the field of deepfake detection. Sessions are informal (Fridays, online). See the [reading group page](https://aletheia-group.github.io/reading-group/) for the schedule, past sessions, and how to join the mailing list.
+
 ## Courses
 
 Here at **Bitdefender** we design and teach deep learning courses with top universities in Bucharest and in-house programs. We bring students and engineers closer to research with up-to-date, hands-on content.
