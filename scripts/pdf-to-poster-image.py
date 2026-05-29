@@ -20,7 +20,7 @@ def convert_pdf_to_png(pdf_path: Path, out_path: Path) -> bool:
 
 def main():
     base = Path(__file__).resolve().parent.parent
-    for folder in ["posters-2022", "posters-2024", "posters-2025"]:
+    for folder in ["posters-2022", "posters-2024", "posters-2025", "posters-2026"]:
         dir_path = base / "content" / "community" / "deep-fmi" / folder
         if not dir_path.is_dir():
             continue

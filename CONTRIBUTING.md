@@ -97,6 +97,36 @@ The site will show:
 
 Replace `static/img/team-hero.jpg` with your team/logo image (or update `params.profileMode.imageUrl` in `config.toml`).
 
+## Meetup calendar
+
+Meetups are listed at **Community → Meetups** (`/community/meetups/`). The schedule is **not** edited in the repo by hand: it is synced from a public **Google Calendar ICS** feed.
+
+### For organizers (posting / updating meetups)
+
+1. Use the team **Google Calendar** (the one wired to the site - ask an admin for access).
+2. Create or edit an event: title, date/time, location, description (Zoom link, abstract, etc.).
+3. To show a speaker on the website:
+   - put `Speaker: Name` on its own line in the description
+4. Save the event. Within about **6 hours** (or after a manual workflow run), the site updates automatically.
+
+No Git or Markdown is required for routine meetup updates.
+
+### For admins (one-time setup)
+
+1. **Google Calendar:** create a dedicated calendar (e.g. “Bit ML Meetups”). Under *Settings → Integrate calendar*, set access to **public** and copy the **public ICS** URL (ends with `.ics`).
+2. **GitHub secret:** in the repo, add `MEETUP_CALENDAR_ICS_URL` with that ICS URL (*Settings → Secrets and variables → Actions*).
+3. **Subscribe button (optional):** set `params.meetups.subscribe_url` in `config.toml` to the calendar’s public HTML link (from “Integrate calendar”), so visitors can add it to their own calendar.
+4. **Manual sync:** run the **Sync meetup calendar** workflow (*Actions* tab), or locally (uses the conda env from `environment.yml`):
+   ```bash
+   conda env create -f environment.yml   # once
+   conda activate bit-ml-website
+   export MEETUP_CALENDAR_ICS_URL="https://calendar.google.com/calendar/ical/.../public/basic.ics"
+   python scripts/sync-meetup-calendar.py
+   ```
+5. Push `data/meetups.yaml` if you synced locally; otherwise the Action commits it and the normal Hugo deploy runs.
+
+The generated file `data/meetups.yaml` should not be edited manually.
+
 ## Building and deploying
 
 - Local preview: `hugo server -D`

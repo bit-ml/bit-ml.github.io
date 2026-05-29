@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bit-ml.github.io/</loc>
-    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bit-ml.github.io/news/2026-04-17-jumplora/</loc>
-    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
+    <loc>https://bit-ml.github.io/news/2026-05-07-deepfmi-posters-2026/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bit-ml.github.io/news/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bit-ml.github.io/news/2026-05-07-revisiting-adam-streaming-rl/</loc>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bit-ml.github.io/news/2026-04-23-fine-tuning-regimes-continual-learning/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bit-ml.github.io/news/2026-04-23-temporal-taskification-streaming-cl/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bit-ml.github.io/news/2026-04-17-jumplora/</loc>
     <lastmod>2026-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bit-ml.github.io/news/2026-04-07-bee-aware-of-spuriousness/</loc>
@@ -161,7 +173,11 @@
   </url><url>
     <loc>https://bit-ml.github.io/community/deep-fmi/posters-2025/</loc>
   </url><url>
+    <loc>https://bit-ml.github.io/community/deep-fmi/posters-2026/</loc>
+  </url><url>
     <loc>https://bit-ml.github.io/research/generalization/</loc>
+  </url><url>
+    <loc>https://bit-ml.github.io/community/meetups/</loc>
   </url><url>
     <loc>https://bit-ml.github.io/research/nlp/</loc>
   </url><url>

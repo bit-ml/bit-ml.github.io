@@ -7,12 +7,16 @@ layout: community
 
 Beyond teaching, we stay close to the research and industry ecosystem:
 
-- **[BRAIT](https://sites.google.com/view/brait-awards)** — Romanian awards program for AI theses and innovation.
-- **[Romanian AI Days](https://days.airomania.eu/)** — national AI conference and community; we take part in the programme and networking.
-- **[National AI Olympiad (ONIA)](https://olimpiada-ai.ro/)** — official Romanian high-school AI olympiad (UPIR); we support the initiative.
-- **[Eastern European Machine Learning Summer School (EEML)](https://www.eeml.eu/)** — summer school we engage with (e.g. sponsorship, lectures, participants).
-- **European and national research projects** — active in EU- and Romania-funded research.
-- **International collaborations** — Max Planck Institute (IMPRS-IS), ETH Zurich, Mila (Montreal), Idiap (Switzerland), and others.
+- **[BRAIT](https://sites.google.com/view/brait-awards)**: Romanian awards program for AI theses and innovation.
+- **[Romanian AI Days](https://days.airomania.eu/)**: national AI conference and community; we take part in the programme and networking.
+- **[National AI Olympiad (ONIA)](https://olimpiada-ai.ro/)**: official Romanian high-school AI olympiad (UPIR); we support the initiative.
+- **[Eastern European Machine Learning Summer School (EEML)](https://www.eeml.eu/)**: summer school we engage with (e.g. sponsorship, lectures, participants).
+- **European and national research projects**: active in EU- and Romania-funded research.
+- **International collaborations**: Max Planck Institute (IMPRS-IS), ETH Zurich, Mila (Montreal), Idiap (Switzerland), and others.
+
+## Meetups
+
+We run regular **research meetups**. The [meetups page]({{< ref "community/meetups" >}}) lists upcoming sessions and an archive of past events, synced from our shared calendar.
 
 ## Courses
 

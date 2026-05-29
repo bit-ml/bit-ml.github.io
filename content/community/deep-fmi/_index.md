@@ -11,6 +11,7 @@ date: 2020-02-01
 - **2023:** —
 - **2024:** [View posters]({{< ref "community/deep-fmi/posters-2024" >}})
 - **2025:** [View posters]({{< ref "community/deep-fmi/posters-2025" >}})
+- **2026:** [View posters]({{< ref "community/deep-fmi/posters-2026" >}})
 
 ## About
 

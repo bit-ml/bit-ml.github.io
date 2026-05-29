@@ -6,8 +6,42 @@
     <description>Recent content on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bit-ml.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepFMI 2026 project posters</title>
+      <link>https://bit-ml.github.io/news/2026-05-07-deepfmi-posters-2026/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-05-07-deepfmi-posters-2026/</guid>
+      <description>&lt;p&gt;Final project posters from the &lt;strong&gt;DeepFMI&lt;/strong&gt; 2026 edition are now online! &lt;a href=&#34;https://bit-ml.github.io/community/deep-fmi/posters-2026/&#34;&gt;View the gallery&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Revisiting Adam for Streaming Reinforcement Learning</title>
+      <link>https://bit-ml.github.io/news/2026-05-07-revisiting-adam-streaming-rl/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-05-07-revisiting-adam-streaming-rl/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2605.06764&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Learning from a sequence of interactions, as soon as observations are perceived and acted upon, without explicitly storing them, holds the promise of simpler, more efficient and adaptive algorithms. For over a decade, however, deep reinforcement learning walked the contrary path, augmenting agents with replay buffers or parallel sampling routines, in an effort to tame learning instability. Recently, this topic has been revisited by Elsayed et al. (2024), focusing on update computation through eligibility traces and modifications to the optimisation routine, resulting in the StreamQ algorithm. In this work we take a step back, investigating the efficacy of established updates, such as those implemented by DQN and C51 within this online setting. Not only do we find that they perform well, but through analysing how the optimisation algorithm generally, and Adam in particular, interacts with these updates, we contend that two properties are essential for robust performance: i) the derivative of the objective is to be bounded and ii) weight updates are variance-adjusted. Rigorous and exhaustive experimentation demonstrates that C51, which exhibits both characteristics, is competitive with StreamQ across a subset of 55 Atari games. Using these insights, we derive a variance-adjusted algorithm based on eligibility traces, termed Adaptive Q(λ), which approaches double the human baseline on the same subset, surpassing existing methods by all performance metrics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fine-Tuning Regimes Define Distinct Continual Learning Problems</title>
+      <link>https://bit-ml.github.io/news/2026-04-23-fine-tuning-regimes-continual-learning/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-04-23-fine-tuning-regimes-continual-learning/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2604.21927&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typically keep the fine-tuning regime fixed. In this paper, we argue that the fine-tuning regime, defined by the trainable parameter subspace, is itself a key evaluation variable. We formalize adaptation regimes as projected optimization over fixed trainable subspaces, showing that changing the trainable depth alters the effective update signal through which both current task fitting and knowledge preservation operate. This analysis motivates the hypothesis that method comparisons need not be invariant across regimes. We test this hypothesis in task incremental CL, five trainable depth regimes, and four standard methods: online EWC, LwF, SI, and GEM. Across five benchmark datasets, namely MNIST, Fashion MNIST, KMNIST, QMNIST, and CIFAR-100, and across 11 task orders per dataset, we find that the relative ranking of methods is not consistently preserved across regimes. We further show that deeper adaptation regimes are associated with larger update magnitudes, higher forgetting, and a stronger relationship between the two. These results show that comparative conclusions in CL can depend strongly on the chosen fine-tuning regime, motivating regime-aware evaluation protocols that treat trainable depth as an explicit experimental factor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability</title>
+      <link>https://bit-ml.github.io/news/2026-04-23-temporal-taskification-streaming-cl/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-04-23-temporal-taskification-streaming-cl/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2604.21930&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Streaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutral preprocessing choice, but a structural component of evaluation: different valid splits of the same stream can induce different CL regimes and therefore different benchmark conclusions. To study this effect, we introduce a taskification-level framework based on plasticity and stability profiles, a profile distance between taskifications, and Boundary-Profile Sensitivity (BPS), which diagnoses how strongly small boundary perturbations alter the induced regime before any CL model is trained. We evaluate continual finetuning, Experience Replay, Elastic Weight Consolidation, and Learning without Forgetting on network traffic forecasting with CESNET-Timeseries24, keeping the stream, model, and training budget fixed while varying only the temporal taskification. Across 9-, 30-, and 44-day splits, we observe substantial changes in forecasting error, forgetting, and backward transfer, showing that taskification alone can materially affect CL evaluation. We further find that shorter taskifications induce noisier distribution-level patterns, larger structural distances, and higher BPS, indicating greater sensitivity to boundary perturbations. These results show that benchmark conclusions in streaming CL depend not only on the learner and the data stream, but also on how that stream is taskified, motivating temporal taskification as a first-class evaluation variable.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models</title>
       <link>https://bit-ml.github.io/news/2026-04-17-jumplora/</link>
@@ -380,6 +414,13 @@ post as well since it may be of interest to anyone using the [FV12] scheme in
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bit-ml.github.io/community/deep-fmi/posters-2025/</guid>
       <description>&lt;p&gt;Poster session from the 2025 edition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepFMI 2026 Posters</title>
+      <link>https://bit-ml.github.io/community/deep-fmi/posters-2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/community/deep-fmi/posters-2026/</guid>
+      <description>&lt;p&gt;Poster session from the 2026 edition.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Generalization and mechanistic interpretability</title>

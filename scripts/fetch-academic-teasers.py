@@ -2,8 +2,15 @@
 """
 For each academic news article: extract arxiv ID from index.md, download PDF,
 render first page to PNG (teaser), save in article folder.
+
+By default skips folders that already have teaser.png. Pass --force to refresh all,
+or pass folder slug(s) to process only those entries.
 """
+from __future__ import annotations
+
+import argparse
 import re
+import sys
 import urllib.request
 from pathlib import Path
 
@@ -54,46 +61,80 @@ def pdf_first_page_to_png(pdf_path: Path, png_path: Path) -> bool:
         return False
 
 
-def main():
+def process_article(item: Path, force: bool) -> bool:
+    index_md = item / "index.md"
+    if not index_md.is_file():
+        return False
+
+    text = index_md.read_text(encoding="utf-8")
+    if "type: academic" not in text:
+        return False
+
+    img_match = re.search(r"!\[.*\]\(([^)]+\.(?:png|jpg|jpeg|webp))\)", text)
+    if img_match and img_match.group(1).strip().lower() != TEASER_NAME:
+        print(f"Skip (custom image): {item.name}")
+        return False
+
+    arxiv_id = get_arxiv_id_from_md(index_md)
+    if not arxiv_id:
+        print(f"No arxiv link: {item.name}")
+        return False
+
+    teaser_path = item / TEASER_NAME
+    if teaser_path.is_file() and not force:
+        print(f"Skip (teaser exists): {item.name}")
+        return False
+
+    pdf_path = item / "_arxiv.pdf"
+    print(f"{item.name} arxiv={arxiv_id} ...", end=" ")
+
+    if not download_pdf(arxiv_id, pdf_path):
+        return False
+    if not pdf_first_page_to_png(pdf_path, teaser_path):
+        pdf_path.unlink(missing_ok=True)
+        return False
+    pdf_path.unlink(missing_ok=True)
+    print(f" -> {TEASER_NAME}")
+    return True
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "folders",
+        nargs="*",
+        help="News folder slug(s), e.g. 2026-04-23-temporal-taskification-streaming-cl",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Re-download and overwrite existing teaser.png files",
+    )
+    args = parser.parse_args()
+
     base = Path(__file__).resolve().parent.parent
     news_dir = base / "content" / "news"
     if not news_dir.is_dir():
-        print("content/news not found")
-        return
+        print("content/news not found", file=sys.stderr)
+        return 1
 
-    for item in sorted(news_dir.iterdir()):
-        if not item.is_dir():
-            continue
-        index_md = item / "index.md"
-        if not index_md.is_file():
-            continue
-        text = index_md.read_text(encoding="utf-8")
-        if "type: academic" not in text:
-            continue
-        # Skip only if article uses a custom image (not teaser.png) — so we always use arxiv from this index.md
-        img_match = re.search(r"!\[.*\]\(([^)]+\.(?:png|jpg|jpeg|webp))\)", text)
-        if img_match and img_match.group(1).strip().lower() != TEASER_NAME:
-            print(f"Skip (custom image): {item.name}")
-            continue
+    if args.folders:
+        items = []
+        for slug in args.folders:
+            path = news_dir / slug
+            if not path.is_dir():
+                print(f"Not found: {slug}", file=sys.stderr)
+                return 1
+            items.append(path)
+    else:
+        items = sorted(p for p in news_dir.iterdir() if p.is_dir())
 
-        arxiv_id = get_arxiv_id_from_md(index_md)
-        if not arxiv_id:
-            print(f"No arxiv link: {item.name}")
-            continue
+    for item in items:
+        process_article(item, force=args.force)
 
-        teaser_path = item / TEASER_NAME
-        pdf_path = item / "_arxiv.pdf"
-        print(f"{item.name} arxiv={arxiv_id} ...", end=" ")
-
-        if not download_pdf(arxiv_id, pdf_path):
-            continue
-        if not pdf_first_page_to_png(pdf_path, teaser_path):
-            pdf_path.unlink(missing_ok=True)
-            continue
-        pdf_path.unlink(missing_ok=True)
-        print(f" -> {TEASER_NAME}")
     print("Done.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
