@@ -18,6 +18,9 @@ theme = "PaperMod"
   description = "Engaging with the broader AI Community."
   defaultTheme = "light"
 
+  [params.author]
+    name = "Bitdefender AI Research"
+
   [params.assets]
     favicon = "favicon.ico?v=4"
     favicon16x16 = "favicon-16x16.png?v=4"
