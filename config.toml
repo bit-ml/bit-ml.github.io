@@ -43,10 +43,9 @@ theme = "PaperMod"
   # Only "news" section feeds the home list (we use profileMode so home shows custom content)
   mainSections = ["news"]
 
-  # Google Calendar embed iframe src (from Integrate calendar → Embed code).
+  # Google Calendar embed iframe src (Integrate calendar → Embed code).
   [params.meetups]
     embed_src = "https://calendar.google.com/calendar/embed?src=e999cb8a4a76eac4c079bc0b0abfa7d47401df63714b8b4a10ed94450c0444fe%40group.calendar.google.com&ctz=Europe%2FBucharest"
-    subscribe_url = ""
 
 [services.googleAnalytics]
   id = "G-386447349"

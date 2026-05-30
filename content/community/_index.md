@@ -16,7 +16,7 @@ Beyond teaching, we stay close to the research and industry ecosystem:
 
 ## Meetups
 
-We run regular **research meetups**. The [meetups page]({{< ref "community/meetups" >}}) lists upcoming sessions and an archive of past events, synced from our shared calendar.
+We run regular **research meetups**. See the [meetups page]({{< ref "community/meetups" >}}) for the schedule (Google Calendar).
 
 ## Deepfake Detection Reading Group
 

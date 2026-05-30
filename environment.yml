@@ -1,4 +1,4 @@
-# Conda environment for website maintenance scripts (meetup sync, poster PDF conversion).
+# Conda environment for website maintenance scripts (poster PDF conversion, academic teasers).
 # Create:  conda env create -f environment.yml
 # Activate: conda activate bit-ml-website
 name: bit-ml-website
@@ -6,7 +6,4 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - pyyaml>=6.0
-  - requests>=2.31
-  - icalendar>=6.0
   - pymupdf>=1.24

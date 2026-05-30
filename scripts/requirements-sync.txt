@@ -1,5 +1,0 @@
-# Prefer the conda env: conda env create -f environment.yml && conda activate bit-ml-website
-# This file is kept for reference; dependencies are defined in environment.yml.
-icalendar>=6.0.0
-PyYAML>=6.0
-requests>=2.31.0
