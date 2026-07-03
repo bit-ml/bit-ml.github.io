@@ -82,6 +82,18 @@ I obtained my Master’s degree in Artificial Intelligence from the University o
 [email](mailto:aledragomir@bitdefender.com) · [GitHub](https://github.com/alexandra-dragomir) · [LinkedIn](https://www.linkedin.com/in/elena-alexandra-dragomir/)
 {{< /teammember >}}
 
+{{< teammember "Adrian-Cătălin Luțu" "adrian_catalin_lutu.webp" >}}
+I am currently pursuing my Master's degree in Artificial Intelligence at the University of Bucharest. My research interests lie in theoretical machine learning, with a current focus on streaming reinforcement learning, continual learning, and temporal graph dynamics. Alongside my research, I organize the Bucharest Deep Learning Meetup to help foster the local AI community.
+
+[email](mailto:alutu@bitdefender.com) · [GitHub](https://github.com/AdrianLutu) · [LinkedIn](https://www.linkedin.com/in/lutu-adrian-7a1b8526b/)
+{{< /teammember >}}
+
+{{< teammember "Paul-Tiberiu Iordache" "paul_tiberiu_iordache.webp" >}}
+I obtained the AI2D (Artificial Intelligence, Algorithms, Interaction, and Decision) Master's degree from Sorbonne Université, where I also completed a Bachelor's degree in Computer Science. My early research focused on the application of machine learning to cybersecurity, specifically the design of adaptive defense strategies for distributed microservice architectures using deep reinforcement learning. My current research centers on continual learning, with an emphasis on generalization and mechanistic interpretability.
+
+[email](mailto:tiiordache@bitdefender.com) · [GitHub](https://github.com/PaulTiberiu) · [LinkedIn](https://www.linkedin.com/in/paul-tiberiu-iordache/)
+{{< /teammember >}}
+
 ## Collaborators
 
 {{< teammember "Andrei Nicolicioiu" "andrei_nicolicioiu.webp" >}}

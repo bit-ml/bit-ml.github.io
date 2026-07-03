@@ -6,8 +6,35 @@
     <description>Recent content on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bit-ml.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>idSCD: Identifying Training Datasets through Semantic Correlation Descriptors</title>
+      <link>https://bit-ml.github.io/news/2026-05-28-idscd-semantic-correlation-descriptors/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-05-28-idscd-semantic-correlation-descriptors/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2605.30462&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Can a dataset be recognized from the spurious correlations it induces during training? We argue that datasets leave dataset-specific traces in a model&amp;rsquo;s learned semantic correlation structure: incidental regularities that are predictive within a dataset, but not causal for the underlying task, can be internalized during training. We use this insight to study dataset-level membership inference, moving beyond existing methods that rely on behavioral or distributional evidence such as confidence scores, losses, margins, generated samples, or query responses. We introduce a white-box semantic fingerprinting approach based on semantic correlation descriptors (SCDs), which capture the semantic correlation structure learned by a model and make it comparable across dataset mixtures. In a controlled leave-one-dataset-out diagnostic, SCDs recover dataset-specific changes and perfectly separate matching from non-matching dataset pairs. We then propose a practical SCD-based membership score that tests whether a target dataset is part of a model&amp;rsquo;s training mixture using only the model&amp;rsquo;s SCD and the target dataset&amp;rsquo;s standalone SCD, without requiring leave-one-dataset-out models. Across three diverse experimental settings, with dataset groups for natural language inference, emotion classification, and medical text classification, we test both the advantages and limitations of SCD-based membership inference with different degrees of semantic separation and keyword support between dataset splits. On average, the classifier based on this score achieves the highest performance and the lowest std, outperforming black-box baselines RMIA, Attack-P, and LiRA, as well as the white-box SIF baseline. These results show that dataset membership can be traced through internal semantic correlations, with the largest relative gain exceeding 60% in ROC-AUC when dataset groups expose distinct semantic particularities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How the Optimizer Shapes Learned Solutions in Equivariant Neural Networks</title>
+      <link>https://bit-ml.github.io/news/2026-05-26-optimizer-shapes-equivariant-networks/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-05-26-optimizer-shapes-equivariant-networks/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2605.27662&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Equivariant neural networks encode geometric symmetries by construction, yet they are often difficult to optimize and can underperform less constrained architectures. A growing body of work addresses this through architectural modifications such as constraint relaxation or approximate equivariance, while the role of the optimizer remains comparatively underexplored. We study this direction by comparing Muon and Adam across several equivariant and geometric architectures under pointcloud and molecular learning settings. On ModelNet40, where the comparison is clearest, Muon consistently improves over Adam across all architectures considered. We then analyze the trained ModelNet40 checkpoints through Hessian estimates, loss surface visualizations, and spectral properties of learned weights and intermediate representations. The checkpoints reached by Muon have larger Hessian curvature summaries but more regular loss surfaces, and their learned weights and representations have higher stable and effective ranks. These observations suggest that the interaction between optimizer design and geometric inductive bias deserves further attention from the community.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Protein Fold Classification at Scale: Benchmarking and Pretraining</title>
+      <link>https://bit-ml.github.io/news/2026-05-18-protein-fold-classification-tedbench/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-05-18-protein-fold-classification-tedbench/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2605.18552&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/BorgwardtLab/TEDBench&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Classifying protein topology is essential for deciphering biological function, but progress is held back by the lack of large-scale benchmarks that avoid duplicates and by models that do not scale well. We introduce TEDBench, a large-scale, non-redundant benchmark for protein fold classification constructed from the Encyclopedia of Domains (TED) and Foldseek-clustered AlphaFold structures. We show that on TEDBench, current protein representation learning methods either require very large models or fail to deliver strong performance. To address this challenge, we propose Masked Invariant Autoencoders (MiAE), a self-supervised framework for protein structure representation learning. MiAE uses an extremely high masking ratio of up to 90% with an SE(3)-invariant encoder and a lightweight decoder that reconstructs backbone coordinates from the latent representation and mask tokens. MiAE scales well and outperforms supervised counterparts and state-of-the-art baselines on TEDBench, establishing a strong recipe for protein fold classification. To test transfer beyond AlphaFold structures, we further benchmark on a curated dataset from experimental structures of CATH v4.4.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>DeepFMI 2026 project posters</title>
       <link>https://bit-ml.github.io/news/2026-05-07-deepfmi-posters-2026/</link>
