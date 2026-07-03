@@ -82,8 +82,14 @@ I obtained my Master’s degree in Artificial Intelligence from the University o
 [email](mailto:aledragomir@bitdefender.com) · [GitHub](https://github.com/alexandra-dragomir) · [LinkedIn](https://www.linkedin.com/in/elena-alexandra-dragomir/)
 {{< /teammember >}}
 
+{{< teammember "Radu Mihai" "radu_mihai.webp" >}}
+I graduated with a Master’s degree in Natural Language Processing and a Bachelor’s degree in Computer Science from the Faculty of Mathematics and Computer Science at the University of Bucharest. My research focuses on Natural Language Processing, especially its applications to journalism and social studies. I have published research in Computer Science, Mathematics, and Applied Computer Science in Journalism.
+
+[email](mailto:radmihai@bitdefender.com) · [GitHub](https://github.com/rimihai2001) · [LinkedIn](https://ro.linkedin.com/in/radu-ioan-mihai)
+{{< /teammember >}}
+
 {{< teammember "Adrian-Cătălin Luțu" "adrian_catalin_lutu.webp" >}}
-I am currently pursuing my Master's degree in Artificial Intelligence at the University of Bucharest. My research interests lie in theoretical machine learning, with a current focus on streaming reinforcement learning, continual learning, and temporal graph dynamics. Alongside my research, I organize the Bucharest Deep Learning Meetup to help foster the local AI community.
+I am currently pursuing my Master’s degree in Artificial Intelligence at the University of Bucharest. My research interests lie in theoretical machine learning, with a current focus on streaming reinforcement learning, continual learning, and temporal graph dynamics. Alongside my research, I organize the Bucharest Deep Learning Meetup to help foster the local AI community.
 
 [email](mailto:alutu@bitdefender.com) · [GitHub](https://github.com/AdrianLutu) · [LinkedIn](https://www.linkedin.com/in/lutu-adrian-7a1b8526b/)
 {{< /teammember >}}
