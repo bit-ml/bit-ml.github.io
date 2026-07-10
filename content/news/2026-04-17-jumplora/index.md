@@ -7,7 +7,7 @@ cover:
 research_direction: nlp
 draft: false
 authors: "Alexandra Dragomir, Ioana Pintilie, Antonio Barbalau, Marius Dragoi, Florin Brad, Cristian Paduraru, Alexandru Tifrea, Elena Burceanu, Radu Ionescu"
-venue: "Under review at CoLLAs 2026"
+venue: "Under review"
 presentation: ""
 ---
 

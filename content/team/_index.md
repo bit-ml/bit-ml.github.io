@@ -49,7 +49,7 @@ I have obtained my PhD in computer vision from the School of Advanced Studies of
 {{< teammember "Dan Oneață" "dan_oneata.webp" >}}
 I received my Ph.D. from Université Grenoble Alpes, where I worked on automatic action recognition in videos. During my postdoctoral research, I started investigating how to integrate vision with other modalities, such as speech and language. This work showed how visual grounding can help with tasks like speech recognition or language documentation, and how multimodal models relate to human learning. At Bitdefender, I apply multimodal learning to detect deepfakes across various media, including images, audio, and video.
 
-[email](mailto:doneata@bitdefender.com) · [GitHub](https://github.com/danoneata) · [website](https://danoneata.github.io/)
+[email](mailto:doneata@bitdefender.com) · [GitHub](https://github.com/danoneata) · [website](https://doneata.bitbucket.io/)
 {{< /teammember >}}
 
 {{< teammember "Ioana Pintilie" "ioana_pintilie.webp" >}}

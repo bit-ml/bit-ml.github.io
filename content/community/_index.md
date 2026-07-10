@@ -14,6 +14,22 @@ Beyond teaching, we stay close to the research and industry ecosystem:
 - **European and national research projects**: active in EU- and Romania-funded research.
 - **International collaborations**: Max Planck Institute (IMPRS-IS), ETH Zurich, Mila (Montreal), Idiap (Switzerland), and others.
 
+## Conference service
+
+We contribute to the research community through peer review and conference organization. Recent involvement includes:
+
+- **ICML'26:** Andrei Manolache (gold reviewer), Antonio Bărbălau (gold reviewer), Elena Burceanu (gold reviewer)
+- **CVPR'26:** Dan Oneață (outstanding reviewer)
+- **CoLLAs'26:** Elena Burceanu (local chair, Bucharest)
+- **NeurIPS'25:** Elena Burceanu (Associate Program Chair)
+
+## Technology transfer projects (PTE)
+
+We run two **Proiecte de Transfer la Operator Economic (PTE)**:
+
+- **[Veridiq](https://sites.google.com/bitdefender.com/veridiq)**: multimodal deepfake detection.
+- **[VeriDark](https://veridark.github.io/)**: authorship verification and identification benchmarks.
+
 ## Meetups
 
 We run regular **research meetups**. See the [meetups page]({{< ref "community/meetups" >}}) for the schedule (Google Calendar).

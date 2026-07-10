@@ -3,12 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bit-ml.github.io/</loc>
-    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bit-ml.github.io/news/2026-05-28-idscd-semantic-correlation-descriptors/</loc>
-    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bit-ml.github.io/news/</loc>
+    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bit-ml.github.io/news/2026-07-03-pathways-visual-information-flow-vlm/</loc>
+    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bit-ml.github.io/news/2026-06-09-anchoring-unknown-open-set-model-attribution/</loc>
+    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bit-ml.github.io/news/2026-05-28-idscd-semantic-correlation-descriptors/</loc>
     <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bit-ml.github.io/news/2026-05-26-optimizer-shapes-equivariant-networks/</loc>

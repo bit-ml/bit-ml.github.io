@@ -7,7 +7,7 @@ cover:
 research_direction: generalization
 draft: false
 authors: "Nicolae Filat, Ahmed Hussain, Konstantinos Kalogiannis, Elena Burceanu"
-venue: "Under review at CoLLAs 2026"
+venue: "Under review"
 presentation: ""
 ---
 

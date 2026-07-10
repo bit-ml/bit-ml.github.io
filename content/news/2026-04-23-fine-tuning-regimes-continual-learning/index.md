@@ -7,7 +7,7 @@ cover:
 research_direction: generalization
 draft: false
 authors: "Paul-Tiberiu Iordache, Elena Burceanu"
-venue: "Under review at CoLLAs 2026"
+venue: "Under review"
 presentation: ""
 ---
 

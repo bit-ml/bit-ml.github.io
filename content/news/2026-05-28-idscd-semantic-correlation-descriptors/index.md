@@ -7,7 +7,7 @@ cover:
 research_direction: generalization
 draft: false
 authors: "Andrada Gobeaja, Ionut Hodoroaga, Elena Burceanu, Marius Leordeanu"
-venue: "Under review at NeurIPS 2026"
+venue: "Under review"
 presentation: ""
 ---
 

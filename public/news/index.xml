@@ -6,8 +6,26 @@
     <description>Recent content in News on Bitdefender AI Research</description>
     <generator>Hugo -- 0.146.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bit-ml.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pathways of Visual Information Flow in Vision-Language Models</title>
+      <link>https://bit-ml.github.io/news/2026-07-03-pathways-visual-information-flow-vlm/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-07-03-pathways-visual-information-flow-vlm/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2607.03358&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;We study how visual information is routed in vision-language models (VLMs). Using causal patching on controlled synthetic and natural datasets, we find that models rely on two distinct pathways to solve visual tasks: A direct pathway, where visual information is retained in image token representations and read out by the final token at later layers, and a text-mediated pathway, where visual information is first transferred to the query tokens and then read out by the final token. Across three visual tasks, we show that pathway selection is task-dependent, and that data distribution and prompt design can also modulate which pathway is used to solve the image-based query. Moreover, using attention knockouts and corrupted-input patching, we find that these pathways are flexible, under certain interventions, models can rely on the text-mediated pathway as a fallback when the usual pathway is ablated. This behavior unifies findings in prior work and shows that ablation-based interventions can reveal what models could do rather than what they normally do. Together, our results provide a mechanistic characterization of visual information flow in VLMs and highlight the flexibility of their internal mechanisms under intervention.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anchoring the Unknown: Open-Set Model Attribution via Proxy-Anchor Learning</title>
+      <link>https://bit-ml.github.io/news/2026-06-09-anchoring-unknown-open-set-model-attribution/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://bit-ml.github.io/news/2026-06-09-anchoring-unknown-open-set-model-attribution/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2606.10758&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;The proliferation of text-to-speech (TTS) systems capable of generating realistic synthetic speech poses growing challenges for audio forensics. While binary deepfake detection has received considerable attention, source tracing (i.e., identifying which TTS system produced a given audio sample) remains underexplored, particularly in open-set scenarios where unknown systems may be encountered. We propose a metric learning framework based on the Proxy-Anchor loss function that operates on Wav2Vec2-BERT embeddings to learn a discriminative embedding space for TTS source attribution and out-of-distribution (OOD) detection of unseen systems. We evaluate it on the MLAAD v9 dataset spanning 140 TTS systems across 51 languages, and introduce an architecture merging strategy that groups TTS system versions into unified classes, reducing inter-class confusion. Our system achieves 99.76% accuracy on 110 in-distribution classes and a False Positive Rate (FPR@95) as low as 2.04% for OOD detection. Also, for a fair comparison against the current state of the art, we further evaluate it on the MLAAD v5 official dataset splits, improving the OOD accuracy by almost doubling it. These results demonstrate that Proxy-Anchor metric learning, combined with architecture-aware class design and post-hoc OOD scoring, provides an effective framework for forensic TTS source tracing in both closed-set and open-set settings.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>idSCD: Identifying Training Datasets through Semantic Correlation Descriptors</title>
       <link>https://bit-ml.github.io/news/2026-05-28-idscd-semantic-correlation-descriptors/</link>
