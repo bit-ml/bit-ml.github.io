@@ -24,7 +24,7 @@
         {{- $v := .Params.venue -}}
         {{- $p := .Params.presentation -}}
         {{- $t := .Params.top_percent -}}
-        {{- if hasPrefix (lower $v) "under review" -}}
+        {{- if or (hasPrefix (lower $v) "under review") (hasPrefix (lower $v) "rejected") -}}
         <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
         {{- else -}}
         Accepted at <em>{{ $v }}</em>{{ if or $p $t }} ({{ with $p }}{{ . }}{{ end }}{{ if and $p $t }}, {{ end }}{{ with $t }}top {{ . }}%{{ end }}){{ end }}
