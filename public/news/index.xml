@@ -13,7 +13,7 @@
       <link>https://bit-ml.github.io/news/2026-08-31-collas-2026-bucharest/</link>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://bit-ml.github.io/news/2026-08-31-collas-2026-bucharest/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;CoLLAs 2026&lt;/strong&gt; (Conference on Lifelong Learning Agents) will take place on &lt;strong&gt;14–17 September 2026&lt;/strong&gt; at POLITEHNICA Bucharest. &lt;strong&gt;Bitdefender&lt;/strong&gt; is a &lt;strong&gt;gold sponsor&lt;/strong&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;CoLLAs 2026&lt;/strong&gt; (Conference on Lifelong Learning Agents) will take place on &lt;strong&gt;14–17 September 2026&lt;/strong&gt; at POLITEHNICA Bucharest.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://lifelong-ml.cc/&#34;&gt;Conference website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lifelong-ml.cc/Conferences/2026/sponsors&#34;&gt;Sponsors&lt;/a&gt;&lt;/li&gt;
@@ -26,7 +26,7 @@
       <link>https://bit-ml.github.io/news/2026-08-31-romanian-ai-days-2026/</link>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://bit-ml.github.io/news/2026-08-31-romanian-ai-days-2026/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Romanian AI Days 2026&lt;/strong&gt; will take place on &lt;strong&gt;18-19 September 2026&lt;/strong&gt; at POLITEHNICA Bucharest. &lt;strong&gt;Bitdefender&lt;/strong&gt; is a &lt;strong&gt;gold sponsor&lt;/strong&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Romanian AI Days 2026&lt;/strong&gt; will take place on &lt;strong&gt;18-19 September 2026&lt;/strong&gt; at POLITEHNICA Bucharest.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://days.airomania.eu/&#34;&gt;Event website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://brait.airomania.eu/&#34;&gt;BRAIT thesis awards&lt;/a&gt;&lt;/li&gt;
@@ -37,7 +37,7 @@
       <link>https://bit-ml.github.io/news/2026-08-10-foundation-models-implicit-deepfake-detectors/</link>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://bit-ml.github.io/news/2026-08-10-foundation-models-implicit-deepfake-detectors/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2608.09427&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt; &lt;a href=&#34;https://arxiv.org/abs/2608.09427&#34;&gt;arXiv&lt;/a&gt; &lt;a href=&#34;https://github.com/bit-ml/NormFake&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Pretrained self-supervised representations have emerged as a core component of current deepfake detection methods, yet it remains unclear which of their properties make real and fake media distinguishable. In this work, we uncover a surprisingly consistent phenomenon: across multiple pretrained models, datasets, and both image and video domains, fake samples systematically produce lower-magnitude representations than their real counterparts. Motivated by this finding, we formulate deepfake detection as an anomaly detection problem and show that simple statistics of feature magnitude achieve competitive performance with far more sophisticated deepfake detection methods. We further investigate the origin of this effect and demonstrate that reduced feature magnitude is primarily associated with semantic shifts introduced by fake content, while low-level generative fingerprints play a comparatively smaller role. Finally, we show that this discriminative signal strengthens as the size of the underlying foundation model grows, suggesting that advances in representation learning naturally translate into stronger zero-shot deepfake detectors.&lt;/p&gt;</description>
     </item>

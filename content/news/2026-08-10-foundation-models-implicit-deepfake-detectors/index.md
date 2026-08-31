@@ -11,7 +11,7 @@ venue: "Under review"
 presentation: ""
 ---
 
-**Links:** [arXiv](https://arxiv.org/abs/2608.09427)
+**Links:** [arXiv](https://arxiv.org/abs/2608.09427) [GitHub](https://github.com/bit-ml/NormFake)
 
 ### Abstract
 
