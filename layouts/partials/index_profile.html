@@ -99,7 +99,15 @@
             <h2 class="home-feed-title" style="text-align: center;">Selected publications</h2>
             {{- $pubPages := where site.RegularPages "Section" "news" -}}
             {{- $pubPages = where $pubPages "Params.type" "academic" -}}
-            {{- $pubPages = sort $pubPages "Date" "desc" | first 5 -}}
+            {{- $pubPages = sort $pubPages "Date" "desc" -}}
+            {{- $accepted := slice -}}
+            {{- range $pubPages -}}
+              {{- $v := .Params.venue | default "" | lower -}}
+              {{- if and (not (hasPrefix $v "under review")) (not (hasPrefix $v "rejected")) -}}
+                {{- $accepted = $accepted | append . -}}
+              {{- end -}}
+            {{- end -}}
+            {{- $pubPages = first 5 $accepted -}}
             <div class="home-feed-list">
                 {{- range $pubPages }}
                 {{- $teaser := .Resources.GetMatch "teaser.*" -}}
@@ -136,7 +144,7 @@
                 </div>
                 {{- end }}
             </div>
-            <a href="{{ "research/#publications-and-news" | relURL }}" class="home-feed-more" style="display: block; text-align: center;">Academic highlights →</a>
+            <a href="{{ "research/#publications-and-news" | relURL }}" class="home-feed-more" style="display: block; text-align: center;">Latest papers and preprints →</a>
         </div>
     </div>
 </div>
