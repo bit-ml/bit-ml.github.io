@@ -1,5 +1,6 @@
 ---
 title: "Research"
+description: "Exploring machine learning across generalization, deepfake detection, natural language processing and reinforcement learning."
 ---
 
 ## Generalization and mechanistic interpretability

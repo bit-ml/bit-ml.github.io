@@ -1,6 +1,7 @@
 ---
 title: "Community Engagement"
 layout: community
+description: "Teaching, events and projects through which we engage with the broader AI Community."
 ---
 
 ## Strong presence in the community

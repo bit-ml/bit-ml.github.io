@@ -1,5 +1,6 @@
 ---
 title: "Team"
+description: "Meet the researchers and collaborators behind Bitdefender AI Research."
 ---
 
 ## Team members
