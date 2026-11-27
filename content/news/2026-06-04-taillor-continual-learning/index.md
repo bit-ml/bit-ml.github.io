@@ -1,5 +1,5 @@
 ---
-title: "TailLoR: Protecting Principal Components in Parameter-Efficient Continual Learning"
+title: "TaiLoR: Protecting Principal Components in Parameter-Efficient Continual Learning"
 date: 2026-06-04
 type: academic
 cover:
