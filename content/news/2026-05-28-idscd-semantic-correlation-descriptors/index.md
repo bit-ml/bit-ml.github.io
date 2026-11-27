@@ -6,8 +6,8 @@ cover:
   image: teaser.png
 research_direction: generalization
 draft: false
-authors: "Andrada Gobeaja, Ionut Hodoroaga, Elena Burceanu, Marius Leordeanu"
-venue: "Under review"
+authors: "Andrada Gobeaja, Ionut Hodoroaga, Marius Leordeanu, Elena Burceanu"
+venue: "NeurIPS 2026"
 presentation: ""
 ---
 
